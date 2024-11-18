@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo');
 body {
-	background: rgb(25,25,33);
+	background: rgb(75, 97, 126);
 }
 .raffle-roller {
     	height: 100px;
@@ -35,7 +35,7 @@ body {
     	width: 9999999999999999999px;
     	max-width: 999999999999999999px;
     	height: 100px;
-    	background: #191726;
+    	background: #817e96;
     	margin-left: 0;
     	transition: all 8s cubic-bezier(.08,.6,0,1);
 }
@@ -51,7 +51,6 @@ body {
 }
 .item {
 	display: inline-block;
-	float: left;
 	margin: 4px 0px 0.5px 5px;
     width: 85px;
 	height: 88px;
