@@ -20,7 +20,9 @@ connection.connect(function(err) {
     //if (error) throw error;
    // console.log('The solution is: ', results);
   //});
-  createUser('jelszo123', 'kiskuki12@gmail.com');
+
+  logInUser('jelszo12', 'kiskuki12@gmail.com');
+
  
   console.log('connected as id ' + connection.threadId);
 });
@@ -34,12 +36,27 @@ function createUser(password, email) {
 
 }
 
+function logInUser(password, email) {
+  connection.query('SELECT * FROM users WHERE jelszo = ? AND email = ?', [password, email], function (error, results, fields) {
+    if (error) throw error;
+    if (results.length > 0) {
+      console.log('Sikeres bejelentkezés');
+    } else {
+      console.log('Sikertelen bejelentkezés');
+    }
+
+
+  });
+}
+
+
 
 const app = express();
 const port = process.env.PORT || 8080;
 
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/index.html'));
+
 });
 
 
