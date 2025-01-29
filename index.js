@@ -20,9 +20,19 @@ connection.connect(function(err) {
     //if (error) throw error;
    // console.log('The solution is: ', results);
   //});
+  createUser('jelszo123', 'kiskuki12@gmail.com');
  
   console.log('connected as id ' + connection.threadId);
 });
+
+
+
+function createUser(password, email) {
+  connection.query('INSERT INTO users (jelszo, email) VALUES (?, ?)', [password, email], function (error, results, fields) {
+    if (error) throw error;
+});
+
+}
 
 
 const app = express();
