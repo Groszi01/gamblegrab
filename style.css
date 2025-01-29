@@ -9,3 +9,9 @@
 body{
     background-color: #001B29;
 }
+.menu{
+    background-color: #00293D;
+    height: 400px;
+    width: 20%;
+    color: #E0EBF0;
+}
