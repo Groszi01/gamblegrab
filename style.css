@@ -11,7 +11,27 @@ body{
 }
 .menu{
     background-color: #00293D;
-    height: 400px;
+    height: 600px;
     width: 20%;
     color: #E0EBF0;
+    border-radius: 25px;
+}
+#kezdolap{
+    border-radius: 25px;
+    
+}
+#roulette{
+    border-radius: 25px;
+}
+#mine{
+    border-radius: 25px;
+}
+#blackjack{
+    border-radius: 25px;
+}
+#ladak{
+    border-radius: 25px;
+}
+#kapcsolat{
+    border-radius: 25px;
 }
