@@ -1,0 +1,17 @@
+.header{
+    height: 20%;
+    width: 100%;
+    background-color: #00141f;
+}
+#logo{
+    height: 70px;
+}
+body{
+    background-color: #001B29;
+}
+.menu{
+    background-color: #00293D;
+    height: 400px;
+    width: 20%;
+    color: #E0EBF0;
+}
