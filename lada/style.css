@@ -1,3 +1,4 @@
+
 .header{
     height: 20%;
     width: 100%;
@@ -8,9 +9,14 @@
 }
 body{
     background-color: #001B29;
+    
 }
+
 .menu{
     background-color: #00293D;
-    margin-right: 600px;
+    margin-right: 900px;
     color: white;
+    border-radius: 25px;
+    height: 500px;
+    width: 20%;
 }
