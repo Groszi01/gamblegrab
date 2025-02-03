@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
 .header{
     height: 20%;
     width: 100%;
@@ -9,7 +9,7 @@
 }
 body{
     background-color: #001B29;
-    
+    font-family: 'Geologica', 'sans-serif';
 }
 
 .menu{
@@ -17,6 +17,46 @@ body{
     margin-right: 900px;
     color: white;
     border-radius: 25px;
-    height: 500px;
+    height: 600px;
     width: 20%;
+}
+#kezdolaps{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#roulet{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#min{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#black{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#lada{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#kapcs{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#originals{
+    height: 20%;
+    width: 80%;
+    background-color: #003047;
+    float: right;
+}
+#ladakk{
+    color: white;
+    font-size: 40px;
 }
