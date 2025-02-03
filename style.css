@@ -35,3 +35,46 @@ body{
 #kapcsolat{
     border-radius: 25px;
 }
+#Kezdolap{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+    
+}
+#Roulette{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Mines{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Blackjack{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Ladak{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Kapcsolat{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#originals{
+    height: 20%;
+    width: 80%;
+    background-color: #003047;
+    float: right;
+}
+#Originals{
+    color: white;
+}
+.roulette{
+    height: 150px;
+}
