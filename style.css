@@ -11,13 +11,16 @@ body{
 }
 .menu{
     background-color: #00293D;
-    height: 600px;
+    height: 700px;
     width: 20%;
     color: #E0EBF0;
     border-radius: 25px;
+    float: left;
+    margin-top: 0;
 }
 #kezdolap{
     border-radius: 25px;
+    margin-top: 0;
     
 }
 #roulette{
@@ -75,6 +78,39 @@ body{
 #Originals{
     color: white;
 }
+#kepek{
+    display: inline-block;
+    
+}
 .roulette{
-    height: 150px;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin: 20px;
+}
+.mines{
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin: 20px;
+}
+.blackJack{
+    height:200px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin: 20px;
+}
+.lada{
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin: 20px;
+}
+#bonusz{
+    background-color: #003652;
+    border-radius: 25px;
+    color: white;
+    
+    height: 200px;
+    padding-left: 20%;
 }
