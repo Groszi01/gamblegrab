@@ -114,6 +114,17 @@ body{
     height: 200px;
     padding-left: 20%;
 }
+#Bonusz{
+    width: 30%;
+}
+#kod{
+    width: 30%;
+}
+#lany{
+    height: 200px;
+    float: right;
+    border-radius: 25px;
+}
 @media only screen and (max-width:1260px)
 {
     .roulette{
