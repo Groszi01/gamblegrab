@@ -27,6 +27,7 @@ function checkBalance(email) {
   connection.query('SELECT egyen FROM users WHERE email = ?', [email], function (error, results, fields) {
     if (error) throw error;
     console.log(results)
+  
   });
 }
 
@@ -49,13 +50,18 @@ connection.connect(function(err) {
   console.log('connected as id ' + connection.threadId);
 
 
-  logInUser('jelszo123', 'kiskuki12@gmail.com');
-  removeFromBalance('kiskuki12@gmail.com', 1000);
+ // logInUser('jelszo123', 'kiskuki12@gmail.com');
+ // removeFromBalance('kiskuki12@gmail.com', 1000);
 
 
 
 });
 
+
+
+
+
+const avabalance = checkBalance('kiskuki12@gmail.com');
 
 
 
@@ -63,12 +69,19 @@ connection.connect(function(err) {
 const app = express();
 const port = process.env.PORT || 8080;
 
-app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, '/index.html'));
+app.get('/teszt', function(req, res) {
+  res.sendFile(path.join(__dirname + '/porgetes/client.js'));
+  
+  
+  let data = req.body;
+  console.log(data);
 
 });
 
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname + '/porgetes/index.html'));
 
 
+});
 
 app.listen(port);
