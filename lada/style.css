@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
 .header{
     height: 20%;
     width: 100%;
@@ -6,3 +7,77 @@
 #logo{
     height: 70px;
 }
+body{
+    background-color: #001B29;
+    font-family: 'Geologica', 'sans-serif';
+}
+
+.menu{
+    background-color: #00293D;
+    margin-right: 900px;
+    color: white;
+    border-radius: 25px;
+    height: 600px;
+    width: 20%;
+}
+#kezdolaps{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+    margin-top: 0;
+    
+}
+#roulet{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#min{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#black{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#lada{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#kapcs{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#originals{
+    height: 20%;
+    width: 80%;
+    background-color: #003047;
+    float: right;
+    
+}
+#ladakk{
+    color: white;
+    font-size: 40px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 3; }
+    .div2 { grid-area: 1 / 3 / 3 / 5; }
+    .div3 { grid-area: 1 / 5 / 3 / 7; }
+    .div4 { grid-area: 1 / 7 / 3 / 9; }
+    .div5 { grid-area: 3 / 1 / 5 / 3; }
+    .div6 { grid-area: 3 / 3 / 5 / 5; }
+    .div7 { grid-area: 3 / 5 / 5 / 7; }
+    .div8 { grid-area: 3 / 7 / 5 / 9; }
+    .div9 { grid-area: 5 / 1 / 7 / 3; }
+    .div10 { grid-area: 5 / 3 / 7 / 5; }
