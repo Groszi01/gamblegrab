@@ -11,7 +11,7 @@ body{
 }
 .menu{
     background-color: #00293D;
-    height: 510px;
+    height: 520px;
     width: 20%;
     color: #E0EBF0;
     border-radius: 25px;
@@ -113,7 +113,7 @@ body{
     
     height: 200px;
     padding-left: 10px;
-    margin-left: 20%;
+    margin-left: 21%;
 }
 #Bonusz{
     width: 30%;
@@ -130,7 +130,7 @@ body{
     background-color: #003047;
     width: 100%;
     height: 200px;
-    margin-top: 15px;
+    margin-top: 50px;
     
 }
 #flogo{ 
@@ -177,6 +177,10 @@ body{
         margin:15px
     }
 }
+@media only screen and (max-width:1090px)
+{
+
+} 
 @media only screen and (max-width:1075px)
 {
     .roulette{
@@ -213,5 +217,14 @@ body{
     .lada{
         height:125px;
         margin:15px
+    }
+    .menu{
+        height: 500px;
+    }
+}
+@media only screen and (max-width:830px)
+{
+    .roulette{
+        display: block;
     }
 }
