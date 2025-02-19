@@ -102,6 +102,7 @@ body{
 }
 .lada{
     height: 200px;
+    width: 200px;
     border-radius: 25px;
     margin-top: 40px;
     margin: 20px;
@@ -116,7 +117,7 @@ body{
     margin-left: 21%;
 }
 #Bonusz{
-    width: 30%;
+    width: 50%;
 }
 #kod{
     width: 30%;
@@ -158,6 +159,12 @@ body{
 #fl{
     color: white;
 }
+#kep1{
+    display: inline;
+}
+#kep2{
+    display: inline;
+}
 @media only screen and (max-width:1260px)
 {
     .roulette{
@@ -174,8 +181,10 @@ body{
     }
     .lada{
         height:175px;
+        width: 175px;
         margin:15px
     }
+    
 }
 @media only screen and (max-width:1090px)
 {
@@ -197,6 +206,7 @@ body{
     }
     .lada{
         height:150px;
+        width: 150px;
         margin:15px
     }
 }
@@ -216,15 +226,51 @@ body{
     }
     .lada{
         height:125px;
+        width: 125px;
         margin:15px
     }
     .menu{
         height: 500px;
     }
+    #fszov{
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width:830px)
 {
-    .roulette{
+    #kep1{
         display: block;
+        
+    }
+    #kepek{
+        margin-left: 20%;
+        
+    }
+    .roulette{
+        height:150px;
+        margin:15px
+    }
+    .blackJack{
+        height:150px;
+        margin:15px
+    }
+    .mines{
+        height:150px;
+        margin:15px
+    }
+    .lada{
+        height:150px;
+        width: 150px;
+        margin:15px
+    }
+    #foot{
+        margin-top: 20px;
+    }
+    #fszov{
+        font-size: 20px;
+    }
+    #flogo{
+        height: 200px;
+
     }
 }
