@@ -67,34 +67,35 @@ body{
 .kepek{
     display: inline-block;
     align-items: center;
+    width: 80%;
 }
 .ladakkk{
-    height: 250px;
+    height: 180px;
     border-radius: 25%;
-    width: 240px;
+    width: 170px;
     padding: 30px;
     margin: 0;
     float: right;
 }
 .masodiksor{
-    height: 250px;
-    width: 240px;
+    height: 180px;
+    width: 170px;
     border-radius: 25%;
     padding: 30px;
     margin: 0;
     float: right;
 }
 .harmadiksor{
-    height: 250px;
-    width: 240px;
+    height: 180px;
+    width: 170px;
     border-radius: 25%;
     padding: 30px;
     margin: 0;
-    margin-left: 23%;
+    margin-left: 6%;
 }
 .negyedik{
-    height: 250px;
-    width: 240px;
+    height: 180px;
+    width: 170px;
     border-radius: 25%;
     padding: 30px;
     margin: 0;
@@ -132,4 +133,73 @@ body{
 #fl{
     color: white;
     font-size: 23px;
+}
+
+@media only screen and (max-width: 1250px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 25px;
+        margin: 0;
+        float: right;
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 25px;
+        margin: 0;
+        float: right;
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 30px;
+        margin: 0;
+        margin-left: 4.7%;
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 30px;
+        margin: 0;
+        margin-left: -1.5%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 25px;
+        margin: 0;
+        float: right;
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 25px;
+        margin: 0;
+        float: right;
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 30px;
+        margin: 0;
+        margin-left: 4.5%;
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 30px;
+        margin: 0;
+        margin-left: -2%;
+    }
 }
