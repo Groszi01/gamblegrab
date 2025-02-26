@@ -75,7 +75,7 @@ body{
     width: 170px;
     padding: 30px;
     margin: 0;
-    float: right;
+    
 }
 .masodiksor{
     height: 180px;
@@ -83,7 +83,7 @@ body{
     border-radius: 25%;
     padding: 30px;
     margin: 0;
-    float: right;
+    
 }
 .harmadiksor{
     height: 180px;
@@ -91,7 +91,7 @@ body{
     border-radius: 25%;
     padding: 30px;
     margin: 0;
-    margin-left: 6%;
+    
 }
 .negyedik{
     height: 180px;
@@ -99,7 +99,6 @@ body{
     border-radius: 25%;
     padding: 30px;
     margin: 0;
-    margin-left: 0;
 }
 #foot{
     background-color: #003047;
@@ -142,7 +141,7 @@ body{
         width: 170px;
         padding: 25px;
         margin: 0;
-        float: right;
+        
     }
     .masodiksor{
         height: 180px;
@@ -150,23 +149,23 @@ body{
         border-radius: 25%;
         padding: 25px;
         margin: 0;
-        float: right;
+        
     }
     .harmadiksor{
         height: 180px;
         width: 170px;
         border-radius: 25%;
-        padding: 30px;
+        padding: 25px;
         margin: 0;
-        margin-left: 4.7%;
+        
     }
     .negyedik{
         height: 180px;
         width: 170px;
         border-radius: 25%;
-        padding: 30px;
+        padding: 25px;
         margin: 0;
-        margin-left: -1.5%;
+        
     }
 }
 @media only screen and (max-width: 1200px){
@@ -176,7 +175,7 @@ body{
         width: 170px;
         padding: 25px;
         margin: 0;
-        float: right;
+        
     }
     .masodiksor{
         height: 180px;
@@ -184,22 +183,362 @@ body{
         border-radius: 25%;
         padding: 25px;
         margin: 0;
-        float: right;
+        
     }
     .harmadiksor{
         height: 180px;
         width: 170px;
         border-radius: 25%;
-        padding: 30px;
+        padding: 25px;
         margin: 0;
-        margin-left: 4.5%;
+        
     }
     .negyedik{
         height: 180px;
         width: 170px;
         border-radius: 25%;
-        padding: 30px;
+        padding: 25px;
         margin: 0;
-        margin-left: -2%;
+        
+    }
+}
+@media only screen and (max-width: 1147px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 23px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 23px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 23px;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 23px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1127px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 21px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 21px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 21px;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 21px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1107px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 19px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 19px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 19px;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 19px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1087px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 17px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 17px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 17px;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 17px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1067px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 15px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 15px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 15x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 15px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1047px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 13px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 13px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 13x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 13px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1027px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 11px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 11px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 11x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 11px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1007px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 9px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 9px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 9x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 9px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 987px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 7px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 7px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 7x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 7px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 967px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 5px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 5px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 5x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 5px;
+        margin: 0;
+        
     }
 }
