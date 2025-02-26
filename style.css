@@ -78,10 +78,7 @@ body{
 #Originals{
     color: white;
 }
-#kepek{
-    display: inline-block;
-    
-}
+
 .roulette{
     height: 200px;
     border-radius: 25px;
@@ -131,7 +128,7 @@ body{
     background-color: #003047;
     width: 100%;
     height: 200px;
-    margin-top: 50px;
+    margin-top: 100px;
     
 }
 #flogo{ 
@@ -165,6 +162,7 @@ body{
 #kep2{
     display: inline;
 }
+
 @media only screen and (max-width:1260px)
 {
     .roulette{
@@ -240,14 +238,13 @@ body{
 {
     #kep1{
         display: block;
-        
     }
     #kepek{
-        margin-left: 20%;
+        margin-left: 40%;
         
     }
     .roulette{
-        height:150px;
+        height: 150px;
         margin:15px
     }
     .blackJack{
@@ -264,7 +261,7 @@ body{
         margin:15px
     }
     #foot{
-        margin-top: 20px;
+        margin-top: 50px;
     }
     #fszov{
         font-size: 20px;
@@ -272,5 +269,47 @@ body{
     #flogo{
         height: 200px;
 
+    }
+    .menu{
+        height: 670px;
+    }
+    #el{
+        display: none;
+    }
+    #Kezdolap{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Roulette{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Mines{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Blackjack{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Ladak{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Kapcsolat{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
     }
 }
