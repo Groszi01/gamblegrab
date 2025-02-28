@@ -11,7 +11,12 @@ body{
     background-color: #001B29;
     font-family: 'Geologica', 'sans-serif';
 }
-
+#kapcsolat{
+    background-color: #003D5C;
+    margin-top: 200px;
+    height: 40px;
+    border-radius: 25px;
+}
 .menu{
     background-color: #00293D;
     color: white;
@@ -498,6 +503,7 @@ body{
         padding: 7x;
         margin: 0;
         
+        
     }
     .negyedik{
         height: 180px;
@@ -540,5 +546,229 @@ body{
         padding: 5px;
         margin: 0;
         
+    }
+}
+@media only screen and (max-width: 947px){
+    .ladakkk{
+        height: 160px;
+        border-radius: 25%;
+        width: 150px;
+        padding: 10px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 10px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 10x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 10px;
+        margin: 0;
+    }
+    .menu{
+        height: 650px;
+    }
+    #kapcsolat{
+        margin-top: 160px;
+    }
+}
+@media only screen and (max-width: 897px){
+    .ladakkk{
+        height: 160px;
+        border-radius: 25%;
+        width: 150px;
+        padding: 8px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 8px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 8x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 8px;
+        margin: 0;
+        
+    }
+}
+
+@media only screen and (max-width: 877px){
+    .ladakkk{
+        height: 160px;
+        border-radius: 25%;
+        width: 150px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 857px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 15px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 15px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 15x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 15px;
+        margin: 0;
+    }
+    .menu{
+        height: 630px;
+    }
+    #kapcsolat{
+        margin-top: 150px;
+    }
+}
+@media only screen and (max-width: 847px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 12px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 12px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 12x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 12px;
+        margin: 0;
+    }
+    .menu
+    {
+        height: 600px;
+    }
+    #kapcsolat{
+        margin-top: 120px;
+    }
+}
+@media only screen and (max-width: 834px){
+    .eltunik{
+        display: none;
+    }
+    #kezdolaps
+    {
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #roulet{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #min{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+        padding-top: 0;
+    }
+    #black{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #lada{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #kapcs{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
     }
 }
