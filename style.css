@@ -43,6 +43,7 @@ body{
     padding-top: 2px;
     font-size: 20px;
     
+    
 }
 #Roulette{
     margin-left: 20px;
@@ -311,5 +312,49 @@ body{
         text-align: center;
         margin-left: 0;
         padding-top: 0;
+    }
+}
+@media only screen and (max-width:770px)
+{
+    #fszov{
+        font-size: 17px;
+    }
+    #ficon{
+        font-size: 17px;
+    }
+    #fl{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:700px)
+{
+    #kepek{
+        margin-left: 30%;
+    }
+    #flogo{
+        width: 200px;
+    }
+    #fszov{
+        font-size: 15px;
+    }
+    #ficon{
+        font-size: 15px;
+
+    }
+    .roulette{
+        height: 125px;
+    }
+    .blackJack{
+        height:125px;
+    }
+    .mines{
+        height:125px;
+    }
+    .lada{
+        height:125px;
+        width: 125px;
+    }
+    .menu{
+        height: 630px;
     }
 }
