@@ -358,3 +358,12 @@ body{
         height: 630px;
     }
 }
+@media only screen and (max-width: 483px)
+{
+    #kepek{
+        margin-left: 40px;
+    }
+    #Originals{
+        font-size: 25px;
+    }
+}
