@@ -367,3 +367,22 @@ body{
         font-size: 25px;
     }
 }
+@media only screen and (max-width:430px)
+{
+    .roulette{
+        height: 100px;
+    }
+    .blackJack{
+        height:100px;
+    }
+    .mines{
+        height:100px;
+    }
+    .lada{
+        height:100px;
+        width: 100px;
+    } 
+    #lany{
+        width: 150px;
+    }
+}
