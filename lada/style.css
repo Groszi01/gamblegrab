@@ -377,6 +377,14 @@ body{
         
     }
 }
+@media only screen and (max-width: 1063px){
+    #flogo{
+        height: 270px;
+    }
+    #ficon{
+        font-size: 23px;
+    }
+}
 @media only screen and (max-width: 1047px){
     .ladakkk{
         height: 180px;
@@ -444,6 +452,9 @@ body{
         margin: 0;
         
     }
+    #flogo{
+        height: 250px;
+    }
 }
 @media only screen and (max-width: 1007px){
     .ladakkk{
@@ -476,8 +487,20 @@ body{
         border-radius: 25%;
         padding: 9px;
         margin: 0;
-        
+        padding-bottom: 15px;
     }
+    #flogo{
+        height: 240px;
+    }
+}
+@media only screen and (max-width: 981px){
+    #fszov{
+        font-size: 22px;
+    }
+    #ficon{
+        font-size: 22px;
+    }
+    
 }
 @media only screen and (max-width: 987px){
     .ladakkk{
@@ -514,6 +537,14 @@ body{
         
     }
 }
+@media only screen and (max-width: 974px){
+    #fszov{
+        font-size: 22px;
+    }
+    #fl{
+        font-size: 20px;
+    }
+}
 @media only screen and (max-width: 967px){
     .ladakkk{
         height: 180px;
@@ -545,7 +576,7 @@ body{
         border-radius: 25%;
         padding: 5px;
         margin: 0;
-        
+        padding-bottom: 15px;
     }
 }
 @media only screen and (max-width: 947px){
@@ -587,6 +618,15 @@ body{
         margin-top: 160px;
     }
 }
+@media only screen and (max-width: 915px){
+    #fszov{
+        font-size: 20px;
+    }
+    #ficon{
+        font-size: 20px;
+    }
+    
+}
 @media only screen and (max-width: 897px){
     .ladakkk{
         height: 160px;
@@ -618,7 +658,7 @@ body{
         border-radius: 25%;
         padding: 8px;
         margin: 0;
-        
+        padding-bottom: 15px;
     }
 }
 
@@ -653,7 +693,21 @@ body{
         border-radius: 25%;
         padding: 6px;
         margin: 0;
-        
+        padding-bottom: 18px;
+    }
+    #foot{
+        height: 280px;
+    }
+}
+@media only screen and (max-width: 867px){
+    #fszov{
+        font-size: 19px;
+    }
+    #ficon{
+        font-size: 19px;
+    }
+    #fl{
+        font-size: 19px;
     }
 }
 @media only screen and (max-width: 857px){
@@ -770,5 +824,144 @@ body{
         text-align: center;
         margin-left: 0;
         font-size: 33px;
+    }
+}
+@media only screen and (max-width: 817px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 10px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 10px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 10x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 10px;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 797px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 8px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 8px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 8x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 8px;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 777px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 757px){
+    .ladakkk{
+        height: 120px;
+        border-radius: 25%;
+        width: 110px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
     }
 }
