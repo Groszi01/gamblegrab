@@ -67,21 +67,18 @@ const avabalance = checkBalance('kiskuki12@gmail.com');
 
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 5501;
 
-app.get('/teszt', function(req, res) {
-  res.sendFile(path.join(__dirname + '/porgetes/client.js'));
-  
-  
-  let data = req.body;
-  console.log(data);
 
-});
 
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/porgetes/index.html'));
 
+  
+
 
 });
+
+
 
 app.listen(port);
