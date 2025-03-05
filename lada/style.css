@@ -17,6 +17,36 @@ body{
     height: 40px;
     border-radius: 25px;
 }
+#kezd{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#roulette{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#mines{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#blackjack{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#ladak{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
 .menu{
     background-color: #00293D;
     color: white;
@@ -958,6 +988,140 @@ body{
     .negyedik{
         height: 120px;
         width: 110px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+    .menu{
+        height: 500px;
+    }
+    #kapcsolat{
+        margin-top: 80px;
+    }
+    #roulette{
+        margin-bottom: 30px;
+    }
+    #kezd{
+        margin-bottom: 30px;
+    }
+    #mines{
+        margin-bottom: 30px;
+    }
+    #blackjack{
+        margin-bottom: 30px;
+    }
+    #ladak{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 657px){
+    .ladakkk{
+        height: 200px;
+        border-radius: 25%;
+        width: 190px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 200px;
+        width: 190px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 200px;
+        width: 190px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 200px;
+        width: 190px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+    .menu{
+        height: 800px;
+    }
+    #kapcsolat{
+        margin-top: 200px;
+    }
+    #roulette{
+        margin-bottom: 60px;
+    }
+    #kezd{
+        margin-bottom: 60px;
+    }
+    #mines{
+        margin-bottom: 60px;
+    }
+    #blackjack{
+        margin-bottom: 60px;
+    }
+    #ladak{
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (max-width: 593px){
+    #fszov{
+        font-size: 16px;
+    }
+    #ficon{
+        font-size: 16px;
+    }
+    #fl{
+        font-size: 16px;
+    }
+    #flogo{
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 560px){
+    #ladakk{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 548px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
         border-radius: 25%;
         padding: 6px;
         margin: 0;
