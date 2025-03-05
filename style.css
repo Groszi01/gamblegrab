@@ -120,6 +120,21 @@ body{
 #kod{
     width: 30%;
 }
+#bonusz2{
+    background-color: #003652;
+    border-radius: 25px;
+    color: white;
+    display: none;
+    height: 200px;
+    padding-left: 10px;
+    margin-left: 21%;
+}
+#Bonusz2{
+    width: 50%;
+}
+#kod2{
+    width: 30%;
+}
 #lany{
     height: 200px;
     float: right;
@@ -358,6 +373,34 @@ body{
         height: 630px;
     }
 }
+@media only screen and (max-width:500px)
+{
+    #bonusz{
+        visibility: hidden;
+    }
+    #bonusz2{
+        display: block;
+        background-color: #003652;
+        border-radius: 25px;
+        color: white;
+        height: 200px;
+        padding-left: 10px;
+        margin-left: 0;
+       
+    }
+    #Bonusz2{
+        width: 50%;
+    }
+    #kod2{
+        width: 30%;
+    }
+    .menu{
+        height: 550px;
+    }
+    #kapcsolat{
+        margin-top: 50px;
+    }
+}
 @media only screen and (max-width: 483px)
 {
     #kepek{
@@ -384,5 +427,47 @@ body{
     } 
     #lany{
         width: 150px;
+    }
+    #flogo{
+        
+        width: 150px;
+    }
+    #fszov{
+        font-size: 10px;
+    }
+    #fl{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:392px)
+{
+    #Originals{
+        font-size: 20px;
+    }
+    #kepek{
+        margin-left: 0;
+    }
+    .roulette{
+        height: 90px;
+    }
+    .blackJack{
+        height:90px;
+    }
+    .mines{
+        height:90px;
+    }
+    .lada{
+        height:90px;
+        width: 90px;
+    } 
+}
+@media only screen and (max-width:365px)
+{
+    #flogo{
+        
+        width: 150px;
+    }
+    #fszov{
+        font-size: 10px;
     }
 }
