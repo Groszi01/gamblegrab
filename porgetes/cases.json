@@ -1,0 +1,29 @@
+{
+
+    "targyak" : {
+        "discbag" : {
+            "nev" : "Discovery Bag",
+            "rarity" : 2,
+            "ar" : 500, 
+            "photo" : "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-discovery-backpack--M24760_PM2_Front%20view.jpg"
+        },
+
+        "murakeepall" : {
+            "nev" : "Murakami Keepall",
+            "rarity" : 1,
+            "ar" : 1000, 
+            "photo" : "https://id.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-x-tm-keepall-bandouliere-45--M14182_PM2_Front%20view.jpg"
+        },
+        
+
+        "cardholder" : {
+            "nev" : "Cardholder",
+            "rarity" : 3,
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-double-card-holder--M62170_PM2_Front%20view.png?wid=1090&hei=1090"
+        }
+        
+
+
+    }
+}

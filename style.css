@@ -178,6 +178,13 @@ body{
 #kep2{
     display: inline;
 }
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
 
 @media only screen and (max-width:1260px)
 {
