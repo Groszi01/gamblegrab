@@ -1087,6 +1087,9 @@ body{
     #flogo{
         height: 200px;
     }
+    #foot{
+        height: 210px;
+    }
 }
 @media only screen and (max-width: 560px){
     #ladakk{
@@ -1127,5 +1130,242 @@ body{
         margin: 0;
         padding-bottom: 15px;
         margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 498px){
+    .ladakkk{
+        height: 160px;
+        border-radius: 25%;
+        width: 150px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 504px){
+    #fszov{
+        font-size: 14px;
+    }
+    #ficon{
+        font-size: 14px;
+    }
+    #fl{
+        font-size: 16px;
+        margin-top: 2%;
+    }
+    #flogo{
+        height: 180px;
+    }
+
+}
+@media only screen and (max-width: 457px){
+    #fszov{
+        font-size: 14px;
+    }
+    #ficon{
+        font-size: 14px;
+    }
+    #fl{
+        font-size: 14px;
+        margin-top: -1%;
+    }
+    #flogo{
+        height: 160px;
+    }
+
+}
+@media only screen and (max-width: 446px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+    .menu{
+        height: 700px;
+    }
+    #kapcsolat{
+        margin-top: 150px;
+    }
+    #ladakk{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 432px){
+    #fszov{
+        font-size: 13px;
+    }
+    #ficon{
+        font-size: 13px;
+    }
+    #fl{
+        font-size: 13px;
+        margin-top: -1%;
+    }
+    #flogo{
+        height: 150px;
+    }
+
+}
+@media only screen and (max-width: 410px){
+    #fszov{
+        font-size: 12px;
+    }
+    #ficon{
+        font-size: 12px;
+    }
+    #fl{
+        font-size: 12px;
+        margin-top: -1%;
+    }
+    #flogo{
+        height: 140px;
+    }
+
+}
+@media only screen and (max-width: 446px){
+    .ladakkk{
+        height: 120px;
+        border-radius: 25%;
+        width: 110px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+    .menu{
+        height: 600px;
+    }
+    #kapcsolat{
+        margin-top: 80px;
+    }
+
+}
+@media only screen and (max-width: 383px){
+    #fszov{
+        font-size: 11px;
+    }
+    #ficon{
+        font-size: 11px;
+    }
+    #fl{
+        font-size: 11px;
+        margin-top: -1%;
+    }
+    #flogo{
+        height: 125px;
+    }
+    #ladakk{
+        font-size: 23px;
+    }
+    #foot{
+        height: 140px;
+    }
+}
+@media only screen and (max-width: 353px){
+    #fszov{
+        font-size: 12px;
+        
+    }
+    #ficon{
+        font-size: 12px;
+        
+    }
+    #fl{
+        font-size: 12px;
+        margin-top: 2%;
+        
+    }
+    #flogo{
+        height: 150px;
+        width: 120px;
+    }
+    #ladakk{
+        font-size: 23px;
+    }
+    #foot{
+        height: 200px;
+    }
+    #ladakk{
+        font-size: 20px;
     }
 }
