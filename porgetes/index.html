@@ -3,13 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Pörgetés</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <button id="teszt">Teszt</button>
-
-
+    <div class="raffle-roller">
+        <div class="raffle-roller-holder">
+            <div class="raffle-roller-container" style="margin-left: 0px;">
+            </div>
+        </div>
+    </div>
+    <center><span style="font-size: 25px;"><span style="color: green;" id="rolled">Nyert</span>
+    <br>
+    <button class="open-button" onclick="generate(1);">Kinyitás</button>
+    <br>
+    <div class="inventory"></div>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>GRATULÁLUNK</h1>
+            <p class="content-p1"></p>
+            <p class="content-p2"></p>
+            <img class="content-img" src="" alt="">
+        </div>
+    </div>
     
-    <script type="text/html" src="client.js"></script>
+
+
+    <script src="client.js"></script>
 </body>
 </html>
