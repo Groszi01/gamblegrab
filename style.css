@@ -11,7 +11,7 @@ body{
 }
 .menu{
     background-color: #00293D;
-    height: 510px;
+    height: 520px;
     width: 20%;
     color: #E0EBF0;
     border-radius: 25px;
@@ -42,6 +42,7 @@ body{
     margin-left: 20px;
     padding-top: 2px;
     font-size: 20px;
+    
     
 }
 #Roulette{
@@ -78,10 +79,7 @@ body{
 #Originals{
     color: white;
 }
-#kepek{
-    display: inline-block;
-    
-}
+
 .roulette{
     height: 200px;
     border-radius: 25px;
@@ -102,6 +100,7 @@ body{
 }
 .lada{
     height: 200px;
+    width: 200px;
     border-radius: 25px;
     margin-top: 40px;
     margin: 20px;
@@ -113,12 +112,27 @@ body{
     
     height: 200px;
     padding-left: 10px;
-    margin-left: 20%;
+    margin-left: 21%;
 }
 #Bonusz{
-    width: 30%;
+    width: 50%;
 }
 #kod{
+    width: 30%;
+}
+#bonusz2{
+    background-color: #003652;
+    border-radius: 25px;
+    color: white;
+    display: none;
+    height: 200px;
+    padding-left: 10px;
+    margin-left: 21%;
+}
+#Bonusz2{
+    width: 50%;
+}
+#kod2{
     width: 30%;
 }
 #lany{
@@ -129,23 +143,42 @@ body{
 #foot{
     background-color: #003047;
     width: 100%;
-    height: 25%;
-    margin-top: 15px;
+    height: 200px;
+    margin-top: 100px;
     
 }
 #flogo{ 
     height: 200px;
-    display: inline-block;
+    float: left;
+    display: inline;
 }
 #fszov{
     text-align: center;
     color: white;
     font-size: 25px;
-    display: inline-block;
+    width: 80%;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 3px;
+    display: inline;
+    
 }
+#ficon{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+}
+#fl{
+    color: white;
+}
+#kep1{
+    display: inline;
+}
+#kep2{
+    display: inline;
+}
+
 @media only screen and (max-width:1260px)
 {
     .roulette{
@@ -162,9 +195,15 @@ body{
     }
     .lada{
         height:175px;
+        width: 175px;
         margin:15px
     }
+    
 }
+@media only screen and (max-width:1090px)
+{
+
+} 
 @media only screen and (max-width:1075px)
 {
     .roulette{
@@ -181,6 +220,7 @@ body{
     }
     .lada{
         height:150px;
+        width: 150px;
         margin:15px
     }
 }
@@ -200,6 +240,234 @@ body{
     }
     .lada{
         height:125px;
+        width: 125px;
         margin:15px
+    }
+    .menu{
+        height: 500px;
+    }
+    #fszov{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:830px)
+{
+    #kep1{
+        display: block;
+    }
+    #kepek{
+        margin-left: 40%;
+        
+    }
+    .roulette{
+        height: 150px;
+        margin:15px
+    }
+    .blackJack{
+        height:150px;
+        margin:15px
+    }
+    .mines{
+        height:150px;
+        margin:15px
+    }
+    .lada{
+        height:150px;
+        width: 150px;
+        margin:15px
+    }
+    #foot{
+        margin-top: 50px;
+    }
+    #fszov{
+        font-size: 20px;
+    }
+    #flogo{
+        height: 200px;
+
+    }
+    .menu{
+        height: 670px;
+    }
+    #el{
+        display: none;
+    }
+    #Kezdolap{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Roulette{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Mines{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Blackjack{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Ladak{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Kapcsolat{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width:770px)
+{
+    #fszov{
+        font-size: 17px;
+    }
+    #ficon{
+        font-size: 17px;
+    }
+    #fl{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:700px)
+{
+    #kepek{
+        margin-left: 30%;
+    }
+    #flogo{
+        width: 200px;
+    }
+    #fszov{
+        font-size: 15px;
+    }
+    #ficon{
+        font-size: 15px;
+
+    }
+    .roulette{
+        height: 125px;
+    }
+    .blackJack{
+        height:125px;
+    }
+    .mines{
+        height:125px;
+    }
+    .lada{
+        height:125px;
+        width: 125px;
+    }
+    .menu{
+        height: 630px;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    #bonusz{
+        visibility: hidden;
+    }
+    #bonusz2{
+        display: block;
+        background-color: #003652;
+        border-radius: 25px;
+        color: white;
+        height: 200px;
+        padding-left: 10px;
+        margin-left: 0;
+       
+    }
+    #Bonusz2{
+        width: 50%;
+    }
+    #kod2{
+        width: 30%;
+    }
+    .menu{
+        height: 550px;
+    }
+    #kapcsolat{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 483px)
+{
+    #kepek{
+        margin-left: 40px;
+    }
+    #Originals{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:430px)
+{
+    .roulette{
+        height: 100px;
+    }
+    .blackJack{
+        height:100px;
+    }
+    .mines{
+        height:100px;
+    }
+    .lada{
+        height:100px;
+        width: 100px;
+    } 
+    #lany{
+        width: 150px;
+    }
+    #flogo{
+        
+        width: 150px;
+    }
+    #fszov{
+        font-size: 10px;
+    }
+    #fl{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:392px)
+{
+    #Originals{
+        font-size: 20px;
+    }
+    #kepek{
+        margin-left: 0;
+    }
+    .roulette{
+        height: 90px;
+    }
+    .blackJack{
+        height:90px;
+    }
+    .mines{
+        height:90px;
+    }
+    .lada{
+        height:90px;
+        width: 90px;
+    } 
+}
+@media only screen and (max-width:365px)
+{
+    #flogo{
+        
+        width: 150px;
+    }
+    #fszov{
+        font-size: 10px;
     }
 }
