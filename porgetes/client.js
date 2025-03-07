@@ -16,14 +16,12 @@ fetch('./cases.json')
 	}
 
 
-
-
 );
 
 
 function generate(ng) {
 	$('.raffle-roller-container').css({
-		transition: "sdf",
+		transition: "all 0s cubic-bezier(.08,.6,0,1)",
 		"margin-left": "0px"
 	}, 10).html('');
 	for(var i = 0;i < 101; i++) {
@@ -50,6 +48,8 @@ function generate(ng) {
     }
 
 
+
+
 }
 
 
@@ -69,8 +69,18 @@ function goRoll(skin, skinimg) {
 		$('#rolled').html(skin);
 		var win_element = "<div class='item class_red_item' style='background-image: url("+skinimg+")'></div>";
 		$(win_element).appendTo('.inventory');
+		$('.modal').fadeIn();
+		$('.close').click(function() {
+			$('.modal').fadeOut();
+		});
+		
+		
+	
+	
 	}, 8500);
 	$('.raffle-roller-container').css('margin-left', '-6770px');
+
+
 }
 
 
