@@ -185,7 +185,31 @@ a:visited{
     color: white;
     text-decoration: none;
 }
+#penz{
+    background-color: black;
+    display: inline;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}
+#wallet{
+    display: inline-block;
+    background-color: #003652;
+    height: 50px;
+    width: 75px;
+    border-radius: 25px;
+    margin-top: 12px;
+    
 
+}
+#pe{
+    color: white;
+    margin-top: 15px;
+}
+#penztarca{
+    float: right;
+    margin-right: 5px;
+}
 @media only screen and (max-width:1260px)
 {
     .roulette{
