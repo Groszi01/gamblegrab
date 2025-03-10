@@ -7,6 +7,26 @@
 #logo{
     height: 70px;
 }
+#fizetes{
+    background-color: black;
+    float: right;
+    margin-right: 100px;
+    border-radius: 25px;
+    margin-top: 18px;
+    font-size: 20px;
+    width: 129.5px;
+}
+#penz{
+    display: inline-block;
+    
+}
+#wallet{
+    display: inline-block;
+    background-color: #003652;
+    border-radius: 25px;
+    width: 60px;
+    font-size: 25px;
+}
 a{
     color: white;
     text-decoration: none;
