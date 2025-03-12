@@ -10,7 +10,7 @@
 #fizetes{
     background-color: black;
     float: right;
-    margin-right: 100px;
+    margin-right: 60px;
     border-radius: 25px;
     margin-top: 18px;
     font-size: 20px;
@@ -331,6 +331,9 @@ body{
         padding: 21px;
         margin: 0;
         
+    }
+    #fizetes{
+        margin-right: 40px;
     }
 }
 @media only screen and (max-width: 1107px){
@@ -1227,6 +1230,11 @@ body{
         height: 160px;
     }
 
+}
+@media only screen and(max-width: 447){
+    #fizetes{
+        margin-right: 20px;
+    }
 }
 @media only screen and (max-width: 446px){
     .ladakkk{
