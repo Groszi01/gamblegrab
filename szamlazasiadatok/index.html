@@ -10,7 +10,10 @@
 <body>
     <div class="header">
         <img src="/kepek/logotrans.png" alt="Logó" id="logo">
-         <i class="fa-solid fa-wallet"></i>
+        <div id="fizetes">
+            <div id="penz" ><i style="color: yellow;" class="fa fa-bitcoin"><span style="color: white;" > 0.000</span></i></div>
+            <div id="wallet" style="color: white; text-indent: 9px;"><i class="fa fa-money"></i></div>
+         </div>
     </div>
     
     <div class="menu">
@@ -23,6 +26,27 @@
     </div>
     <div id="adatok">
         <h1 id="Adatok" style="text-indent: 30px;">Számlázási adatok</h1>
+    </div>
+    <div id="adat">
+        <form action="#">
+            <div id="jobbra">
+                <label for="tnev" style="display: inline;">Teljes név:</label><br>
+                <input type="text" id="tnev" name="tnev" value="Teljes név" style="display: inline;"><br>
+                <label for="szul">Last name:</label><br>
+                <input type="text" id="szul" name="szul" value="2000.01.01"><br>
+                <label for="varos">Város:</label><br>
+                <input type="text" id="varos" name="varos" value="Baja"><br>
+                <label for="lakcim">Lakcím:</label><br>
+                <input type="text" id="lakcim" name="lakcim" value="Szentháromság Tér 1."><br>
+                <label for="telszam">Telefonszám:</label><br>
+                <input type="text" id="telszam" name="telszam" value="06 20 123 4567"><br>
+                <label for="email">E-mail cím:</label><br>
+                <input type="text" id="email" name="email" value="alma@gmail.com"><br>
+                <br><br>
+                <input type="submit" value="Hozzáadás">
+            </div>
+            
+        </form>
     </div>
 </body>
 </html>
