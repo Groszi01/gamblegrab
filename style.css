@@ -185,30 +185,26 @@ a:visited{
     color: white;
     text-decoration: none;
 }
-#penz{
+
+#fizetes{
     background-color: black;
-    display: inline;
-    height: 50px;
-    width: 150px;
+    float: right;
+    margin-right: 20px;
     border-radius: 25px;
+    margin-top: 18px;
+    font-size: 20px;
+    width: 129.5px;
+}
+#penz{
+    display: inline-block;
+   
 }
 #wallet{
     display: inline-block;
     background-color: #003652;
-    height: 50px;
-    width: 75px;
     border-radius: 25px;
-    margin-top: 12px;
-    
-
-}
-#pe{
-    color: white;
-    margin-top: 15px;
-}
-#penztarca{
-    float: right;
-    margin-right: 5px;
+    width: 60px;
+    font-size: 25px;
 }
 @media only screen and (max-width:1260px)
 {
