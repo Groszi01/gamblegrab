@@ -1,29 +1,110 @@
 {
 
-    "targyak" : {
-        "discbag" : {
-            "nev" : "Discovery Bag",
-            "rarity" : 2,
+    "louisvuitton" : {
+        "price": 1000,
+        "name": "Louis Vuitton",
+        "targyakszama": 14,
+
+        
+        "0" : {
+            "nev" : "Discovery Hátizsák",
             "ar" : 500, 
             "photo" : "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-discovery-backpack--M24760_PM2_Front%20view.jpg"
         },
 
-        "murakeepall" : {
+        "1" : {
             "nev" : "Murakami Keepall",
-            "rarity" : 1,
             "ar" : 1000, 
             "photo" : "https://id.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-x-tm-keepall-bandouliere-45--M14182_PM2_Front%20view.jpg"
         },
         
 
-        "cardholder" : {
-            "nev" : "Cardholder",
-            "rarity" : 3,
+        "2" : {
+            "nev" : "Kártyatartó",
             "ar" : 1000, 
             "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-double-card-holder--M62170_PM2_Front%20view.png?wid=1090&hei=1090"
-        }
+        },
         
+        "3" : {
+            "nev" : "Monogram Keepall",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouliere-50--M45392_PM2_Front%20view.png?wid=730&hei=730"
+        },
+
+        "4" : {
+            "nev" : "Monogram Sál",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-classic-scarf--M78525_PM2_Front%20view.png?wid=730&hei=730"
+        },
+
+        "5" : {
+
+            "nev" : "Cowboy Kalap",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-vers-cowboy-hat--M5027M_PM2_Front%20view.png?wid=730&hei=730"
+        },
+
+        
+        "6" : {
+            "nev" : "Clash Napszemüveg",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-clash-large-square-sunglasses--Z2707E_PM2_Front%20view.png?wid=730&hei=730"
+        },
+
+        
+        "7" : {
+            "nev" : "Avenue Oldaltáska",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-avenue-slingbag-pm--M47137_PM2_Front%20view.png?wid=730&hei=730"
+        },
+
+        
+        "8" : {
+            "nev" : "Ombre Nomade Parfüm",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-ombre-nomade--LP0095_PM2_Front%20view.png?wid=730&hei=730"
+        },
+
+        
+        "9" : {
+            "nev" : "Cotteville Óratartó",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-cotteville-16-montres-monogram-eclipse--M11416_PM2_Front%20view.png?wid=730&hei=730"
+        },
+
+        
+        "10" : {
+            "nev" : "Trainer Sneaker",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-trainer-sneaker--BM9U5PMI02_PM2_Front%20view.png?wid=730&hei=730"
+        },
+
+        
+        "11" : {
+            "nev" : "Varsity Dzseki",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-cotton-jersey-varsity-blouson---HTY01WRVU900_PM2_Front%20view.png?wid=730&hei=730"
+        },
+
+        
+        "12" : {
+            "nev" : "Monogram széldzseki",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-flowers-gradient-printed-windbreaker--HTB32WSHE900_PM2_Front%20view.png?wid=730&hei=730"
+        },
+
+        
+        "13" : {
+            "nev" : "Arany Gourmette Karkötő",
+            "ar" : 1000, 
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-les-gastons-vuitton-gourmette-bracelet-yellow-gold--Q05804_PM2_Front%20view.png?wid=730&hei=730"
+        }
+
+
+
 
 
     }
+
+
 }

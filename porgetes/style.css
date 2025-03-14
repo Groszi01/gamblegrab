@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+
 body {
 	background: rgb(25,25,33);
+	font-family: 'Geologica', serif;
 }
 
 
@@ -85,6 +88,7 @@ img {
     	border-bottom: 4px solid #66b233;
 }
 .inventory {
+	color: white;
 	margin: 0 auto;
 	width: 960px;
 	max-width: 953px;
@@ -118,7 +122,7 @@ img {
 	padding-top: 100px;
 	left: 0;
 	top: 0;
-	width: 100%;
+	width: 50%;
 	height: 100%;
 	overflow: auto;
 	background-color: rgb(0,0,0);
@@ -166,8 +170,37 @@ img {
 
 .open-button:hover {
 	background-color: #0e5875;
-	animation: colorChange 1s infinite;
+	animation: colorChange 1s linear infinite;
 }
+
+.content.eladas {
+	background-color: #41c526;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.content.megtartas {
+	background-color: #f03022;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
 
 @keyframes colorChange {
 	from {
@@ -177,3 +210,4 @@ img {
 		background-color: #60a5da;
 	}
 }
+

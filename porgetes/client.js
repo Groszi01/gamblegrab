@@ -4,53 +4,68 @@
 // 2 - Rare
 // 3 - Common
 
+
 var items;
 
-
-fetch('./cases.json')
-
-
-    .then((response) => response.json())
-    .then((json) => {
-		items = json;
-	}
+$(document).ready(function() {
+	fetch('./cases.json')
 
 
-);
+		.then((response) => response.json())
+		.then((json) => {
+				items = json;
+		}
+			
+
+	);
 
 
-function generate(ng) {
+
+
+	
+
+
+});
+
+
+
+
+
+function generate() {
 	$('.raffle-roller-container').css({
 		transition: "all 0s cubic-bezier(.08,.6,0,1)",
 		"margin-left": "0px"
 	}, 10).html('');
+
+
+
 	for(var i = 0;i < 101; i++) {
-		var element = '<div id="CardNumber'+i+'" class="item class_red_item" style="background-image:url('+items.targyak.cardholder.photo+');"></div>';
-		var randed = randomInt(1,1000);
-		if(randed < 50) {
-			element = '<div id="CardNumber'+i+'" class="item class_red_item" style="background-image:url('+items.targyak.discbag.photo+');"></div>';
-		} else if(500 < randed) {
-			element = '<div id="CardNumber'+i+'" class="item class_red_item" style="background-image:url('+items.targyak.murakeepall.photo+');"></div>';
-		}
+		let randomReward = randomInt(0, items.louisvuitton.targyakszama);
+		
+		let element = "<div class='item' style='background-image: url("+items.louisvuitton[randomReward].photo+")'></div>";
+		
+
 		$(element).appendTo('.raffle-roller-container');
 	}
-	
-
-    let randomReward = randomInt(1, 1000);
-    if (randomReward < 50) {
-        goRoll(items.targyak.murakeepall.nev, items.targyak.murakeepall.photo);
-    }
-    else if (500 < randomReward) {
-        goRoll(items.targyak.discbag.nev, items.targyak.discbag.photo);
-    }
-    else {
-        goRoll(items.targyak.cardholder.nev, items.targyak.cardholder.photo);
-    }
 
 
+
+	var random = randomInt(0, 14);
+	console.log(random);
+	goRoll(items.louisvuitton[random].nev, items.louisvuitton[random].photo);
+		
+		
+		
 
 
 }
+
+	
+
+    
+    
+
+
 
 
 
@@ -58,23 +73,41 @@ function generate(ng) {
 
 
 function goRoll(skin, skinimg) {
+
+
 	$('.raffle-roller-container').css({
 		transition: "all 8s cubic-bezier(.08,.6,0,1)"
 	});
 	$('#CardNumber78').css({
 		"background-image": "url("+skinimg+")"
+
 	});
 	setTimeout(function() {
 		$('#CardNumber78').addClass('winning-item');
-		$('#rolled').html(skin);
-		var win_element = "<div class='item class_red_item' style='background-image: url("+skinimg+")'></div>";
-		$(win_element).appendTo('.inventory');
+		$('.raffle-roller-container').css('transition', 'all 0s cubic-bezier(.08,.6,0,1)');
+		$('.raffle-roller-container').css('margin-left', '-6770px');
+		
 		$('.modal').fadeIn();
+		$('.modal-header').html('<span class="close">&times;</span><h1>Gratulálunk!</h1>');
+		$('.content-p1').html('<p>Nyertél egy '+skin+'-t!</p>');
+		$('.content-img').html('<img id="modal-img" style="width: 100px; height: 100px; " src="'+skinimg+'" ></img>');
+
 		$('.close').click(function() {
+
+			
 			$('.modal').fadeOut();
 		});
+
+
+		
+
+
+
+
 		
 		
+		
+
 	
 	
 	}, 8500);
