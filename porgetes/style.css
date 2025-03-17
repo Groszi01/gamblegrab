@@ -75,17 +75,11 @@ body {
     background-position: center;
 }
 .class_red_item {
-	border-bottom: 4px solid #ffffff;
+	border-bottom: 4px solid #fcfcfc;
 }
 img {
 	border: 0;
 	vertical-align: middle;
-}
-.winning-item {
-	border: 2px solid #66b233;
-	position: relative;
-	top: -1px;
-    	border-bottom: 4px solid #66b233;
 }
 .inventory {
 	color: white;
@@ -101,24 +95,19 @@ img {
 	float: none;
 	cursor: pointer;
 	margin: 4px 2px 0.5px 2px;
+	height: 100px;
+	width: 100px;
 }
 .inventory > .item:hover {
 	background-size: 90%;
 	background-color: #182a38;
 }
-.inventory > .item:active {
-	height: 83px;
-	width: 80px;
-	position: relative;
-	top: -2px;
-	border: 2px solid #356d27;
-	border-bottom: 4px solid #356d27;
-}
+
 
 .modal {
 	display: none;
+	margin: auto;
 	position: fixed;
-	z-index: 9999;
 	padding-top: 100px;
 	left: 0;
 	top: 0;
@@ -173,7 +162,7 @@ img {
 	animation: colorChange 1s linear infinite;
 }
 
-.content.eladas {
+.content-eladas {
 	background-color: #41c526;
 	border: none;
 	color: white;
@@ -187,7 +176,7 @@ img {
 	border-radius: 4px;
 }
 
-.content.megtartas {
+.content-megtartas {
 	background-color: #f03022;
 	border: none;
 	color: white;
