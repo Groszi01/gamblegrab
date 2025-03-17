@@ -1,8 +1,4 @@
 
-// Rarity - Ritkaság
-// 1 - Legendary
-// 2 - Rare
-// 3 - Common
 
 
 var items;
@@ -14,13 +10,20 @@ $(document).ready(function() {
 		.then((response) => response.json())
 		.then((json) => {
 				items = json;
+
+
+				for (let i = 0; i < 101; i++) {
+					let element = '<div id="CardNumber'+i+'" class="item class_red_item" style="background-image:url('+items.louisvuitton[i].photo+');"></div>';
+				
+					$(element).appendTo('.inventory');
+				}
+			
 		}
 			
 
 	);
 
-
-
+	
 
 	
 
@@ -39,20 +42,23 @@ function generate() {
 
 
 
+
 	for(var i = 0;i < 101; i++) {
-		let randomReward = randomInt(0, items.louisvuitton.targyakszama);
-		
-		let element = "<div class='item' style='background-image: url("+items.louisvuitton[randomReward].photo+")'></div>";
+		var random = randomInt(0, 13);
 		
 
+		
+		let element = '<div id="CardNumber'+i+'" class="item class_red_item" style="background-image:url('+items.louisvuitton[random].photo+');"></div>';
+		
 		$(element).appendTo('.raffle-roller-container');
 	}
+	
 
 
 
-	var random = randomInt(0, 14);
-	console.log(random);
-	goRoll(items.louisvuitton[random].nev, items.louisvuitton[random].photo);
+
+	goRoll(items.louisvuitton[random].nev, items.louisvuitton[random].photo, items.louisvuitton[random].ar);
+	
 		
 		
 		
@@ -72,8 +78,8 @@ function generate() {
 
 
 
-function goRoll(skin, skinimg) {
-
+function goRoll(skin, skinimg, price) {
+	
 
 	$('.raffle-roller-container').css({
 		transition: "all 8s cubic-bezier(.08,.6,0,1)"
@@ -83,13 +89,21 @@ function goRoll(skin, skinimg) {
 
 	});
 	setTimeout(function() {
-		$('#CardNumber78').addClass('winning-item');
 		$('.raffle-roller-container').css('transition', 'all 0s cubic-bezier(.08,.6,0,1)');
 		$('.raffle-roller-container').css('margin-left', '-6770px');
+
+		$('rolled').html(skin);
+
+
 		
+
+
+		
+		
+
 		$('.modal').fadeIn();
-		$('.modal-header').html('<span class="close">&times;</span><h1>Gratulálunk!</h1>');
-		$('.content-p1').html('<p>Nyertél egy '+skin+'-t!</p>');
+		$('.content-p1').html('<p>Nyereményed: '+skin+'</p>');
+		$('.content-p2').html('<p>Értéke: '+price+'</p>');
 		$('.content-img').html('<img id="modal-img" style="width: 100px; height: 100px; " src="'+skinimg+'" ></img>');
 
 		$('.close').click(function() {
@@ -97,18 +111,6 @@ function goRoll(skin, skinimg) {
 			
 			$('.modal').fadeOut();
 		});
-
-
-		
-
-
-
-
-		
-		
-		
-
-	
 	
 	}, 8500);
 	$('.raffle-roller-container').css('margin-left', '-6770px');
