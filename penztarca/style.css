@@ -66,6 +66,14 @@ body{
     height: 40px;
     border-radius: 25px;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
 .menu{
     background-color: #00293D;
     color: white;
