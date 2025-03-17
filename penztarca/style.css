@@ -127,3 +127,29 @@ a:hover{
     color: white;
     font-size: 40px;
 }
+#flogo{
+    height: 300px;
+    float: left;
+    display: inline;
+}
+#fszov{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 80%;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    display: inline;
+   
+}
+#ficon{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+}
+#fl{
+    color: white;
+    font-size: 23px;
+}
