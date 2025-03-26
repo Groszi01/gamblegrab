@@ -167,11 +167,17 @@ a:hover{
 .kepek{
     display: inline-block;
     align-items: center;
+    background-color: #003047;
+    border-radius: 5%;
+    margin-left: 20px;
+    height: 700px;
 }
 .ladakkk{
-    height: 180px;
-    width: 170px;
+    height: 160px;
+    width: 150px;
     padding: 30px;
     margin: 0;
     background-color: #14739B;
+    margin-top: 30px;
+        
 }
