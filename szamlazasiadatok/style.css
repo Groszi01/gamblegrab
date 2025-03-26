@@ -75,11 +75,9 @@ body{
     height: 20%;
     width: 80%;
     background-color: #003047;
-    float: right;
-    
-    
-    
+    float: right;  
 }
+
 #Adatok{
     color: white;
 }
@@ -199,5 +197,70 @@ a:visited{
         text-align: center;
         margin-left: 0;
         padding-top: 0;
+    }
+    #foot{
+        margin-top: 50px;
+    }
+    #fszov{
+        font-size: 18px;
+    }
+    #flogo{
+        height: 200px;
+
+    }
+    #fl{
+        font-size: 15px
+    }
+}
+@media only screen and (max-width:775px)
+{
+    #tnev{
+        display: block;
+    }
+    #szul{
+        display: block;
+    }
+    #varos{
+        display: block;
+    }
+    #lakcim{
+        display: block;
+    }
+    #telszam{
+        display: block;
+    }
+    #email{
+        display: block;
+    }
+    #elm{
+        display: none;
+    }
+    #jobbra{
+        margin-left: 23%;
+    }
+}
+@media only screen and (max-width:575px)
+{
+    #jobbra{
+        margin-left:17%;
+    }
+    #flogo{
+        height: 175px;
+        width: 175px;
+    }
+    #fszov{
+        font-size: 15px;
+    }
+    #ficon{
+        font-size: 15px;
+    }
+    #fl{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:470px)
+{
+    #jobbra{
+        margin-left: 8%;
     }
 }
