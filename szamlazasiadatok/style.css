@@ -263,4 +263,64 @@ a:visited{
     #jobbra{
         margin-left: 8%;
     }
+    #tnev{
+        width: 130px;
+    }
+    #szul{
+        width: 130px;
+    }
+    #varos{
+        width: 130px;
+    }
+    #lakcim{
+        width: 130px;
+    }
+    #telszam{
+        width: 130px;
+    }
+    #email{
+        width: 130px;
+    }
+    #elm{
+        display: none;
+    }
+}
+@media only screen and (max-width:390px)
+{
+    #Adatok{
+        font-size: 27px;
+    }
+    #jobbra{
+        margin-left: 1%;
+    }
+    
+}
+@media only screen and (max-width:385px)
+{
+    #fszov{
+        font-size: 13px;
+    }
+    #ficon{
+        font-size: 13px;
+    }
+    #fl{
+        padding-top: 20px;
+    }
+    
+}
+@media only screen and (max-width:371px)
+{
+    #fszov{
+        font-size:11px
+    }
+    #ficon{
+        font-size: 11px;
+    }
+    #fl{
+        padding-top: 12px;
+    }
+    #flogo{
+        height: 200px;
+        width: 175px;
+    }
 }
