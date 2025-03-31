@@ -100,11 +100,162 @@
             "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-les-gastons-vuitton-gourmette-bracelet-yellow-gold--Q05804_PM2_Front%20view.png?wid=730&hei=730"
         }
 
+        
+    },
+
+    "dior" : {
+        "price" : 1000,
+        "name" : "Dior",
+        "targyakszama" : 16,
+
+
+        "0" : {
+            "nev" : "Oblique Zokni",
+            "ar" : 500,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/113MC08AT105C179_E01?$default_GHC_640$&crop=664,268,807,1544&bfc=on&qlt=85"
+
+        },
+
+        "1" : {
+            "nev" : "DiorTag Napszemüveg",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/DTAGSUXT85B8_E03?$default_GHC_640$&crop=69,781,1899,746&bfc=on&qlt=85"
+        },
+
+        "2" : {
+            "nev" : "DiorTag Napszemüveg",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/DTAGSUXT85B8_E03?$default_GHC_640$&crop=69,781,1899,746&bfc=on&qlt=85"    
+        },
+
+        "3" : {
+            "nev" : "Oblique Pénztárca",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/2OBBH027YSEH05E_E01?$default_GHC$&crop=614,1187,772,625&wid=640&hei=692&scale=0.3027&bfc=on&qlt=85"    
+        },
+        "4" : {
+            "nev" : "Rider Hátizsák",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/1VOBA088YKYH28E_E01?$default_GHC$&crop=467,181,1067,1631&wid=640&hei=692&scale=0.3027&bfc=on&qlt=85"    
+        },
+        "5" : {
+            "nev" : "Weekender 40 Táska",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/1ESDU134YKYH03E_E01-2?$default_GHC$&crop=69,401,1847,1409&wid=640&hei=692&scale=0.3027&bfc=on&qlt=85"    
+        },
+        "6" : {
+            "nev" : "Saddle Oldaltáska",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/1ADPO093LLGH830_E01?$default_GHC_640$&crop=372,875,1399,965&bfc=on&qlt=85"    
+        },
+        "7" : {
+            "nev" : "B30 Sneaker",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/3SN279ZNDH000_E02?$default_GHC_640$&crop=282,844,1438,674&bfc=on&qlt=85"    
+        },
+        "8" : {
+            "nev" : "Alpha Szandál",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/3SA081YXVH961_E02?$default_GHC_640$&crop=248,907,1505,603&bfc=on&qlt=85"    
+        },
+        "9" : {
+            "nev" : "Oblique Kabát",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/943C449A4462C595_E01-1?$default_GHC$&crop=424,152,1151,1552&wid=640&hei=692&scale=0.3027&bfc=on&qlt=85"    
+        },
+        "10" : {
+            "nev" : "Oblique Bermuda Rövidnadrág",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/493C121A6006C075_E01?$default_GHC_640$&crop=533,490,940,1113&bfc=on&qlt=85"    
+        },
+        "11" : {
+            "nev" : "Oblique Öv",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/4333RUDORH03E_E01?$default_GHC$&crop=113,956,1787,595&wid=640&hei=692&scale=0.3027&bfc=on&qlt=85"    
+        },
+        "12" : {
+            "nev" : "Oblique Gyűrű",
+            "ar" : 1000,
+            "photo" : "https://assets.christiandior.com/is/image/diorprod/R2419HOMSTD994_E01?$default_GHC_640$&crop=569,1123,778,447&bfc=on&qlt=85"    
+        },
+        "13" : {
+            "nev" : "Sauvage Parfüm",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwaa556c2f/Y0998004/Y0998004_C099600455_E01_ZHC.jpg?sw=1024"    
+        },
+        "14" : {
+            "nev" : "Le Baume Krém",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw38601c72/Y0997082/Y0997082_C099700374_E01_ZHC.jpg?sw=1024"    
+        },
+        "15" : {
+            "nev" : "Dior Hydra Life Testápoló",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+        }
+
+
+    },
+
+    "mercedes" : {
+        
 
 
 
+        "0" : {
+            "nev" : "C63S AMG E-Performance",
+            "ar" : 1000,
+            "photo" : "https://media.oneweb.mercedes-benz.com/images/dynamic/europe/HU/206087/805_055/iris.png?q=COSY-EU-100-1713d0VXqNEFqtyO67PobzIr3eWsrrCsdRRzwQZgk4ZbMw3SGtGyjtsd2HdcUfp8qXGEubmJ0l3ItOB2NQnbApjtwI5uVQDQC31MjkzNwzwm7jZ73hKVFsM%25vq9UdyLRDO6Yax7NxrH1eJdn8wsOcoiZUidM4FGCwTg90626PDBSqSeWzyRtsd7YNcUfKM6XGEvTBJ0lgYxOB2PWEbApetbI5usQYQC3UkTkzNGLnm7j0ajhKVBHL%25vqA8lyLRicHYax5NxrH1Ajsn8wajOoiZHJbM4FNOeTg9Pzn6PDe7sSeWsaWtsdUJVcUfGXWXGE05RJ0loYxOBi1aftkV3xb15EOo2A2rbpldCdcqcgVGB4NPVHF8ukSa0Y&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=420&crop="    
+        },
+        "1" : {
+            "nev" : "S63 AMG",
+            "ar" : 1000,
+            "photo" : "https://media.oneweb.mercedes-benz.com/images/dynamic/europe/HU/223182/805_055/iris.png?q=COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZgk4ZbMw3SGtGyjtsd2spcUfp8cXGEubYJ0l36xOB2NbcbApRAlI5ux4YQC31gFkzNwtnm7jA7mhKV50L%25vqCJTyLRgc6YaxPXYrH1eHDn8wso3oiZB5gM4FAC2Tg95Yn6PDakNSeWHeutsd8J3cUfiFWXGE4TXJ0lg6lOB2PSEbApeIyI5usQJQC3UkTkzNGLnm7j0avhKV3YQ%25vqBtkyLR03PYaxv0SrH1LIrn8wuagoiZ4iIM4FgCPTg9Pv36PDeSFSevjzFoJpENtjUkNUWZWmtdDZGZMuMapgeLlHp7RKfJnzPk&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=420&crop="    
+        },
+        "2" : {
+            "nev" : "Dior Hydra Life Testápoló",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+        },
+        "3" : {
+            "nev" : "Dior Hydra Life Testápoló",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+        },
+        "4" : {
+            "nev" : "Dior Hydra Life Testápoló",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+        },
+        "5" : {
+            "nev" : "Dior Hydra Life Testápoló",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+        },
+        "6" : {
+            "nev" : "Dior Hydra Life Testápoló",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+        },
+        "7" : {
+            "nev" : "Dior Hydra Life Testápoló",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+        },
+        "8" : {
+            "nev" : "Dior Hydra Life Testápoló",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+        },
+        "9" : {
+            "nev" : "Dior Hydra Life Testápoló",
+            "ar" : 1000,
+            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+        }
 
     }
+    
 
 
 }
+
