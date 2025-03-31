@@ -37,6 +37,12 @@ function removeFromBalance(email, amount) {
   });
 }
  
+function addToBalance(email, amount) {
+  connection.query('UPDATE users SET egyen = egyen + ? WHERE email = ?', [amount, email], function (error, results, fields) {
+    if (error) throw error;
+  });
+}
+
 connection.connect(function(err) {
   if (err) {
     console.error('error connecting: ' + err.stack);
@@ -75,6 +81,19 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/porgetes/index.html'));
 
   
+
+
+});
+
+
+app.get('/removefrombalance', function(req, res, amount, email) {
+
+  removeFromBalance(req.query.email, req.query.amount);
+  res.send("Removed from balance");
+
+
+  
+
 
 
 });
