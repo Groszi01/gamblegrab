@@ -317,7 +317,10 @@ a:visited{
 @media only screen and (max-width:371px)
 {
     #fszov{
-        font-size:11px
+        font-size:11px;
+        text-decoration: underline;
+        text-underline-offset: none;
+        text-decoration-thickness: none;
     }
     #ficon{
         font-size: 11px;

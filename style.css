@@ -503,5 +503,8 @@ a:visited{
     }
     #fszov{
         font-size: 10px;
+        text-decoration: underline;
+        text-underline-offset: none;
+        text-decoration-thickness: none;
     }
 }
