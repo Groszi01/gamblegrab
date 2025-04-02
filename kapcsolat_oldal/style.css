@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
 .header{
     height: 20%;
     width: 100%;
     background-color: #00141f;
+}
+body{
+    background-color: #001B29;
+    font-family: 'Geologica', 'sans-serif';
+   
 }
 #logo{
     height: 70px;
@@ -70,4 +76,253 @@ body{
     margin-left: 20px;
     padding-top: 2px;
     font-size: 20px;
+}
+#fizetes{
+    background-color: black;
+    float: right;
+    margin-right: 20px;
+    border-radius: 25px;
+    margin-top: 18px;
+    font-size: 20px;
+    width: 129.5px;
+}
+#penz{
+    display: inline-block;
+   
+}
+#wallet{
+    display: inline-block;
+    background-color: #003652;
+    border-radius: 25px;
+    width: 60px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+#adatok{
+    height: 20%;
+    width: 80%;
+    background-color: #003047;
+    float: right;  
+    border-radius: 25px;
+    height: 520px;
+    width: 77%;
+    
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+#foot{
+    background-color: #003047;
+    width: 100%;
+    height: 200px;
+    margin-top: 530px;
+    
+}
+#flogo{ 
+    height: 200px;
+    float: left;
+    display: inline;
+}
+#fszov{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 80%;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    display: inline;
+    
+}
+#ficon{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+}
+#fl{
+    color: white;
+}
+
+#Adatok{
+    color: white;
+}
+
+.support-gomb {
+    background-color: #55b1d8;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+@media only screen and (max-width:830px)
+{
+    #el{
+        display: none;
+    }
+    #Kezdolap{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Roulette{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Mines{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Blackjack{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Ladak{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Kapcsolat{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #foot{
+        margin-top: 560px;
+    }
+    #fszov{
+        font-size: 15px;
+    }
+    #flogo{
+        height: 200px;
+
+    }
+    #ficon{
+        font-size: 15px;
+    }
+    #fl{
+        font-size: 15px
+    }
+}
+@media only screen and (max-width:775px)
+{
+    #tnev{
+        display: block;
+    }
+    #szul{
+        display: block;
+    }
+    #varos{
+        display: block;
+    }
+    #lakcim{
+        display: block;
+    }
+    #telszam{
+        display: block;
+    }
+    #email{
+        display: block;
+    }
+    #elm{
+        display: none;
+    }
+    #jobbra{
+        margin-left: 23%;
+    }
+}
+@media only screen and (max-width:575px)
+{
+    #jobbra{
+        margin-left:17%;
+    }
+    #flogo{
+        height: 200px;
+        width: 200px;
+    }
+    #fszov{
+        font-size: 13px;
+    }
+    #ficon{
+        font-size: 13px;
+    }
+    #fl{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:411px)
+{
+    #flogo{
+        height: 175px;
+        width: 175px;
+    }
+    #fszov{
+        font-size: 12px;
+    }
+    #ficon{
+        font-size: 12px;
+    }
+    #fl{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:390px)
+{
+    
+    #jobbra{
+        margin-left: 1%;
+    }
+    
+}
+@media only screen and (max-width:385px)
+{
+    #fszov{
+        font-size: 12px;
+    }
+    #ficon{
+        font-size: 12px;
+    }
+    #fl{
+        padding-top: 20px;
+    }
+    
+}
+@media only screen and (max-width:371px)
+{
+    
+    #fszov{
+        font-size:11px;
+        text-decoration: underline;
+        text-underline-offset: none;
+    text-decoration-thickness: none;
+    }
+    #ficon{
+        font-size: 11px;
+    }
+    #fl{
+        padding-top: 12px;
+    }
+    #flogo{
+        height: 200px;
+        width: 175px;
+    }
 }
