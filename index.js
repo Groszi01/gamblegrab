@@ -67,37 +67,37 @@ connection.connect(function(err) {
 
 
 
-const avabalance = checkBalance('kiskuki12@gmail.com');
-
-
-
-
 const app = express();
-const port = process.env.PORT || 5501;
+const port = process.env.PORT || 5500;
 
 
 
-app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname + '/porgetes/index.html'));
 
+app.get("/api/removefrombalance/:email/:amount", (req, res) => {
+  const email = req.params.email;
+  const amount = req.params.amount;
+  const avabal = checkBalance(email);
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  if (avabal >= amount) {
+    res.send("true");
+    removeFromBalance(email, amount);
+  }
+  else if (avabal < amount) {
+
+    res.send("false");
+    
+  }
   
 
 
 });
 
 
-app.get('/removefrombalance', function(req, res, amount, email) {
-
-  removeFromBalance(req.query.email, req.query.amount);
-  res.send("Removed from balance");
-
-
-  
 
 
 
+
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
-
-
-
-app.listen(port);
