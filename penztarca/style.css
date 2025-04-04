@@ -186,6 +186,12 @@ a:hover{
 }
 #fname{
     width: 600px;
+    background-color: black;
+    color: white;
+    height: 49px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
 }
 #masologomb{
     background-color: #14739B;
@@ -337,26 +343,59 @@ a:hover{
     }
 }
 @media only screen and (max-width: 808px){
-    .kepek{
-        display: inline-block;
-        align-items: center;
-        background-color: #003047;
-        border-radius: 5%;
-        margin-left: 20px;
-        height: 700px;
-        width: 600px;
-    
-    }
     .ladakkk{
         height: 90px;
         width: 80px;
-    }
-    #fname{
-        width: 450px;
     }
     #masologomb{
         padding: 14px 30px;
         font-size: 16px;
         margin: 4px 2px;
+    }
+    .kepek{
+        width: 350px;
+        height: 850px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 280px;
+        font-size: 10px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 665px){
+    #flogo{
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 565px){
+    #flogo{
+        width: 280px;
+    }
+    #fszov{
+        font-size: 18px;
+    }
+    #fl{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 555px){
+    #flogo{
+        width: 270px;
+    }
+    #fszov{
+        font-size: 16px;
+    }
+    #fl{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 16px;
     }
 }
