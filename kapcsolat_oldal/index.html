@@ -30,7 +30,13 @@
     
     <div id="adatok">
         <h1 id="Adatok" style="text-indent: 30px; ">Kapcsolat</h1>
+
         <button class="support-gomb">Support</button>
+        
+        <p id="ikonok">
+            <i class="fa fa-instagram" style="text-indent: 10px;"></i> <i class="fa fa-facebook" style="text-indent: 10px;"></i> <i class="fa fa-youtube" style="text-indent: 10px;"></i>
+        </p>
+        
     </div>
     <footer>
         
@@ -50,5 +56,21 @@
             
         </div>
     </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+        </script>
 </body>
 </html>
