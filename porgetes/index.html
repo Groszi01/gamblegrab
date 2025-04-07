@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Pörgetés</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+    <div class="header">
+        <img src="/kepek/logotrans.png" alt="Logó" id="logo">
+        <div id="fizetes">
+            <a href="/penztarca/index.html">
+                <div id="penz" ><i style="color: yellow;" class="fa fa-bitcoin"><span style="color: white;" > 0.000</span></i></div>
+                <div id="wallet" style="color: white; text-indent: 9px;"><i class="fa fa-money"></i></div>
+            </a>
+            
+         </div>
+    </div>
+    <div class="menu">
+        <a href="../index.html"><div id="kezdolap" style="background-color: #003D5C; margin-bottom: 40px; height: 40px;" ><p id="Kezdolap"><i class="fa fa-home"></i><span id="el">Kezdőlap</span> </p> </div></a> 
+         <div id="roulette" style="background-color: #003D5C; margin-bottom: 40px; height: 40px"><p id="Roulette"><i class="fa fa-diamond"></i><span id="el">Roulette</span> </p> </div>
+         <div id="mine" style="background-color: #003D5C; margin-bottom: 40px; height: 40px"> <p id="Mines"><i class="fa fa-bomb"></i><span id="el">Mines</span></p></div>
+         <div id="blackjack" style="background-color: #003D5C; margin-bottom: 40px; height: 40px"> <p id="Blackjack"><i class="fa fa-heart"></i><span id="el">BlackJack</span></p></div>
+        <a href="/lada/index.html"><div id="ladak" style="background-color: #003D5C; margin-bottom: 40px; height: 40px"> <p id="Ladak"><i class="fa fa-dropbox"></i> <span  ><a href="/lada/index.html" id="el">Ládák</a> </span></p></div></a> 
+         <div id="kapcsolat" style="background-color: #003D5C; margin-top: 70px; height: 40px"> <p id="Kapcsolat"><i class="fa fa-link"></i><span id="el">Kapcsolat</span></p></div>
+     </div>
+    <div id="nyitas">
+
+    
     <div class="toast-container"></div>
     <div class="raffle-roller">
         <div class="raffle-roller-holder">
@@ -18,9 +40,15 @@
             </div>
         </div>
     </div>
+
     <br>
-    <button class="open-button" onclick="">Kinyitás</button>
+    
+     
+
+     
+    <button class="open-button" onclick=generate(1)>Kinyitás</button>
     <br>
+    
     <div class="inventory">
         <h1>Nyitható tárgyak: </h1>
 
@@ -28,6 +56,7 @@
 
 
     </div>
+</div>
 <div class="modal">
         <div class="modal-content">
             <span class="close">&times;</span><h1 style="color: white;">Gratulálunk!</h1>
@@ -39,7 +68,24 @@
           
         </div>
     </div>
-    
+    <footer>
+        
+        <div id="foot">
+            <img src="/kepek/logotrans.png" id="flogo" alt="logó">
+            <p id="fszov"> Gamble Grab ltd. | All rights reserved © 2024</p> <p id="ficon">     <i class="fa fa-instagram" style="text-indent: 10px;"></i> <i class="fa fa-facebook" style="text-indent: 10px;"></i> <i class="fa fa-youtube" style="text-indent: 10px;"></i></p>
+            <div id="fl">
+                Kezdőlap <br> 
+                Roulette <br>
+                Mines <br>
+                Blackjack <br>
+                Ládák <br>
+                Kapcsolat
+            </div>
+                
+
+            
+        </div>
+    </footer>
 
 
     <script src="client.js"></script>
