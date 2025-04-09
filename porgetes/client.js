@@ -1,7 +1,7 @@
 
 
 
-var expressServer = 'http://localhost:5500';
+var expressServer = 'http://localhost:3000';
 var items;
 var currentCase;
 
@@ -27,24 +27,32 @@ $(document).ready(function() {
 });
 
 $('.open-button').click(function() {
-
 	
+
+
 	let req = new XMLHttpRequest();
-
-
-
-	req.open('GET', expressServer + '/api/removefrombalance/kiskuki12@gmail.com/1000');
-	req.send();
-
 	req.addEventListener('load', function() {
-		console.log(this.responseText);
 		if (this.responseText == 'true') {
-			generate();
+			showToast('Vásárlás sikeres!', 'success');
 		} else {
-			showToast('Nincs elég pénzed!', 'error');
+			showToast('Vásárlás sikertelen!', 'error');
 		}
 
 	});
+	req.open('GET', expressServer + '/api/removefrombalance/kiskuki12@gmail.com/'+currentCase.price);
+	req.send();
+	generate();
+
+
+
+	
+
+
+
+
+
+	
+
 
 });
 
@@ -114,14 +122,18 @@ function goRoll(skin) {
 			let req = new XMLHttpRequest();
 			req.addEventListener('load', function() {
 				if (this.responseText == 'true') {
-					alert('Eladva!');
+					showToast('Eladás sikeres!', 'success');
 				} else {
-					alert('Nem sikerült az eladás!');
+					showToast('Eladás sikertelen!', 'error');
 				}
-
+		
 			});
-			req.open('GET', expressServer + '/api/removefrombalance/kiskuki12@gmail.com/1000');
+			req.open('GET', expressServer + '/api/addtobalance/kiskuki12@gmail.com/'+price);
 			req.send();
+			
+		
+		
+		
 
 
 			

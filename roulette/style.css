@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+.header{
+    height: 20%;
+    width: 100%;
+    background-color: #00141f;
+}
+body{
+    background-color: #001B29;
+    font-family: 'Geologica', 'sans-serif';
+   
+}
+#logo{
+    height: 70px;
+}
+body{
+    background-color: #001B29;
+    font-family: 'Geologica', 'sans-serif';
+}
+.menu{
+    background-color: #00293D;
+    height: 520px;
+    width: 20%;
+    color: #E0EBF0;
+    border-radius: 25px;
+    float: left;
+    margin-top: 0;
+}
+#kezdolap{
+    border-radius: 25px;
+    margin-top: 0;
+    
+}
+#roulette{
+    border-radius: 25px;
+}
+#mine{
+    border-radius: 25px;
+}
+#blackjack{
+    border-radius: 25px;
+}
+#ladak{
+    border-radius: 25px;
+}
+#kapcsolat{
+    border-radius: 25px;
+}
+#Kezdolap{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+    
+    
+}
+#Roulette{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Mines{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Blackjack{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Ladak{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Kapcsolat{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#originals{
+    height: 20%;
+    width: 80%;
+    background-color: #003047;
+    float: right;
+}
+#Originals{
+    color: white;
+}
+
+.roulette{
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin: 20px;
+}
+.mines{
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin: 20px;
+}
+.blackJack{
+    height:200px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin: 20px;
+}
+.lada{
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin: 20px;
+}
+#bonusz{
+    background-color: #003652;
+    border-radius: 25px;
+    color: white;
+    
+    height: 200px;
+    padding-left: 10px;
+    margin-left: 21%;
+}
+#Bonusz{
+    width: 50%;
+}
+#kod{
+    width: 30%;
+}
+#bonusz2{
+    background-color: #003652;
+    border-radius: 25px;
+    color: white;
+    display: none;
+    height: 200px;
+    padding-left: 10px;
+    margin-left: 21%;
+}
+#Bonusz2{
+    width: 50%;
+}
+#kod2{
+    width: 30%;
+}
+#lany{
+    height: 200px;
+    float: right;
+    border-radius: 25px;
+}
+#foot{
+    background-color: #003047;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    
+}
+#flogo{ 
+    height: 200px;
+    float: left;
+    display: inline;
+}
+#fszov{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 80%;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    display: inline;
+    
+}
+#ficon{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+}
+#fl{
+    color: white;
+}
+#kep1{
+    display: inline;
+}
+#kep2{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#fizetes{
+    background-color: black;
+    float: right;
+    margin-right: 20px;
+    border-radius: 25px;
+    margin-top: 18px;
+    font-size: 20px;
+    width: 129.5px;
+}
+#penz{
+    display: inline-block;
+   
+}
+#wallet{
+    display: inline-block;
+    background-color: #003652;
+    border-radius: 25px;
+    width: 60px;
+    font-size: 25px;
+}
+@media only screen and (max-width:1260px)
+{
+    .roulette{
+        height:175px;
+        margin:15px
+    }
+    .blackJack{
+        height:175px;
+        margin:15px
+    }
+    .mines{
+        height:175px;
+        margin:15px
+    }
+    .lada{
+        height:175px;
+        width: 175px;
+        margin:15px
+    }
+    
+}
+@media only screen and (max-width:1090px)
+{
+
+} 
+@media only screen and (max-width:1075px)
+{
+    .roulette{
+        height:150px;
+        margin:15px
+    }
+    .blackJack{
+        height:150px;
+        margin:15px
+    }
+    .mines{
+        height:150px;
+        margin:15px
+    }
+    .lada{
+        height:150px;
+        width: 150px;
+        margin:15px
+    }
+}
+@media only screen and (max-width:950px)
+{
+    .roulette{
+        height:125px;
+        margin:15px
+    }
+    .blackJack{
+        height:125px;
+        margin:15px
+    }
+    .mines{
+        height:125px;
+        margin:15px
+    }
+    .lada{
+        height:125px;
+        width: 125px;
+        margin:15px
+    }
+    .menu{
+        height: 500px;
+    }
+    #fszov{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:830px)
+{
+    #kep1{
+        display: block;
+    }
+    #kepek{
+        margin-left: 40%;
+        
+    }
+    .roulette{
+        height: 150px;
+        margin:15px
+    }
+    .blackJack{
+        height:150px;
+        margin:15px
+    }
+    .mines{
+        height:150px;
+        margin:15px
+    }
+    .lada{
+        height:150px;
+        width: 150px;
+        margin:15px
+    }
+    #foot{
+        margin-top: 50px;
+    }
+    #fszov{
+        font-size: 20px;
+    }
+    #flogo{
+        height: 200px;
+
+    }
+    .menu{
+        height: 670px;
+    }
+    #el{
+        display: none;
+    }
+    #Kezdolap{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Roulette{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Mines{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Blackjack{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Ladak{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Kapcsolat{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width:770px)
+{
+    #fszov{
+        font-size: 17px;
+    }
+    #ficon{
+        font-size: 17px;
+    }
+    #fl{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:700px)
+{
+    #kepek{
+        margin-left: 30%;
+    }
+    #flogo{
+        width: 200px;
+    }
+    #fszov{
+        font-size: 15px;
+    }
+    #ficon{
+        font-size: 15px;
+
+    }
+    .roulette{
+        height: 125px;
+    }
+    .blackJack{
+        height:125px;
+    }
+    .mines{
+        height:125px;
+    }
+    .lada{
+        height:125px;
+        width: 125px;
+    }
+    .menu{
+        height: 630px;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    #bonusz{
+        visibility: hidden;
+    }
+    #bonusz2{
+        display: block;
+        background-color: #003652;
+        border-radius: 25px;
+        color: white;
+        height: 200px;
+        padding-left: 10px;
+        margin-left: 0;
+       
+    }
+    #Bonusz2{
+        width: 50%;
+    }
+    #kod2{
+        width: 30%;
+    }
+    .menu{
+        height: 550px;
+    }
+    #kapcsolat{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 483px)
+{
+    #kepek{
+        margin-left: 40px;
+    }
+    #Originals{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:430px)
+{
+    .roulette{
+        height: 100px;
+    }
+    .blackJack{
+        height:100px;
+    }
+    .mines{
+        height:100px;
+    }
+    .lada{
+        height:100px;
+        width: 100px;
+    } 
+    #lany{
+        width: 150px;
+    }
+    #flogo{
+        
+        width: 150px;
+    }
+    #fszov{
+        font-size: 10px;
+    }
+    #fl{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:392px)
+{
+    #Originals{
+        font-size: 20px;
+    }
+    #kepek{
+        margin-left: 0;
+    }
+    .roulette{
+        height: 90px;
+    }
+    .blackJack{
+        height:90px;
+    }
+    .mines{
+        height:90px;
+    }
+    .lada{
+        height:90px;
+        width: 90px;
+    } 
+}
+@media only screen and (max-width:365px)
+{
+    #flogo{
+        
+        width: 150px;
+    }
+    #fszov{
+        font-size: 10px;
+        text-decoration: underline;
+        text-underline-offset: none;
+        text-decoration-thickness: none;
+    }
+}
+
+
+.raffle-roller {
+    height: 100px;
+    position: relative;
+    margin: 60px auto 5px auto;
+    width: 900px;
+    margin-right: 10px;
+}
+
+.raffle-roller-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.raffle-roller-holder {
+    overflow: hidden;
+    border-radius: 2px;
+    border: 1px solid #3c3759;
+}
+
+.raffle-roller-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+
+.raffle-roller-container {
+    width: 9999999999999999999px;
+    max-width: 999999999999999999px;
+    height: 100px;
+    background: #191726;
+    margin-left: 0;
+    transition: all 8s cubic-bezier(.08,.6,0,1);
+}
+
+.raffle-roller-holder:before {
+content: "";
+position: absolute;
+border: none;
+z-index: 12222225;
+width: 5px;
+height: 100%;
+left: 50%;
+background: #23aff0;
+}
+
+
+.item {
+display: inline-block;
+float: left;
+margin: 4px 0px 0.5px 5px;
+width: 85px;
+height: 88px;
+border: 1px solid #70677c;
+background: #000000;
+background-size: 100%;
+   background-repeat: no-repeat;
+background-position: center;
+}
+.class_red_item {
+    border-bottom: 4px solid #fc4444;
+}
+.class_black_item {
+    border-bottom: 4px solid #000000;
+}
+.class_green_item {
+    border-bottom: 4px solid #00ff00;
+}
+img {
+border: 0;
+vertical-align: middle;
+}
