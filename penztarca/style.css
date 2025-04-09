@@ -186,6 +186,12 @@ a:hover{
 }
 #fname{
     width: 600px;
+    background-color: black;
+    color: white;
+    height: 49px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
 }
 #masologomb{
     background-color: #14739B;
@@ -206,4 +212,190 @@ a:hover{
 }
 .qrk{
     margin-top: 30px;
+}
+@media only screen and (max-width: 1171px){
+    .kepek{
+        width: 800px;
+    }
+    .ladakkk{
+        height: 140px;
+        width: 130px;
+    }
+}
+@media only screen and (max-width: 1063px){
+    #fszov{
+        font-size: 23px;
+    }
+    #ficon{
+        font-size: 23px;
+    }
+     
+}
+@media only screen and (max-width: 1058px){
+    .kepek{
+        width: 750px;
+    }
+    .ladakkk{
+        height: 120px;
+        width: 110px;
+    }
+    #fname{
+        width: 500px;
+    }
+    .qrkod{
+        height: 230px;
+        width: 230px;
+    }
+}
+@media only screen and (max-width: 1014px){
+    #fszov{
+        font-size: 21px;
+    }
+    #ficon{
+        font-size: 21px;
+    }
+     
+}
+@media only screen and (max-width: 996px){
+    .kepek{
+        width: 700px;
+    }
+    .ladakkk{
+        height: 110px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 966px){
+    #fszov{
+        font-size: 19px;
+    }
+    #ficon{
+        font-size: 19px;
+    }
+    #fl{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 933px){
+    .kepek{
+        width: 650px;
+    }
+    .ladakkk{
+        height: 100px;
+        width: 90px;
+    }
+    #fname{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 874px){
+    .eltunik{
+        display: none;
+    }
+    #kezdolaps
+    {
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #roulet{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #min{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+        padding-top: 0;
+    }
+    #black{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #lada{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #kapcs{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+}
+@media only screen and (max-width: 871px){
+    .kepek{
+        width: 600px;
+    }
+    .ladakkk{
+        height: 90px;
+        width: 80px;
+    }
+    #fname{
+        width: 450px;
+    }
+    #masologomb{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+}
+@media only screen and (max-width: 808px){
+    .ladakkk{
+        height: 90px;
+        width: 80px;
+    }
+    #masologomb{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 350px;
+        height: 850px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 280px;
+        font-size: 10px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 665px){
+    #flogo{
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 565px){
+    #flogo{
+        width: 280px;
+    }
+    #fszov{
+        font-size: 18px;
+    }
+    #fl{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 555px){
+    #flogo{
+        width: 270px;
+    }
+    #fszov{
+        font-size: 16px;
+    }
+    #fl{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 16px;
+    }
 }
