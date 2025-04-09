@@ -88,8 +88,8 @@ a:visited{
 .raffle-roller {
     	height: 100px;
     	position: relative;
-    	margin: 60px auto 30px auto;
-    	width: 850px;
+    	margin: 20px auto 20px auto;
+    	/*width: 850px;*/
 		
 }
 
@@ -157,6 +157,39 @@ a:visited{
 #kapcsolat{
     border-radius: 25px;
 }
+
+#Kezdolap{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+    
+    
+}
+#Roulette{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Mines{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Blackjack{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Ladak{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+#Kapcsolat{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 20px;
+}
 #nyitas{
 	background-color: #003047;
 	width: 78%;
@@ -178,7 +211,7 @@ a:visited{
 
 .item {
 	display: inline-block;
-	float: left;
+
 	margin: 4px 0px 0.5px 5px;
     width: 85px;
 	height: 88px;
@@ -258,7 +291,7 @@ img {
 
 
 .open-button {
-	background-color: #1c3344;
+	background-color: #14739B;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -430,5 +463,61 @@ img {
 	to {
 		background-color: #60a5da;
 	}
+}
+@media only screen and (max-width:830px)
+{
+	#el{
+		display: none;
+	}
+	#Kezdolap{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Roulette{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Mines{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Blackjack{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Ladak{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #Kapcsolat{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    
+    #fszov{
+        font-size: 15px;
+    }
+    #flogo{
+        height: 200px;
+
+    }
+    #ficon{
+        font-size: 15px;
+    }
+    #fl{
+        font-size: 15px
+    }
 }
 
