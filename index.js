@@ -68,27 +68,27 @@ connection.connect(function(err) {
 
 
 const app = express();
-const port = process.env.PORT || 5500;
+const port = process.env.PORT || 3000;
 
 
 
 
 app.get("/api/removefrombalance/:email/:amount", (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
   const email = req.params.email;
   const amount = req.params.amount;
-  const avabal = checkBalance(email);
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  if (avabal >= amount) {
-    res.send("true");
-    removeFromBalance(email, amount);
-  }
-  else if (avabal < amount) {
-
-    res.send("false");
-    
-  }
+  removeFromBalance(email, amount);
   
 
+
+});
+
+app.get("/api/addtobalance/:email/:amount", (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  const email = req.params.email;
+  const amount = req.params.amount;
+  addToBalance(email, amount);
+  
 
 });
 
