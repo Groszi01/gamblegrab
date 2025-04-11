@@ -108,7 +108,7 @@ function goRoll(skin) {
 	});
 	setTimeout(function() {
 		$('.raffle-roller-container').css('transition', 'all 0s cubic-bezier(.08,.6,0,1)');
-		$('.raffle-roller-container').css('margin-left', '-6770px');
+		$('.raffle-roller-container').css('margin-left', '-6770px'); 
 		$('rolled').html(skin);
 		$('.modal').fadeIn();
 		$('.content-p1').html('<p>Nyereményed: '+nev+'</p>');

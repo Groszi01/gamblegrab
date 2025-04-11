@@ -75,7 +75,7 @@
         
         "10" : {
             "nev" : "Trainer Sneaker",
-            "ar" : 1000, 
+            "ar" : 1150, 
             "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-trainer-sneaker--BM9U5PMI02_PM2_Front%20view.png?wid=730&hei=730"
         },
 
@@ -198,7 +198,9 @@
     },
 
     "mercedes" : {
-        
+        "price" : 1000,
+        "name" : "Mercedes",
+        "targyakszama" : 10,
 
 
 
@@ -213,44 +215,103 @@
             "photo" : "https://media.oneweb.mercedes-benz.com/images/dynamic/europe/HU/223182/805_055/iris.png?q=COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZgk4ZbMw3SGtGyjtsd2spcUfp8cXGEubYJ0l36xOB2NbcbApRAlI5ux4YQC31gFkzNwtnm7jA7mhKV50L%25vqCJTyLRgc6YaxPXYrH1eHDn8wso3oiZB5gM4FAC2Tg95Yn6PDakNSeWHeutsd8J3cUfiFWXGE4TXJ0lg6lOB2PSEbApeIyI5usQJQC3UkTkzNGLnm7j0avhKV3YQ%25vqBtkyLR03PYaxv0SrH1LIrn8wuagoiZ4iIM4FgCPTg9Pv36PDeSFSevjzFoJpENtjUkNUWZWmtdDZGZMuMapgeLlHp7RKfJnzPk&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=420&crop="    
         },
         "2" : {
-            "nev" : "Dior Hydra Life Testápoló",
+            "nev" : "Mercedes-Benz CLA-Class 2016",
             "ar" : 1000,
-            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+            "photo" : "https://i.pinimg.com/736x/3d/98/01/3d98011fe029c408741fb8e76a267be1.jpg"    
         },
         "3" : {
-            "nev" : "Dior Hydra Life Testápoló",
+            "nev" : "Mercedes Amg Gt 63 S Coupe",
             "ar" : 1000,
-            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+            "photo" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuF88eodcxQZmhiiHW0Lrj0EEY8U8q40ESFg&s"    
         },
         "4" : {
-            "nev" : "Dior Hydra Life Testápoló",
+            "nev" : "Mercedes kulcstartó",
             "ar" : 1000,
-            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+            "photo" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8I9ExaZs52QM-opW0ZNlEFUgcnNsYpIWhw&s"    
         },
         "5" : {
-            "nev" : "Dior Hydra Life Testápoló",
+            "nev" : "Mercedes-Benz Audi A8 játék autó",
             "ar" : 1000,
-            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+            "photo" : "https://p7.hiclipart.com/preview/105/641/316/car-mercedes-benz-audi-r8-battery-electric-vehicle-toy-classic-cars.jpg"    
         },
         "6" : {
-            "nev" : "Dior Hydra Life Testápoló",
+            "nev" : "Mercedes játék autó",
             "ar" : 1000,
-            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+            "photo" : "https://p7.hiclipart.com/preview/19/120/915/city-car-mercedes-benz-xe-com-d-with-stroke-children-s-toy-car.jpg"    
         },
         "7" : {
-            "nev" : "Dior Hydra Life Testápoló",
+            "nev" : "Mercedes póló",
             "ar" : 1000,
-            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+            "photo" : "https://p7.hiclipart.com/preview/542/4/37/t-shirt-mercedes-benz-mercedes-amg-gt-mercedes-amg-petronas-f1-team-t-shirt.jpg"    
         },
         "8" : {
-            "nev" : "Dior Hydra Life Testápoló",
+            "nev" : "Mercedes-Benz F1 autó",
             "ar" : 1000,
-            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+            "photo" : "https://w7.pngwing.com/pngs/472/492/png-transparent-2016-formula-one-world-championship-mercedes-amg-petronas-f1-team-mercedes-amg-f1-w07-hybrid-car-mercedes-amg-petronas-f1-team-racing-car-performance-car-thumbnail.png"    
         },
         "9" : {
-            "nev" : "Dior Hydra Life Testápoló",
+            "nev" : "Fogkefe",
             "ar" : 1000,
-            "photo" : "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw141713b0/Y0996034/Y0996034_C099600034_E01_ZHC.jpg?sw=1024"    
+            "photo" : "https://previews.123rf.com/images/asmati/asmati1602/asmati160203031/52182266-toothbrush-with-applied-toothpaste-portion-flat-style-icon-on-transparent-background.jpg"    
+        }
+
+    },
+    "sneaker" : {
+        "price" : 1000,
+        "name" : "Sneaker",
+        "targyakszama" : 10,
+
+
+
+        "0" : {
+            "nev" : "Nike Air Max Plus Black",
+            "ar" : 1000,
+            "photo" : "https://w7.pngwing.com/pngs/268/179/png-transparent-air-jordan-shoe-sneakers-nike-xx9-nike-outdoor-shoe-sneakers-hiking-shoe.png"    
+        },
+        "1" : {
+            "nev" : "LV Trainer",
+            "ar" : 1000,
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-trainer-sneaker--BO9U7PMI20_PM2_Front%20view.jpg"    
+        },
+        "2" : {
+            "nev" : "Mercedes-Benz CLA-Class 2016",
+            "ar" : 1000,
+            "photo" : "https://i.pinimg.com/736x/3d/98/01/3d98011fe029c408741fb8e76a267be1.jpg"    
+        },
+        "3" : {
+            "nev" : "Mercedes Amg Gt 63 S Coupe",
+            "ar" : 1000,
+            "photo" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuF88eodcxQZmhiiHW0Lrj0EEY8U8q40ESFg&s"    
+        },
+        "4" : {
+            "nev" : "Mercedes kulcstartó",
+            "ar" : 1000,
+            "photo" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8I9ExaZs52QM-opW0ZNlEFUgcnNsYpIWhw&s"    
+        },
+        "5" : {
+            "nev" : "Mercedes-Benz Audi A8 játék autó",
+            "ar" : 1000,
+            "photo" : "https://p7.hiclipart.com/preview/105/641/316/car-mercedes-benz-audi-r8-battery-electric-vehicle-toy-classic-cars.jpg"    
+        },
+        "6" : {
+            "nev" : "Mercedes játék autó",
+            "ar" : 1000,
+            "photo" : "https://p7.hiclipart.com/preview/19/120/915/city-car-mercedes-benz-xe-com-d-with-stroke-children-s-toy-car.jpg"    
+        },
+        "7" : {
+            "nev" : "Mercedes póló",
+            "ar" : 1000,
+            "photo" : "https://p7.hiclipart.com/preview/542/4/37/t-shirt-mercedes-benz-mercedes-amg-gt-mercedes-amg-petronas-f1-team-t-shirt.jpg"    
+        },
+        "8" : {
+            "nev" : "Mercedes-Benz F1 autó",
+            "ar" : 1000,
+            "photo" : "https://w7.pngwing.com/pngs/472/492/png-transparent-2016-formula-one-world-championship-mercedes-amg-petronas-f1-team-mercedes-amg-f1-w07-hybrid-car-mercedes-amg-petronas-f1-team-racing-car-performance-car-thumbnail.png"    
+        },
+        "9" : {
+            "nev" : "Fogkefe",
+            "ar" : 1000,
+            "photo" : "https://previews.123rf.com/images/asmati/asmati1602/asmati160203031/52182266-toothbrush-with-applied-toothpaste-portion-flat-style-icon-on-transparent-background.jpg"    
         }
 
     }
