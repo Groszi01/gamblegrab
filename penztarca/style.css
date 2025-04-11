@@ -517,6 +517,15 @@ a:hover{
     #ficon{
         font-size: 16px;
     }
+    #fizetes{
+        background-color: black;
+        float: right;
+        margin-right: 40px;
+        border-radius: 25px;
+        margin-top: 18px;
+        font-size: 20px;
+        width: 129.5px;
+    }
 }
 @media only screen and (max-width: 519px){
     #flogo{
@@ -727,4 +736,112 @@ a:hover{
         margin-right: 40px;
     }
 
+}
+@media only screen and (max-width: 383px){
+    #flogo{
+        width: 170px;
+        height: 170px;
+    }
+    #fszov{
+        font-size: 11px;
+    }
+    #fl{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 12px;
+    }
+    #foot{
+        background-color: #003047;
+        width: 100%;
+        height: 180px;
+        margin-top: 60px;
+       
+    }
+    .ladakkk{
+        height: 50px;
+        width: 40px;
+    }
+    #masologomb{
+        padding: 12px 28px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 230px;
+        height: 850px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 200px;
+        font-size: 9.5px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+    .qrkod{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 374px){
+    #flogo{
+        width: 150px;
+        height: 150px;
+    }
+    #fszov{
+        font-size: 11px;
+    }
+    #fl{
+        font-size: 11px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 10px;
+    }
+    #foot{
+        background-color: #003047;
+        width: 100%;
+        height: 170px;
+        margin-top: 60px;
+       
+    }
+    .ladakkk{
+        height: 50px;
+        width: 40px;
+    }
+    #masologomb{
+        padding: 12px 28px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 230px;
+        height: 850px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 200px;
+        font-size: 9.5px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+    .qrkod{
+        height: 200px;
+        width: 200px;
+    }
 }
