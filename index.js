@@ -11,8 +11,16 @@ const connection = mysql.createConnection({
 
 
 function logInUser(password, email,) {
+  let loginSuccess;
   connection.query('SELECT id, email FROM users WHERE jelszo = ? AND email = ?', [password, email], function (error, results, fields) {
-    if (error) throw error;
+    if (error) {
+      throw error;
+    }
+    if (results.length > 0) {
+      loginSuccess = true;
+    } else {
+      loginSuccess = false;
+    }
     console.log(results)
   });
 }
@@ -78,9 +86,6 @@ app.get("/api/removefrombalance/:email/:amount", (req, res) => {
   const email = req.params.email;
   const amount = req.params.amount;
   removeFromBalance(email, amount);
-  
-
-
 });
 
 app.get("/api/addtobalance/:email/:amount", (req, res) => {
@@ -88,11 +93,21 @@ app.get("/api/addtobalance/:email/:amount", (req, res) => {
   const email = req.params.email;
   const amount = req.params.amount;
   addToBalance(email, amount);
-  
-
 });
 
 
+app.get("/api/loginuser/:email/:pass"), (req, res) => {
+  const email = req.params.email;
+  const pass = req.params.pass;
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  logInUser(email, pass);
+ 
+  if (loginSuccess) {
+    res.status(200).send("Login successful");
+  } else {
+    res.status(401).send("Login failed");
+  }
+}
 
 
 
