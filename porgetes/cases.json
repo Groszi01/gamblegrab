@@ -274,47 +274,109 @@
             "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-trainer-sneaker--BO9U7PMI20_PM2_Front%20view.jpg"    
         },
         "2" : {
-            "nev" : "Mercedes-Benz CLA-Class 2016",
+            "nev" : "Nike Air Force 1",
             "ar" : 1000,
-            "photo" : "https://i.pinimg.com/736x/3d/98/01/3d98011fe029c408741fb8e76a267be1.jpg"    
+            "photo" : "https://w7.pngwing.com/pngs/869/483/png-transparent-nike-free-air-force-1-sneakers-nike-air-max-nike-white-football-boot-outdoor-shoe-thumbnail.png"    
         },
         "3" : {
-            "nev" : "Mercedes Amg Gt 63 S Coupe",
+            "nev" : "Louis Vuitton Virgil Abloh",
             "ar" : 1000,
-            "photo" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuF88eodcxQZmhiiHW0Lrj0EEY8U8q40ESFg&s"    
+            "photo" : "https://uk.static.designerexchange.com/product_images/uk/Shoes/Trainers/STRALOU776098_1_XL.PNG"    
         },
         "4" : {
-            "nev" : "Mercedes kulcstartó",
+            "nev" : "Balba jaros",
             "ar" : 1000,
-            "photo" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8I9ExaZs52QM-opW0ZNlEFUgcnNsYpIWhw&s"    
+            "photo" : "https://www.pngall.com/wp-content/uploads/14/Louis-Vuitton-Shoes-PNG-Photo.png"    
         },
         "5" : {
-            "nev" : "Mercedes-Benz Audi A8 játék autó",
+            "nev" : "Dior B22",
             "ar" : 1000,
-            "photo" : "https://p7.hiclipart.com/preview/105/641/316/car-mercedes-benz-audi-r8-battery-electric-vehicle-toy-classic-cars.jpg"    
+            "photo" : "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/021/574/914/original/3SN231YJG.png.png?action=crop&width=750"    
         },
         "6" : {
-            "nev" : "Mercedes játék autó",
+            "nev" : "Big Red Boots",
             "ar" : 1000,
-            "photo" : "https://p7.hiclipart.com/preview/19/120/915/city-car-mercedes-benz-xe-com-d-with-stroke-children-s-toy-car.jpg"    
+            "photo" : "https://i0.wp.com/www.art-critique.com/wp-content/uploads/2023/02/9d95075e8b90fbff4ce44e01a5b3bdb0.webp?resize=1200%2C680&ssl=1"    
         },
         "7" : {
-            "nev" : "Mercedes póló",
+            "nev" : "Minecraft Crocs",
             "ar" : 1000,
-            "photo" : "https://p7.hiclipart.com/preview/542/4/37/t-shirt-mercedes-benz-mercedes-amg-gt-mercedes-amg-petronas-f1-team-t-shirt.jpg"    
+            "photo" : "https://cdn.shopify.com/s/files/1/0502/1414/2112/files/minecraft-classic-clog-crocs-south-africa-968256.png?v=1741132460"    
         },
         "8" : {
-            "nev" : "Mercedes-Benz F1 autó",
+            "nev" : "Fortnite Pink Crocs",
             "ar" : 1000,
-            "photo" : "https://w7.pngwing.com/pngs/472/492/png-transparent-2016-formula-one-world-championship-mercedes-amg-petronas-f1-team-mercedes-amg-f1-w07-hybrid-car-mercedes-amg-petronas-f1-team-racing-car-performance-car-thumbnail.png"    
+            "photo" : "https://media.crocs.com/images/t_pdphero/f_auto%2Cq_auto/products/210497_9DD_ALT110/crocs"    
         },
         "9" : {
-            "nev" : "Fogkefe",
+            "nev" : "Hillbilly surrano",
             "ar" : 1000,
-            "photo" : "https://previews.123rf.com/images/asmati/asmati1602/asmati160203031/52182266-toothbrush-with-applied-toothpaste-portion-flat-style-icon-on-transparent-background.jpg"    
+            "photo" : "https://cdn11.bigcommerce.com/s-l2ej5l/images/stencil/original/products/7845/12056/880b5c4e-f7ef-44b1-a33f-7c38b6038ca3__65071.1664034222.png?c=2&imbypass=on&imbypass=on"    
         }
 
+
+    },
+    "ora" : {
+        "price" : 1000,
+        "name" : "Ora",
+        "targyakszama" : 10,
+
+
+
+        "0" : {
+            "nev" : "Rolex Submariner",
+            "ar" : 1000,
+            "photo" : "https://content.thewosgroup.com/productimage/17304449/17304449_1.png"    
+        },
+        "1" : {
+            "nev" : "Audemars Piguet Royal Oak blue dial",
+            "ar" : 1000,
+            "photo" : "https://www.watchaser.com/cdn/shop/files/audemars-piguet-royaloak-jumbo-extra-thin-blue-dial-diamonds.png?v=1689627967"    
+        },
+        "2" : {
+            "nev" : "Cartier Santos ",
+            "ar" : 1000,
+            "photo" : "https://www.tourneau.com/on/demandware.static/-/Sites-master-catalog/default/dw51137dcd/images/large/wssa0063-cartier-santos-de-cartier-medium-model-car0356037.png"    
+        },
+        "3" : {
+            "nev" : "Patek Philippe Nautilus",
+            "ar" : 1000,
+            "photo" : "https://ewwatches.com/media/catalog/product/cache/1c6bb51384d1d755698ed572834ca6d5/5/7/5711_1r-001.png"    
+        },
+        "4" : {
+            "nev" : "Rolex Daydate",
+            "ar" : 1000,
+            "photo" : "https://www.prestonsdiamonds.co.uk/storage/rolex/upright_watches_assets/desktop/m228238-0042_drp-upright-bba-with-shadow.png"    
+        },
+        "5" : {
+            "nev" : "McQueen ora",
+            "ar" : 1000,
+            "photo" : "https://ae01.alicdn.com/kf/S846611a54d5f4add8ca23e1ffbe1fcfeh.jpg"    
+        },
+        "6" : {
+            "nev" : "Casio",
+            "ar" : 1000,
+            "photo" : "https://www.ekszerora.hu/wp-content/uploads/2024/05/CASIO-AQ-230A-2A2MQYES-Karora.png.webp"    
+        },
+        "7" : {
+            "nev" : "Omega speedmaster",
+            "ar" : 1000,
+            "photo" : "https://www.omegawatches.com/media/catalog/product/o/m/omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31060425010001-watch-wrist-2c15a6.png"    
+        },
+        "8" : {
+            "nev" : "",
+            "ar" : 1000,
+            "photo" : "https://media.crocs.com/images/t_pdphero/f_auto%2Cq_auto/products/210497_9DD_ALT110/crocs"    
+        },
+        "9" : {
+            "nev" : "Hillbilly surrano",
+            "ar" : 1000,
+            "photo" : "https://cdn11.bigcommerce.com/s-l2ej5l/images/stencil/original/products/7845/12056/880b5c4e-f7ef-44b1-a33f-7c38b6038ca3__65071.1664034222.png?c=2&imbypass=on&imbypass=on"    
+        }
+
+
     }
+
     
 
 
