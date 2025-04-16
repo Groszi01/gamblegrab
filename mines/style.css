@@ -27,6 +27,24 @@
     width: 60px;
     font-size: 25px;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: #001B29;
+    font-family: 'Geologica', 'sans-serif';
+}
+#kapcsolat{
+    background-color: #003D5C;
+    margin-top: 200px;
+    height: 40px;
+    border-radius: 25px;
+}
 #kezd{
     background-color: #003D5C;
     margin-bottom: 51px;
