@@ -104,3 +104,15 @@
     padding-top: 2px;
     font-size: 25px;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: #001B29;
+    font-family: 'Geologica', 'sans-serif';
+}
