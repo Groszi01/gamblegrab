@@ -364,18 +364,139 @@
             "photo" : "https://www.omegawatches.com/media/catalog/product/o/m/omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31060425010001-watch-wrist-2c15a6.png"    
         },
         "8" : {
-            "nev" : "",
+            "nev" : "Quinting Challenge",
             "ar" : 1000,
-            "photo" : "https://media.crocs.com/images/t_pdphero/f_auto%2Cq_auto/products/210497_9DD_ALT110/crocs"    
+            "photo" : "https://www.quinting-watches.com/1281-large_default/quinting-challenge.jpg"    
         },
         "9" : {
-            "nev" : "Hillbilly surrano",
+            "nev" : "Roulette watch",
             "ar" : 1000,
-            "photo" : "https://cdn11.bigcommerce.com/s-l2ej5l/images/stencil/original/products/7845/12056/880b5c4e-f7ef-44b1-a33f-7c38b6038ca3__65071.1664034222.png?c=2&imbypass=on&imbypass=on"    
+            "photo" : "https://www.datocms-assets.com/99008/1730139954-ca100-30-aa-aa-a.webp?auto=compress%2Cformat"    
+        }
+
+
+    },
+    "ruha" : {
+        "price" : 1000,
+        "name" : "Ruha",
+        "targyakszama" : 10,
+
+
+
+        "0" : {
+            "nev" : "Purple Jeans",
+            "ar" : 1000,
+            "photo" : "https://images.garmentory.com/images/3994527/original/Purple-Brand-Low-Rise-Slim-Leg-Jeans---Light-Indigo-Paint-Blowout-20200716215003.png?1594936204"    
+        },
+        "1" : {
+            "nev" : "Nike Therma pants",
+            "ar" : 1000,
+            "photo" : "https://midwaysports.com/cdn/shop/files/NikeMen_sThermaPantRegular_7_f04a9d12-1c21-4860-909c-d564f1bcfd3c.png?v=1716894421"    
+        },
+        "2" : {
+            "nev" : "Spider hoodie ",
+            "ar" : 1000,
+            "photo" : "https://www.jawnsonfire.com/cdn/shop/files/sp5der-og-web-v2-black-rhinestone-logo-hoodie-hoodie-jawns-on-fire-sneakers-streetwear-965493.png?v=1736802601"    
+        },
+        "3" : {
+            "nev" : "New Yorker hooide",
+            "ar" : 1000,
+            "photo" : "https://api.newyorker.de/csp/images/image/public/a5be2f8663ad00683d4122a8f5750e78.png?res=mid"    
+        },
+        "4" : {
+            "nev" : "New Yorker jeans",
+            "ar" : 1000,
+            "photo" : "https://api.newyorker.de/csp/images/image/public/4a4d332f8d04d24ffe348f4d75f00664.png?res=low"    
+        },
+        "5" : {
+            "nev" : "Techno t-shirt",
+            "ar" : 1000,
+            "photo" : "https://images.teemill.com/0o1rb48wsstdknwgil9p7jkejfmr4ceh8qrxut8jbzprykgl.png.png?w=1080&h=auto"    
+        },
+        "6" : {
+            "nev" : "Denim Tears hooide",
+            "ar" : 1000,
+            "photo" : "https://www.truetosole.hu/cdn/shop/files/DenimTearsCottonWreathSweatshirt_700x700.png?v=1730297418"    
+        },
+        "7" : {
+            "nev" : "Denim Tears sweatpants",
+            "ar" : 1000,
+            "photo" : "https://www.truetosole.hu/cdn/shop/files/DenimTearsSweatpantsBlack_1_700x700.png?v=1730297648"    
+        },
+        "8" : {
+            "nev" : "Gucci Tracksuit",
+            "ar" : 1000,
+            "photo" : "https://www.vhv.rs/dpng/d/565-5659632_gucci-jacquard-tracksuit-jacket-gg-jacquard-cotton-jacket.png"    
+        },
+        "9" : {
+            "nev" : "Louis Vuitton hooide",
+            "ar" : 1000,
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-embellished-shearling-hoodie--HSL87WTAV900_PM2_Front%20view.jpg"    
+        }
+
+
+    },
+    "mix" : {
+        "price" : 1000,
+        "name" : "Mix",
+        "targyakszama" : 10,
+
+
+
+        "0" : {
+            "nev" : "Bugatti Veyron",
+            "ar" : 1000,
+            "photo" : "https://p1.hiclipart.com/preview/118/942/525/cartoon-car-bugatti-bugatti-veyron-bugatti-chiron-bugatti-automobiles-bugatti-type-57-land-vehicle-sports-car-png-clipart.jpg"    
+        },
+        "1" : {
+            "nev" : "Lamborghini Aventador",
+            "ar" : 1000,
+            "photo" : "https://png.pngtree.com/png-vector/20240602/ourlarge/pngtree-a-sleek-lamborghini-aventador-ssp-sports-car-speeding-on-road-showcasing-png-image_12606964.png"    
+        },
+        "2" : {
+            "nev" : "Spider hoodie ",
+            "ar" : 1000,
+            "photo" : "https://www.jawnsonfire.com/cdn/shop/files/sp5der-og-web-v2-black-rhinestone-logo-hoodie-hoodie-jawns-on-fire-sneakers-streetwear-965493.png?v=1736802601"    
+        },
+        "3" : {
+            "nev" : "New Yorker hooide",
+            "ar" : 1000,
+            "photo" : "https://api.newyorker.de/csp/images/image/public/a5be2f8663ad00683d4122a8f5750e78.png?res=mid"    
+        },
+        "4" : {
+            "nev" : "New Yorker jeans",
+            "ar" : 1000,
+            "photo" : "https://api.newyorker.de/csp/images/image/public/4a4d332f8d04d24ffe348f4d75f00664.png?res=low"    
+        },
+        "5" : {
+            "nev" : "Techno t-shirt",
+            "ar" : 1000,
+            "photo" : "https://images.teemill.com/0o1rb48wsstdknwgil9p7jkejfmr4ceh8qrxut8jbzprykgl.png.png?w=1080&h=auto"    
+        },
+        "6" : {
+            "nev" : "Denim Tears hooide",
+            "ar" : 1000,
+            "photo" : "https://www.truetosole.hu/cdn/shop/files/DenimTearsCottonWreathSweatshirt_700x700.png?v=1730297418"    
+        },
+        "7" : {
+            "nev" : "Denim Tears sweatpants",
+            "ar" : 1000,
+            "photo" : "https://www.truetosole.hu/cdn/shop/files/DenimTearsSweatpantsBlack_1_700x700.png?v=1730297648"    
+        },
+        "8" : {
+            "nev" : "Gucci Tracksuit",
+            "ar" : 1000,
+            "photo" : "https://www.vhv.rs/dpng/d/565-5659632_gucci-jacquard-tracksuit-jacket-gg-jacquard-cotton-jacket.png"    
+        },
+        "9" : {
+            "nev" : "Louis Vuitton hooide",
+            "ar" : 1000,
+            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-embellished-shearling-hoodie--HSL87WTAV900_PM2_Front%20view.jpg"    
         }
 
 
     }
+
 
     
 
