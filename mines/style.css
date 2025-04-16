@@ -1,0 +1,71 @@
+#kezd{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#roulette{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#mines{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#blackjack{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#ladak{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+.menu{
+    background-color: #00293D;
+    color: white;
+    border-radius: 25px;
+    height: 690px;
+    width: 20%;
+    float: left;
+    margin-top: 0;
+}
+#kezdolaps{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+    margin-top: 0;
+    
+}
+#roulet{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+}
+#min{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+}
+#black{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+}
+#lada{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+}
+#kapcs{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+}
