@@ -15,6 +15,14 @@ body{
 body{
     background-color: #001B29;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
 .menu{
     background-color: #00293D;
     height: 520px;
