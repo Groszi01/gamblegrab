@@ -580,12 +580,15 @@ background-position: center;
 }
 .class_red_item {
     border-bottom: 4px solid #fc4444;
+    color: white;
 }
 .class_black_item {
     border-bottom: 4px solid #000000;
+    color: white;
 }
 .class_green_item {
     border-bottom: 4px solid #00ff00;
+    color: white;
 }
 img {
 border: 0;
