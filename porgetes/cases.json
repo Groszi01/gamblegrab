@@ -555,6 +555,66 @@
         }
 
 
+    },
+    "gamer" : {
+        "price" : 1000,
+        "name" : "Gamer",
+        "targyakszama" : 10,
+
+
+
+        "0" : {
+            "nev" : "Redragon CASTOR K631 Pro",
+            "ar" : 1000,
+            "photo" : "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/CASTORK631PROFull-TransparentMechanicalKeyboard_5.png?v=1691639636&width=3840&quality=75"    
+        },
+        "1" : {
+            "nev" : "Gamer egérpad",
+            "ar" : 1000,
+            "photo" : "https://astrohardver.hu/product/steelseries-qck-xxl-egerpad_1.png"    
+        },
+        "2" : {
+            "nev" : "Razer wireless gamer egér",
+            "ar" : 1000,
+            "photo" : "https://oyster.ignimgs.com/wordpress/stg.ign.com/2017/06/2017-04-26-image-2.png"    
+        },
+        "3" : {
+            "nev" : "",
+            "ar" : 1000,
+            "photo" : ""    
+        },
+        "4" : {
+            "nev" : "",
+            "ar" : 1000,
+            "photo" : ""    
+        },
+        "5" : {
+            "nev" : "",
+            "ar" : 1000,
+            "photo" : ""    
+        },
+        "6" : {
+            "nev" : "",
+            "ar" : 1000,
+            "photo" : ""    
+        },
+        "7" : {
+            "nev" : "",
+            "ar" : 1000,
+            "photo" : ""    
+        },
+        "8" : {
+            "nev" : "",
+            "ar" : 1000,
+            "photo" : ""    
+        },
+        "9" : {
+            "nev" : "",
+            "ar" : 1000,
+            "photo" : ""    
+        }
+
+
     }
 
 
