@@ -9,6 +9,14 @@ body{
     font-family: 'Geologica', 'sans-serif';
    
 }
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
 #logo{
     height: 70px;
 }
