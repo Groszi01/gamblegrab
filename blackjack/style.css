@@ -7,6 +7,11 @@
 #logo{
     height: 70px;
 }
+#adat{
+    color: white;
+    font-size: 50px;
+    text-indent: 20px;
+}
 #fizetes{
     background-color: black;
     float: right;
@@ -961,6 +966,9 @@ body{
         margin: 0;
         
     }
+    #adat{
+        font-size: 40px;
+    }
     .masodiksor{
         height: 120px;
         width: 110px;
@@ -1188,6 +1196,9 @@ body{
     }
     #flogo{
         height: 160px;
+    }
+    #adat{
+        font-size: 30px;
     }
 
 }

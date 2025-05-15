@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Pénztárca</title>
 </head>
 <body>
@@ -27,16 +29,17 @@
     
     <div class="kepek" style="text-indent: 20px;">
         <div>
-            <img src="../kepek/etimages-removebg-preview.png" class="ladakkk" alt="Ethereum logo">
-            <img src="../kepek/imageedit_4_5777341778.png" class="ladakkk"  alt="Bitcoin logo">
+            <img src="../kepek/etimages-removebg-preview.png" class="ladakkk" id="ethereum" alt="Ethereum logo">
+            <img src="../kepek/imageedit_4_5777341778.png" class="ladakkk" id="bitcoin"   alt="Bitcoin logo">
             <img src="../kepek/litecoin-removebg-preview.png" class="ladakkk" id="litecoin" alt="Lite coin">
-            <img src="../kepek/monero-logo-black-and-white-johns-hopkins-logo-removebg-preview.png" class="ladakkk" alt="Monero coin">
+            <img src="../kepek/monero-logo-black-and-white-johns-hopkins-logo-removebg-preview.png" class="ladakkk" id="monero" alt="Monero coin">
         </div>
         <div class="formm">
             <form action="#" class="form">
-                <input id="fname" name="fname"  value="0xzudzsajkx78cz76as89d7786sd7as78d68asas76d789869">
-                <button id="masologomb">Másolás</button>
+                <input id="fname" name="fname"  value="">
+               
             </form>
+            <button id="masologomb">Másolás</button>
         </div>
         <div class="qrk">
             <img src="../kepek/Untitled.jpg" alt="qr kód" class="qrkod">
@@ -57,5 +60,7 @@
         </div>
     </footer>
     
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+     <script src="index.js"></script>
 </body>
 </html>
