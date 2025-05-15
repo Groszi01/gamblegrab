@@ -35,7 +35,7 @@ function generate() {
 			}
 
 
-			let element = '<div id="CardNumber'+i+'" class="item class_'+color+'_item"> '+ j +'</div>';
+			let element = '<div id="CardNumber'+j+'" class="item class_'+color+'_item"> '+ j +'</div>';
 		
 			$(element).appendTo('.raffle-roller-container');
 		}
@@ -58,7 +58,7 @@ function generate() {
 
 		
 	}
-	goRoll(random);
+	goRoll();
 }
 
 	
@@ -73,20 +73,31 @@ function generate() {
 
 
 
-function goRoll(szam) {
+function goRoll() {
 
 
 	var random = randomInt(-15000, -2000);
-
 	$('.raffle-roller-container').css({
 		transition: "all 8s cubic-bezier(.08,.6,0,1)"
 	});
-	$('#CardNumber78').html(szam);
 	setTimeout(function() {
-		$('.raffle-roller-container').css('transition', 'all 6s cubic-bezier(.08,.6,0,1)');
 		$('.raffle-roller-container').css('margin-left', random + 'px');
-		$('rolled').html(szam);
+
+
+
+
+
+
 		
+
+
+
+		
+		
+
+
+			
+	
 		
 		
 		
@@ -110,3 +121,9 @@ function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
   }
   
+
+function isTouching(CardNumber) {
+	var raffleRollerHolder = document.querySelector('.raffle-roller-container');
+	var CardNumberElement = document.getElementById(CardNumber);
+	
+}
