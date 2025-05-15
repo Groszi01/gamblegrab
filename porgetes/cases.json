@@ -496,62 +496,122 @@
 
 
     },
-    "apple" : {
+    "egyszazalek" : {
         "price" : 1000,
-        "name" : "Apple",
+        "name" : "Egyszazalek",
         "targyakszama" : 10,
 
 
 
         "0" : {
-            "nev" : "Iphone 3GS",
+            "nev" : "2023 Bugatti Divo",
             "ar" : 1000,
-            "photo" : "https://w7.pngwing.com/pngs/183/70/png-transparent-iphone-3gs-iphone-4-telephone-others-electronics-gadget-mobile-phone.png"    
+            "photo" : "https://img.pcauto.com/model/images/touPic/my/Bugatti-Divo_4970_5c8e4c82e4964951974c1482c3a3947b.png"    
         },
         "1" : {
-            "nev" : "Iphone tolto kabel",
+            "nev" : "1000 V Bucks",
             "ar" : 1000,
-            "photo" : "https://i.pinimg.com/736x/4a/48/98/4a4898ad3a5d3e0b4bafbfbfc9bcb995.jpg"    
+            "photo" : "https://www.pngkey.com/png/full/23-236024_current-item-shop-1000-v-bucks-png.png"    
         },
         "2" : {
-            "nev" : "Iphone tolto fej",
+            "nev" : "1000 V Bucks",
             "ar" : 1000,
-            "photo" : "https://png.pngtree.com/png-vector/20201224/ourmid/pngtree-mobile-phone-charger-charger-charging-head-vector-png-image_2620297.jpg"    
+            "photo" : "https://www.pngkey.com/png/full/23-236024_current-item-shop-1000-v-bucks-png.png"    
         },
         "3" : {
-            "nev" : "Iphone 16 Pro Max",
+            "nev" : "1000 V Bucks",
             "ar" : 1000,
-            "photo" : "https://alephksa.com/cdn/shop/files/iphone-16-pro-max-clear-case-with-magsafe_MA7F4_AV2_a28cb523-15c7-4b40-a855-ffc813f37403.png?v=1727250404&width=823"    
+            "photo" : "https://www.pngkey.com/png/full/23-236024_current-item-shop-1000-v-bucks-png.png"    
         },
         "4" : {
-            "nev" : "Elso Iphone",
+            "nev" : "1000 V Bucks",
             "ar" : 1000,
-            "photo" : "https://www.clipartmax.com/png/middle/151-1512813_iphone-first-iphone-2007.png"    
+            "photo" : "https://www.pngkey.com/png/full/23-236024_current-item-shop-1000-v-bucks-png.png"    
         },
         "5" : {
-            "nev" : "Iphone 10",
+            "nev" : "1000 V Bucks",
             "ar" : 1000,
-            "photo" : ""    
+            "photo" : "https://www.pngkey.com/png/full/23-236024_current-item-shop-1000-v-bucks-png.png"    
         },
         "6" : {
-            "nev" : "",
+            "nev" : "1000 V Bucks",
             "ar" : 1000,
-            "photo" : "https://assets.christiandior.com/is/image/diorprod/DTAGSUXT85B8_E03?$default_GHC_640$&crop=69,781,1899,746&bfc=on&qlt=85"    
+            "photo" : "https://www.pngkey.com/png/full/23-236024_current-item-shop-1000-v-bucks-png.png"    
         },
         "7" : {
-            "nev" : "",
+            "nev" : "1000 V Bucks",
             "ar" : 1000,
-            "photo" : "https://assets.christiandior.com/is/image/diorprod/2OBBH027YSEH05E_E01?$default_GHC$&crop=614,1187,772,625&wid=640&hei=692&scale=0.3027&bfc=on&qlt=85"    
+            "photo" : "https://www.pngkey.com/png/full/23-236024_current-item-shop-1000-v-bucks-png.png"    
         },
         "8" : {
-            "nev" : "",
+            "nev" : "1000 V Bucks",
             "ar" : 1000,
-            "photo" : "https://www.vhv.rs/dpng/d/565-5659632_gucci-jacquard-tracksuit-jacket-gg-jacquard-cotton-jacket.png"    
+            "photo" : "https://www.pngkey.com/png/full/23-236024_current-item-shop-1000-v-bucks-png.png"    
         },
         "9" : {
-            "nev" : "",
+            "nev" : "1000 V Bucks",
             "ar" : 1000,
-            "photo" : "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-embellished-shearling-hoodie--HSL87WTAV900_PM2_Front%20view.jpg"    
+            "photo" : "https://www.pngkey.com/png/full/23-236024_current-item-shop-1000-v-bucks-png.png"    
+        }
+
+
+    },
+    "gamer" : {
+        "price" : 1000,
+        "name" : "Gamer",
+        "targyakszama" : 10,
+
+
+
+        "0" : {
+            "nev" : "Redragon CASTOR K631 Pro",
+            "ar" : 1000,
+            "photo" : "https://cdn.shopify.com/s/files/1/0012/4957/4961/files/CASTORK631PROFull-TransparentMechanicalKeyboard_5.png?v=1691639636&width=3840&quality=75"    
+        },
+        "1" : {
+            "nev" : "Gamer egérpad",
+            "ar" : 1000,
+            "photo" : "https://astrohardver.hu/product/steelseries-qck-xxl-egerpad_1.png"    
+        },
+        "2" : {
+            "nev" : "Razer wireless gamer egér",
+            "ar" : 1000,
+            "photo" : "https://oyster.ignimgs.com/wordpress/stg.ign.com/2017/06/2017-04-26-image-2.png"    
+        },
+        "3" : {
+            "nev" : "H3 Hybrid Black",
+            "ar" : 1000,
+            "photo" : "https://www.eposaudio.com/globalassets/__pim/products/h3-series/h3-hybrid-black/e980366d-acd7-4d4b-ba6c-793c05106bf7_21230_h3-hybrid-black_a2_front-view_fullsizepng.png?width=860"    
+        },
+        "4" : {
+            "nev" : "Gamer PC",
+            "ar" : 1000,
+            "photo" : "https://static.vecteezy.com/system/resources/previews/048/412/788/non_2x/modern-gaming-pc-isolated-on-transparent-free-png.png"    
+        },
+        "5" : {
+            "nev" : "PlayStation 5",
+            "ar" : 1000,
+            "photo" : "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$"    
+        },
+        "6" : {
+            "nev" : "Xbox Series X",
+            "ar" : 1000,
+            "photo" : "https://konzolkozert.hu/wp-content/uploads/2020/10/f79cf7d6-8fe6-407d-817e-441767306365.png"    
+        },
+        "7" : {
+            "nev" : "Egér",
+            "ar" : 1000,
+            "photo" : "https://static.vecteezy.com/system/resources/thumbnails/011/653/833/small_2x/old-computer-mouse-png.png"    
+        },
+        "8" : {
+            "nev" : "ONIKUMA K9",
+            "ar" : 1000,
+            "photo" : "https://onikumagaming.com/cdn/shop/products/K9-BLUE_4.png?v=1646617647"    
+        },
+        "9" : {
+            "nev" : "Gamer monitor",
+            "ar" : 1000,
+            "photo" : "https://png.pngtree.com/png-vector/20231018/ourmid/pngtree-curve-screen-gaming-monitor-device-png-image_10206079.png"    
         }
 
 

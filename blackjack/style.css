@@ -1,0 +1,1378 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+.header{
+    height: 20%;
+    width: 100%;
+    background-color: #00141f;
+}
+#logo{
+    height: 70px;
+}
+#adat{
+    color: white;
+    font-size: 50px;
+    text-indent: 20px;
+}
+#fizetes{
+    background-color: black;
+    float: right;
+    margin-right: 60px;
+    border-radius: 25px;
+    margin-top: 18px;
+    font-size: 20px;
+    width: 129.5px;
+}
+#penz{
+    display: inline-block;
+    
+}
+#wallet{
+    display: inline-block;
+    background-color: #003652;
+    border-radius: 25px;
+    width: 60px;
+    font-size: 25px;
+}
+#kapcsolat{
+    background-color: #003D5C;
+    margin-top: 200px;
+    height: 40px;
+    border-radius: 25px;
+}
+#kezd{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#roulette{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#mines{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#blackjack{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+#ladak{
+    background-color: #003D5C;
+    margin-bottom: 51px;
+    height: 40px;
+    border-radius: 25px;
+}
+.menu{
+    background-color: #00293D;
+    color: white;
+    border-radius: 25px;
+    height: 690px;
+    width: 20%;
+    float: left;
+    margin-top: 0;
+}
+#kezdolaps{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+    margin-top: 0;
+    
+}
+#roulet{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+}
+#min{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+}
+#black{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+}
+#lada{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+}
+#kapcs{
+    margin-left: 20px;
+    padding-top: 2px;
+    font-size: 25px;
+}
+#adatok{
+    height: 20%;
+    width: 80%;
+    background-color: #003047;
+    float: right;  
+    border-radius: 25px;
+    height: 650px;
+    width: 77%;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: #001B29;
+    font-family: 'Geologica', 'sans-serif';
+}
+#foot{
+    background-color: #003047;
+    width: 100%;
+    height: 300px;
+    margin-top: 700px;
+   
+}
+#flogo{
+    height: 300px;
+    float: left;
+    display: inline;
+}
+#fszov{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 80%;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    display: inline;
+   
+}
+#ficon{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+}
+#fl{
+    color: white;
+    font-size: 23px;
+}
+@media only screen and (max-width: 1250px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 25px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 25px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 25px;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 25px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1200px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 25px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 25px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 25px;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 25px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1147px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 23px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 23px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 23px;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 23px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1127px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 21px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 21px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 21px;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 21px;
+        margin: 0;
+        
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width: 1107px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 19px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 19px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 19px;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 19px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1087px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 17px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 17px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 17px;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 17px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1067px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 15px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 15px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 15x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 15px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1063px){
+    #flogo{
+        height: 270px;
+    }
+    #ficon{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 1047px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 13px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 13px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 13x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 13px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 1027px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 11px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 11px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 11x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 11px;
+        margin: 0;
+        
+    }
+    #flogo{
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 1007px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 9px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 9px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 9x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 9px;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    #flogo{
+        height: 240px;
+    }
+}
+@media only screen and (max-width: 981px){
+    #fszov{
+        font-size: 22px;
+    }
+    #ficon{
+        font-size: 22px;
+    }
+    
+}
+@media only screen and (max-width: 987px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 7px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 7px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 7x;
+        margin: 0;
+        
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 7px;
+        margin: 0;
+        
+    }
+}
+@media only screen and (max-width: 974px){
+    #fszov{
+        font-size: 22px;
+    }
+    #fl{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 967px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 5px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 5px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 5x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 5px;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 947px){
+    .ladakkk{
+        height: 160px;
+        border-radius: 25%;
+        width: 150px;
+        padding: 10px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 10px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 10x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 10px;
+        margin: 0;
+    }
+    .menu{
+        height: 650px;
+    }
+    #kapcsolat{
+        margin-top: 160px;
+    }
+}
+@media only screen and (max-width: 915px){
+    #fszov{
+        font-size: 20px;
+    }
+    #ficon{
+        font-size: 20px;
+    }
+    
+}
+@media only screen and (max-width: 897px){
+    .ladakkk{
+        height: 160px;
+        border-radius: 25%;
+        width: 150px;
+        padding: 8px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 8px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 8x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 8px;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 877px){
+    .ladakkk{
+        height: 160px;
+        border-radius: 25%;
+        width: 150px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 18px;
+    }
+    #foot{
+        height: 280px;
+    }
+}
+@media only screen and (max-width: 867px){
+    #fszov{
+        font-size: 19px;
+    }
+    #ficon{
+        font-size: 19px;
+    }
+    #fl{
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 857px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 15px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 15px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 15x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 15px;
+        margin: 0;
+    }
+    .menu{
+        height: 630px;
+    }
+    #kapcsolat{
+        margin-top: 150px;
+    }
+}
+@media only screen and (max-width: 847px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 12px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 12px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 12x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 12px;
+        margin: 0;
+    }
+    .menu
+    {
+        height: 600px;
+    }
+    #kapcsolat{
+        margin-top: 120px;
+    }
+}
+@media only screen and (max-width: 834px){
+    .eltunik{
+        display: none;
+    }
+    #kezdolaps
+    {
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #roulet{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #min{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+        padding-top: 0;
+    }
+    #black{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #lada{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #kapcs{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+}
+@media only screen and (max-width: 817px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 10px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 10px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 10x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 10px;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 797px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 8px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 8px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 8x;
+        margin: 0;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 8px;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 777px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 757px){
+    .ladakkk{
+        height: 120px;
+        border-radius: 25%;
+        width: 110px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    #adat{
+        font-size: 40px;
+    }
+    .masodiksor{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+    .menu{
+        height: 500px;
+    }
+    #kapcsolat{
+        margin-top: 80px;
+    }
+    #roulette{
+        margin-bottom: 30px;
+    }
+    #kezd{
+        margin-bottom: 30px;
+    }
+    #mines{
+        margin-bottom: 30px;
+    }
+    #blackjack{
+        margin-bottom: 30px;
+    }
+    #ladak{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 657px){
+    .ladakkk{
+        height: 200px;
+        border-radius: 25%;
+        width: 190px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 200px;
+        width: 190px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 200px;
+        width: 190px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 200px;
+        width: 190px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+    
+    #kapcsolat{
+        margin-top: 200px;
+    }
+    #roulette{
+        margin-bottom: 60px;
+    }
+    #kezd{
+        margin-bottom: 60px;
+    }
+    #mines{
+        margin-bottom: 60px;
+    }
+    #blackjack{
+        margin-bottom: 60px;
+    }
+    #ladak{
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (max-width: 593px){
+    #fszov{
+        font-size: 16px;
+    }
+    #ficon{
+        font-size: 16px;
+    }
+    #fl{
+        font-size: 16px;
+    }
+    #flogo{
+        height: 200px;
+    }
+    #foot{
+        height: 210px;
+    }
+}
+@media only screen and (max-width: 560px){
+    #ladakk{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 548px){
+    .ladakkk{
+        height: 180px;
+        border-radius: 25%;
+        width: 170px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 180px;
+        width: 170px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 498px){
+    .ladakkk{
+        height: 160px;
+        border-radius: 25%;
+        width: 150px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 160px;
+        width: 150px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 504px){
+    #fszov{
+        font-size: 14px;
+    }
+    #ficon{
+        font-size: 14px;
+    }
+    #fl{
+        font-size: 16px;
+        margin-top: 2%;
+    }
+    #flogo{
+        height: 180px;
+    }
+
+}
+@media only screen and (max-width: 457px){
+    #fszov{
+        font-size: 14px;
+    }
+    #ficon{
+        font-size: 14px;
+    }
+    #fl{
+        font-size: 14px;
+        margin-top: -1%;
+    }
+    #flogo{
+        height: 160px;
+    }
+    #adat{
+        font-size: 30px;
+    }
+
+}
+@media only screen and(max-width: 447){
+    #fizetes{
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 446px){
+    .ladakkk{
+        height: 140px;
+        border-radius: 25%;
+        width: 130px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 140px;
+        width: 130px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+    .menu{
+        height: 700px;
+    }
+    #kapcsolat{
+        margin-top: 150px;
+    }
+    #ladakk{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 432px){
+    #fszov{
+        font-size: 13px;
+    }
+    #ficon{
+        font-size: 13px;
+    }
+    #fl{
+        font-size: 13px;
+        margin-top: -1%;
+    }
+    #flogo{
+        height: 150px;
+    }
+
+}
+@media only screen and (max-width: 410px){
+    #fszov{
+        font-size: 12px;
+    }
+    #ficon{
+        font-size: 12px;
+    }
+    #fl{
+        font-size: 12px;
+        margin-top: -1%;
+    }
+    #flogo{
+        height: 140px;
+    }
+
+}
+@media only screen and (max-width: 446px){
+    .ladakkk{
+        height: 120px;
+        border-radius: 25%;
+        width: 110px;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .masodiksor{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        
+    }
+    .harmadiksor{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6x;
+        margin: 0;
+        margin-left: -10px;
+        
+    }
+    .negyedik{
+        height: 120px;
+        width: 110px;
+        border-radius: 25%;
+        padding: 6px;
+        margin: 0;
+        padding-bottom: 15px;
+        margin-left: -10px;
+    }
+    .menu{
+        height: 600px;
+    }
+    #kapcsolat{
+        margin-top: 80px;
+    }
+
+}
+@media only screen and (max-width: 383px){
+    #fszov{
+        font-size: 11px;
+    }
+    #ficon{
+        font-size: 11px;
+    }
+    #fl{
+        font-size: 11px;
+        margin-top: -1%;
+    }
+    #flogo{
+        height: 125px;
+    }
+    #ladakk{
+        font-size: 23px;
+    }
+    #foot{
+        height: 140px;
+    }
+}
+@media only screen and (max-width: 353px){
+    #fszov{
+        font-size: 12px;
+        
+    }
+    #ficon{
+        font-size: 12px;
+        
+    }
+    #fl{
+        font-size: 12px;
+        margin-top: 2%;
+        
+    }
+    #flogo{
+        height: 150px;
+        width: 120px;
+    }
+    #ladakk{
+        font-size: 23px;
+    }
+    #foot{
+        height: 200px;
+    }
+    #ladakk{
+        font-size: 20px;
+    }
+}
