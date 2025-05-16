@@ -70,10 +70,7 @@ function initializeBoard() {
                             nj >= 0 &&
                             nj <
                                 numCols &&
-                            board[ni][
-                                nj
-                            ].isMine
-                        ) {
+                            board[ni][nj].isMine) {
                             count++;
                         }
                     }
