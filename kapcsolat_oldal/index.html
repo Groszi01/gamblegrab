@@ -40,7 +40,7 @@
           
                     <div class="faq-accordion-title">
                       <label for="tgg-title-1">
-                        <h2>How many team members can I invite?</h2>
+                        <h2>Kik játszhatnak az oldalon?</h2>
                         <span class="arrow-icon">
                           <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
                         </span>
@@ -48,11 +48,10 @@
                     </div>
           
                     <div class="faq-accordion-content">
-                      <p>You can invite up to 2 additional users on the Free plan. There is no limit on
-                        team members for the Premium plan.</p>
+                      <p>Az oldalt kizárólag 18 éven felüli felhasználók vehetik igénybe.</p>
                     </div>
           
-                  </article> <!-- faq accordion -->
+                  </article>
           
                   <article class="faq-accordion">
           
@@ -61,7 +60,7 @@
                     <div class="faq-accordion-title">
                       <label for="tgg-title-2">
                         <h2>
-                          What is the maximum file upload size?
+                          Hogyan lehet befizetni az egyenlegemre?
                         </h2>
                         <span class="arrow-icon">
                           <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
@@ -70,10 +69,10 @@
                     </div>
           
                     <div class="faq-accordion-content">
-                      <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+                      <p> Befizetni a „Pénztár” menüpont alatt lehet. Elérhető fizetési módok: kriptovalutával.</p>
                     </div>
           
-                  </article> <!-- faq accordion -->
+                  </article>
           
                   <article class="faq-accordion">
           
@@ -82,7 +81,7 @@
                     <div class="faq-accordion-title">
                       <label for="tgg-title-3">
                         <h2>
-                          How do I reset my password?
+                          Biztonságosak a játékok?
                         </h2>
                         <span class="arrow-icon">
                           <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
@@ -91,11 +90,10 @@
                     </div>
           
                     <div class="faq-accordion-content">
-                      <p>Click “Forgot password” from the login page or “Change password” from your profile page.
-                        A reset link will be emailed to you.</p>
+                      <p>Igen. Minden játék tanúsított, független tesztelők által ellenőrzött véletlenszám-generátort (RNG) használ.</p>
                     </div>
           
-                  </article> <!-- faq accordion -->
+                  </article>
           
                   <article class="faq-accordion">
           
@@ -104,7 +102,7 @@
                     <div class="faq-accordion-title">
                       <label for="tgg-title-4">
                         <h2>
-                          Can I cancel my subscription?
+                          Van ügyfélszolgálat, ha kérdésem van?
                         </h2>
                         <span class="arrow-icon">
                           <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
@@ -114,10 +112,10 @@
           
                     <div class="faq-accordion-content">
                       <p>
-                        Yes! Send us a message and we’ll process your request no questions asked.</p>
+                        Az ügyfél szolgálat egyenlőre még nem elérhető, viszont fejlesztés alatt áll.</p>
                     </div>
           
-                  </article> <!-- faq accordion -->
+                  </article> 
           
                   <article class="faq-accordion">
           
@@ -126,7 +124,7 @@
                     <div class="faq-accordion-title">
                       <label for="tgg-title-5">
                         <h2>
-                          Do you provide additional support?
+                          Mi történik, ha túl sokáig nem használom a fiókomat?
                         </h2>
                         <span class="arrow-icon">
                           <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
@@ -135,21 +133,13 @@
                     </div>
           
                     <div class="faq-accordion-content">
-                      <p> Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+                      <p> Semmi különös nem történik. A fiókod aktív marad, és bármikor újra beléphetsz, amikor csak szeretnél.</p>
                     </div>
-          
-                  </article> <!-- faq accordion -->
-          
-                </div> <!-- faq articles -->
-          
-              </main> <!-- faq -->
-          
-            </div> <!-- faq card -->
-          
-          </div> <!-- card wrapper -->
-          
-        <button class="support-gomb">Support</button>
-        
+                  </article> 
+                </div> 
+              </main>
+            </div>
+          </div> 
         <p id="ikonok">
             <i class="fa fa-instagram" style="text-indent: 10px;"></i> <i class="fa fa-facebook" style="text-indent: 10px;"></i> <i class="fa fa-youtube" style="text-indent: 10px;"></i>
         </p>
@@ -173,4 +163,19 @@
     </footer>
  
 </body>
+<script>
+  const checkboxes = document.querySelectorAll('.faq-accordion input[type="checkbox"]');
+
+  checkboxes.forEach((checkbox) => {
+    checkbox.addEventListener('change', () => {
+      if (checkbox.checked) {
+        checkboxes.forEach((otherCheckbox) => {
+          if (otherCheckbox !== checkbox) {
+            otherCheckbox.checked = false;
+          }
+        });
+      }
+    });
+  });
+</script>
 </html>
