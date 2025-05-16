@@ -149,3 +149,93 @@ body{
     color: white;
     font-size: 23px;
 }
+
+
+.board {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    
+}
+.cell {
+    padding: 1px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #00141f ;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: center;
+
+    background-color: #01547a;
+
+
+    color: #333;
+}
+.cell:hover {
+    animation: goUp 0.2s ease-in-out forwards;
+}
+
+
+.revealed {
+
+    background-color: #ccc;
+
+    color: #000;
+}
+.mine {
+    background-color: #ff3333;
+}
+
+#gameContainer {
+    display: inline-block;
+    align-items: center;
+    background-color: #003047;
+    border-radius: 5%;
+    margin-left: 20px;
+    height: 700px;
+    width: 890px;
+}
+
+#startGameButton {
+    background-color: #14739B;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+    cursor: pointer;
+    border-radius: 4px;
+    float : right;
+}
+
+
+#aknaValaszto {
+    background-color: #14739B;
+    width: 200px;
+    height: 40px;
+    margin: 4px 2px;
+    margin-top: 120px;
+    margin-left: 2000px;
+    font-size: 25px;
+    float: right;
+}
+
+@keyframes goUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-2px);
+    }
+    
+}
