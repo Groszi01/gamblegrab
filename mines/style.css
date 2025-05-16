@@ -156,7 +156,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-
+    float: left;
     
 }
 .cell {
@@ -175,7 +175,7 @@ body{
     background-color: #01547a;
 
 
-    color: #333;
+    color: #28b7c4;
 }
 .cell:hover {
     animation: goUp 0.2s ease-in-out forwards;
@@ -184,7 +184,7 @@ body{
 
 .revealed {
 
-    background-color: #ccc;
+    background-color: #28b7c4;
 
     color: #000;
 }
@@ -200,6 +200,7 @@ body{
     margin-left: 20px;
     height: 700px;
     width: 890px;
+
 }
 
 #startGameButton {
@@ -218,17 +219,73 @@ body{
     float : right;
 }
 
-
-#aknaValaszto {
-    background-color: #14739B;
-    width: 200px;
-    height: 40px;
-    margin: 4px 2px;
-    margin-top: 120px;
-    margin-left: 2000px;
-    font-size: 25px;
+.custom-select {
+    max-width: 350px;
+    position: relative;
     float: right;
+    margin-right: -165px;
+    margin-top: 100px;
+    color: white;
 }
+
+.custom-select select {
+    appearance: none;
+    width: 100%;
+    font-size: 1.15rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #14739B;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.custom-select::before,
+.custom-select::after {
+    --size: 0.1rem;
+    content: "";
+    position: absolute;
+    right: 1rem;
+    pointer-events: none;
+}
+
+.custom-select::before {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-bottom: var(--size) solid black;
+    top: 40%;
+}
+
+.custom-select::after {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-top: var(--size) solid black;
+    top: 55%;
+}
+
+.bet-select {
+    font-size: 1.15rem;
+    padding: 0.675em 6em 0.675em 1em;
+    max-width: 350px;
+    position: relative;
+    float: right;
+    margin-right: -250px;
+    margin-top: 200px;
+    color: white;
+}
+
+.info-table {
+    border-radius: 5px;
+    height: 300px;
+    width: 200px;
+    float: right;
+    background-color: #00141f ;
+    margin-right: -235px;
+    margin-top: 250px;
+    color: white;
+    padding: 10px;
+}
+
 
 @keyframes goUp {
     0% {

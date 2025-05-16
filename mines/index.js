@@ -1,6 +1,6 @@
-const numRows = 8;
-const numCols = 8;
-const numMines = 10;
+let numRows = 8;
+let numCols = 8;
+let numMines;
 let gameStarted = false;
 
 const gameBoard =
@@ -178,6 +178,14 @@ initializeBoard();
 renderBoard();
 
 $("#startGameButton").on("click", function () {
+    let minesInput = document.getElementById("mineCount");
+    numMines = parseInt(
+        minesInput.options[minesInput.selectedIndex].text
+    );
+    let betInput = document.getElementById("betAmount");
+    $
+
+
     gameStarted = true;
     initializeBoard();
     renderBoard();
