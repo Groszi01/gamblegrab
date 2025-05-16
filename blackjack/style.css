@@ -1054,24 +1054,8 @@ body{
         margin-left: -10px;
     }
     
-    #kapcsolat{
-        margin-top: 200px;
-    }
-    #roulette{
-        margin-bottom: 60px;
-    }
-    #kezd{
-        margin-bottom: 60px;
-    }
-    #mines{
-        margin-bottom: 60px;
-    }
-    #blackjack{
-        margin-bottom: 60px;
-    }
-    #ladak{
-        margin-bottom: 60px;
-    }
+    
+    
 }
 @media only screen and (max-width: 593px){
     #fszov{
