@@ -204,7 +204,27 @@ body{
 }
 
 #startGameButton {
+
     background-color: #14739B;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 100px;
+
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+    cursor: pointer;
+    border-radius: 4px;
+    float : right;
+
+}
+
+#kiszallas-button {
+    background-color: #2e2e2e;
     border: none;
     color: white;
     padding: 20px 32px;
@@ -214,9 +234,16 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     
-    cursor: pointer;
+    cursor: not-allowed;
     border-radius: 4px;
-    float : right;
+}
+
+.kiszallas {
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .custom-select {

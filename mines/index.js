@@ -2,6 +2,8 @@ let numRows = 8;
 let numCols = 8;
 let numMines;
 let gameStarted = false;
+let currentBet = 0;
+let currentMultiplier = 1.00;
 
 const gameBoard =
     document.getElementById(
@@ -98,9 +100,27 @@ function revealCell(row, col) {
 
     //vesztés event
     if (board[row][col].isMine) {
+        for (let i = 0; i < numRows; i++) {
+            for (
+                let j = 0;
+                j < numCols;
+                j++
+            ) {
+                board[i][j].revealed = true;
+                if (board[i][j].isMine) {
+                    board[i][j].revealed = true;
+                    $('#betValue').text('N/A');
+                    $('#multiplierValue').text('N/A');
+                    $('#winningsValue').text('N/A');
+                    currentMultiplier = 1.00;
+                    currentBet = 0;
+                    $('#mineCount').prop('disabled', false);
+                }
+            }
+        }
         
         Toastify({
-            text: "Game Over!",
+            text: "Játék vége!",
             gravity: "top",
             position: "center",
             style: {
@@ -108,6 +128,17 @@ function revealCell(row, col) {
             },
         }).showToast();
                
+        gameStarted = false;
+        currentMultiplier = 1.00;
+        currentBet = 0;
+        $('#betValue').text('N/A');
+        $('#multiplierValue').text('N/A');
+        $('#winningsValue').text('N/A');
+        $('#mineCount').prop('disabled', false);
+        
+
+        
+
         for (let i = 0; i < numRows; i++) {
             for (
                 let j = 0;
@@ -116,6 +147,10 @@ function revealCell(row, col) {
             ) {
                 if (board[i][j].isMine) {
                     board[i][j].revealed = true;
+                    $('#betValue').text('N/A');
+                    $('#multiplierValue').text('N/A');
+                    $('#winningsValue').text('N/A');
+        
                 }
             }
         }
@@ -152,8 +187,12 @@ function renderBoard() {
                     );
                     cell.textContent =
                         "????";
-                } else 
+                } else if (!board[i][j].isMine)
                  {
+                    
+                    currentMultiplier += (board[i][j].count * numMines) * 0.2;
+                    $('#multiplierValue').text('x' + currentMultiplier.toFixed(2));
+                    $('#winningsValue').text('$' + (parseInt(currentBet) * currentMultiplier).toFixed(2));
                     cell.textContent = " "
                         
                 }
@@ -176,17 +215,45 @@ function renderBoard() {
 
 initializeBoard();
 renderBoard();
+document.getElementById("kiszallas-button").disabled = true;
+
 
 $("#startGameButton").on("click", function () {
+    currentMultiplier = 1.00;
+    document.getElementById("kiszallas-button").disabled = false;
+    $('#kiszallas-button').css
+        ({
+            'cursor': 'pointer',
+            'background-color': '#ff0000',
+        });
+    
     let minesInput = document.getElementById("mineCount");
     numMines = parseInt(
         minesInput.options[minesInput.selectedIndex].text
     );
     let betInput = document.getElementById("betAmount");
-    $
+    currentBet = betInput.value;
+    if (currentBet <= 0) {
+        Toastify({
+            text: "Adj meg egy érvényes tétet!",
+            gravity: "top",
+            position: "center",
+            style: {
+                background: "#ff0000",
+            },
+        }).showToast();
+        return;
+    }
+    $('#betValue').text('$' + currentBet);
+    $('#multiplierValue').text('x' + currentMultiplier.toFixed(2));
+    $('#winningsValue').text('$' + (parseInt(currentBet) * currentMultiplier).toFixed(2));
+
 
 
     gameStarted = true;
     initializeBoard();
     renderBoard();
 });
+
+
+
