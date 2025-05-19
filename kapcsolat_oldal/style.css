@@ -160,10 +160,8 @@ a:visited{
     color: white;
     font-size: 25px;
     text-align: right;
-    /*
     margin-top: 60px;
     margin-right: 25px;    
-    */
 }
 
 .kerdesek{
@@ -369,7 +367,8 @@ input.tgg-title {
         padding-top: 0;
     }
     #foot{
-        margin-top: 560px;
+        margin-top: 620px;
+        height: 200px;
     }
     #fszov{
         font-size: 15px;
@@ -422,6 +421,42 @@ input.tgg-title {
         font-size: 20px;
     }
 }
+@media only screen and (max-width:683px ) 
+{
+    #flogo{
+        height: 150px;
+    }
+    #foot{
+        margin-top: 620px;
+        height: 180px;
+    }
+}
+@media only screen and (max-width:623px ) 
+{
+    .faq-accordion-title h2{
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--neutral-dark-color);
+      }
+}
+@media only screen and (max-width:605px ) 
+{
+    #flogo{
+        height: 140px;
+    }
+}
+@media only screen and (max-width:592px ) 
+{
+    #fszov{
+        font-size: 13px;        
+    }
+    #ficon{
+        font-size: 13px;
+    }
+    .faq-accordion-content {
+        font-size: 14px;
+    }
+}
 @media only screen and (max-width:585px ) 
 {
     .kerdesek{
@@ -431,13 +466,6 @@ input.tgg-title {
 }
 @media only screen and (max-width:575px)
 {
-    #jobbra{
-        margin-left:17%;
-    }
-    #flogo{
-        height: 200px;
-        width: 200px;
-    }
     #fszov{
         font-size: 13px;
     }
@@ -446,6 +474,86 @@ input.tgg-title {
     }
     #fl{
         font-size: 13px;
+    }
+}
+@media only screen and (max-width:543px ) 
+{
+    #flogo{
+        height: 130px;
+    }
+    #foot{
+        margin-top: 620px;
+        height: 170px;
+    }
+    #fszov{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:530px ) 
+{
+    .faq-accordion-title h2{
+        font-size: 13px;
+    }
+    .faq-accordion-content {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:508px ) 
+{
+    #flogo{
+        height: 120px;
+    }
+}
+@media only screen and (max-width:498px ) 
+{
+    #ficon{
+        font-size: 12px;
+    }
+    #fl{
+        font-size: 12px;
+    }
+    #fszov{
+        font-size: 11px;
+    }
+    #ikonok{
+        font-size: 23px;
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width:472px ) 
+{
+    #flogo{
+        height: 110px;
+    }
+    #foot{
+        height: 120px;
+        margin-top: 670px;
+    }
+    #ficon{
+        font-size: 11px;
+    }
+    #fl{
+        font-size: 11px;
+    }
+    #fszov{
+        font-size: 11px;
+    }
+    #ikonok{
+        font-size: 23px;
+        margin-top: 50px;
+    }
+    #adatok{
+        height: 650px;
+    }
+    #ikonok{
+        font-size: 23px;
+        margin-top: 120px;
+    }
+    .faq-accordion-title h2{
+        font-size: 15px;
+    }
+    .faq-accordion-content {
+        font-size: 15px;
     }
 }
 @media only screen and (max-width:411px)
