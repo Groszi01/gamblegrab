@@ -296,3 +296,635 @@ body{
     }
     
 }
+@media only screen and (max-width: 1171px){
+    .kepek{
+        width: 800px;
+    }
+    .ladakkk{
+        height: 140px;
+        width: 130px;
+    }
+}
+@media only screen and (max-width: 1063px){
+    #fszov{
+        font-size: 23px;
+    }
+    #ficon{
+        font-size: 23px;
+    }
+     
+}
+@media only screen and (max-width: 1058px){
+    .kepek{
+        width: 750px;
+    }
+    .ladakkk{
+        height: 120px;
+        width: 110px;
+    }
+    #fname{
+        width: 500px;
+    }
+    .qrkod{
+        height: 230px;
+        width: 230px;
+    }
+}
+@media only screen and (max-width: 1014px){
+    #fszov{
+        font-size: 21px;
+    }
+    #ficon{
+        font-size: 21px;
+    }
+     
+}
+@media only screen and (max-width: 996px){
+    .kepek{
+        width: 700px;
+    }
+    .ladakkk{
+        height: 110px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 966px){
+    #fszov{
+        font-size: 19px;
+    }
+    #ficon{
+        font-size: 19px;
+    }
+    #fl{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 933px){
+    .kepek{
+        width: 650px;
+    }
+    .ladakkk{
+        height: 100px;
+        width: 90px;
+    }
+    #fname{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 874px){
+    .eltunik{
+        display: none;
+    }
+    #kezdolaps
+    {
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #roulet{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #min{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+        padding-top: 0;
+    }
+    #black{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #lada{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+    #kapcs{
+        text-align: center;
+        margin-left: 0;
+        font-size: 33px;
+    }
+}
+@media only screen and (max-width: 871px){
+    .kepek{
+        width: 600px;
+    }
+    .ladakkk{
+        height: 90px;
+        width: 80px;
+    }
+    #fname{
+        width: 450px;
+    }
+    #masologomb{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+}
+@media only screen and (max-width: 808px){
+    .ladakkk{
+        height: 150px;
+        width: 130px;
+    }
+    #masologomb{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 550px;
+        height: 900px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 360px;
+        font-size: 14px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width: 746px){
+    .ladakkk{
+        height: 150px;
+        width: 130px;
+    }
+    #masologomb{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 500px;
+        height: 900px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 320px;
+        font-size: 12.5px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width: 683px){
+    .ladakkk{
+        height: 150px;
+        width: 130px;
+    }
+    #masologomb{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 450px;
+        height: 900px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 360px;
+        font-size: 14px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width: 665px){
+    #flogo{
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 621px){
+    .ladakkk{
+        height: 140px;
+        width: 120px;
+    }
+    #masologomb{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 400px;
+        height: 900px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 360px;
+        font-size: 14px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width: 565px){
+    #flogo{
+        width: 280px;
+    }
+    #fszov{
+        font-size: 18px;
+    }
+    #fl{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 557px){
+    .ladakkk{
+        height: 120px;
+        width: 100px;
+    }
+    #masologomb{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 350px;
+        height: 900px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 320px;
+        font-size: 12px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width: 555px){
+    #flogo{
+        width: 270px;
+    }
+    #fszov{
+        font-size: 16px;
+    }
+    #fl{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 16px;
+    }
+    #fizetes{
+        background-color: black;
+        float: right;
+        margin-right: 40px;
+        border-radius: 25px;
+        margin-top: 18px;
+        font-size: 20px;
+        width: 129.5px;
+    }
+}
+@media only screen and (max-width: 519px){
+    #flogo{
+        width: 250px;
+        height: 250px;
+    }
+    #fszov{
+        font-size: 16px;
+    }
+    #fl{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 519px){
+    #flogo{
+        width: 230px;
+        height: 230px;
+    }
+    #fszov{
+        font-size: 16px;
+    }
+    #fl{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 496px){
+    .ladakkk{
+        height: 80px;
+        width: 70px;
+    }
+    #masologomb{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 300px;
+        height: 850px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 260px;
+        font-size: 10px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width: 481px){
+    #flogo{
+        width: 210px;
+        height: 210px;
+    }
+    #fszov{
+        font-size: 14px;
+    }
+    #fl{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 16px;
+    }
+    #foot{
+        background-color: #003047;
+        width: 100%;
+        height: 250px;
+        margin-top: 60px;
+       
+    }
+}
+@media only screen and (max-width: 443px){
+    #flogo{
+        width: 210px;
+        height: 210px;
+    }
+    #fszov{
+        font-size: 12px;
+    }
+    #fl{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 15px;
+    }
+    #foot{
+        background-color: #003047;
+        width: 100%;
+        height: 250px;
+        margin-top: 60px;
+       
+    }
+}
+@media only screen and (max-width: 443px){
+    .ladakkk{
+        height: 70px;
+        width: 60px;
+    }
+    #masologomb{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 280px;
+        height: 850px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 250px;
+        font-size: 9.5px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width: 425px){
+    #flogo{
+        width: 190px;
+        height: 190px;
+    }
+    #fszov{
+        font-size: 13px;
+    }
+    #fl{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 14px;
+    }
+    #foot{
+        background-color: #003047;
+        width: 100%;
+        height: 220px;
+        margin-top: 60px;
+       
+    }
+}
+@media only screen and (max-width: 410px){
+    #flogo{
+        width: 170px;
+        height: 170px;
+    }
+    #fszov{
+        font-size: 12px;
+    }
+    #fl{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 13px;
+    }
+    #foot{
+        background-color: #003047;
+        width: 100%;
+        height: 200px;
+        margin-top: 60px;
+       
+    }
+    .ladakkk{
+        height: 60px;
+        width: 50px;
+    }
+    #masologomb{
+        padding: 12px 28px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 260px;
+        height: 850px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 230px;
+        font-size: 9.5px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+
+}
+@media only screen and (max-width: 383px){
+    #flogo{
+        width: 170px;
+        height: 170px;
+    }
+    #fszov{
+        font-size: 11px;
+    }
+    #fl{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 12px;
+    }
+    #foot{
+        background-color: #003047;
+        width: 100%;
+        height: 180px;
+        margin-top: 60px;
+       
+    }
+    .ladakkk{
+        height: 50px;
+        width: 40px;
+    }
+    #masologomb{
+        padding: 12px 28px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 230px;
+        height: 850px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 200px;
+        font-size: 9.5px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+    .qrkod{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 374px){
+    #flogo{
+        width: 150px;
+        height: 150px;
+    }
+    #fszov{
+        font-size: 11px;
+    }
+    #fl{
+        font-size: 11px;
+        margin-top: 20px;
+    }
+    #ficon{
+        font-size: 10px;
+    }
+    #foot{
+        background-color: #003047;
+        width: 100%;
+        height: 170px;
+        margin-top: 60px;
+       
+    }
+    .ladakkk{
+        height: 50px;
+        width: 40px;
+    }
+    #masologomb{
+        padding: 12px 28px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+    .kepek{
+        width: 230px;
+        height: 850px;
+        
+    }
+    #litecoin{
+        margin-left: 20px;
+    }
+    #fname{
+        width: 200px;
+        font-size: 9.5px;
+    }
+    #masologomb{
+        margin-left: 20px;
+    }
+    #fizetes{
+        margin-right: 40px;
+    }
+    .qrkod{
+        height: 200px;
+        width: 200px;
+    }
+}
