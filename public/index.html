@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Gamble Grab</title>
 </head>
@@ -12,7 +13,7 @@
     <div class="header">
         <img src="kepek/logotrans.png" alt="Logó" id="logo">
         <div id="fizetes">
-                <div id="penz" ><i style="color: yellow;" class="fa fa-bitcoin"><span style="color: white;" > 0.000</span></i></div>
+                <div id="penz" ><i style="color: yellow;" class="fa fa-credit-card"><span id="egyenleg" style="color: white;" > 0</span></i></div>
             <a href="penztarca/index.html"><div id="wallet" style="color: white; text-indent: 9px;"><i class="fa fa-money"></i></div></a>
          </div>
     </div>
@@ -87,6 +88,7 @@
             
         </div>
     </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="client.js"></script>
 </body>
 </html>

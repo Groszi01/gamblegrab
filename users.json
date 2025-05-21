@@ -1,5 +1,5 @@
 {
-    "kiskuki12@gmail.com": {
+    "kiskuki12": {
         "password": "123456",
         "name": "Kiskuki",
         "email" : "kiskuki12@gmail.com",
@@ -7,7 +7,7 @@
     },
 
 
-    "adminvagyok@gmail.com": {
+    "admin": {
         "password": "admin123",
         "name": "Admin",
         "email" : "adminvagyok@gmail.com",

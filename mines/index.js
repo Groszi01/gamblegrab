@@ -256,4 +256,32 @@ $("#startGameButton").on("click", function () {
 });
 
 
+$("#kiszallas-button").on("click", function () {
+    if (gameStarted) {
+        gameStarted = false;
+        currentMultiplier = 1.00;
+        currentBet = 0;
+        $('#betValue').text('N/A');
+        $('#multiplierValue').text('N/A');
+        $('#winningsValue').text('N/A');
+        $('#mineCount').prop('disabled', false);
+
+
+
+
+        Toastify({
+            text: "Kiszálltál!",
+            gravity: "top",
+            position: "center",
+            style: {
+                background: "#00ff00",
+            },
+        }).showToast();
+        renderBoard()
+        initializeBoard()
+
+    }
+});
+
+
 
