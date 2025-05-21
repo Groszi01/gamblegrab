@@ -1,0 +1,16 @@
+{
+    "kiskuki12@gmail.com": {
+        "password": "123456",
+        "name": "Kiskuki",
+        "email" : "kiskuki12@gmail.com",
+        "balance" : 1000
+    },
+
+
+    "adminvagyok@gmail.com": {
+        "password": "admin123",
+        "name": "Admin",
+        "email" : "adminvagyok@gmail.com",
+        "balance" : 1000000
+    }
+}
