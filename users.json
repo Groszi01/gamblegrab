@@ -1,16 +1,26 @@
 {
-    "kiskuki12": {
-        "password": "123456",
-        "name": "Kiskuki",
-        "email" : "kiskuki12@gmail.com",
-        "balance" : 1000
-    },
-
-
-    "admin": {
-        "password": "admin123",
-        "name": "Admin",
-        "email" : "adminvagyok@gmail.com",
-        "balance" : 1000000
-    }
+  "kiskuki12": {
+    "password": "123456",
+    "name": "Kiskuki",
+    "email": "kiskuki12@gmail.com",
+    "balance": 1000
+  },
+  "admin": {
+    "password": "admin123",
+    "name": "Admin",
+    "email": "adminvagyok@gmail.com",
+    "balance": 1000000
+  },
+  "jacsoaron": {
+    "password": "KicsiKuki",
+    "name": "Áron",
+    "email": "jacsoaron9@gmail.com",
+    "balance": 1000
+  },
+  "heloka": {
+    "password": "123456",
+    "name": "nyaloka",
+    "email": "asdasdasd",
+    "balance": 1000
+  }
 }

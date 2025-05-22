@@ -25,9 +25,49 @@ function logInUser(username, pass) {
 }
 
 
+function registerUser(username, pass, name, email) {
+  if (users[username]) {
+    return false;
+  } else {
+    users[username] = {
+      password: pass,
+      name: name,
+      email: email,
+      balance: 1000,
+    };
+    fs.writeFileSync('./users.json', JSON.stringify(users, null, 2));
+    return true;
+  }
+}
 
 
+function removeBalance(username, amount) {
+  let currentUser = users[username];
+  if (!currentUser) {
+    return false;
+  } else {
+    let currentBalance = currentUser.balance;
+    if (currentBalance >= amount) {
+      currentUser.balance -= amount;
+      fs.writeFileSync('./users.json', JSON.stringify(users, null, 2));
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
 
+
+function addBalance(username, amount) {
+  let currentUser = users[username];
+  if (!currentUser) {
+    return false;
+  } else {
+    currentUser.balance += amount;
+    fs.writeFileSync('./users.json', JSON.stringify(users, null, 2));
+    return true;
+  }
+}
 
 
 
@@ -66,6 +106,24 @@ app.get('/api/login/:username/:password', (req, res) => {
         });
     }
 
+});
+
+
+app.get('/api/register/:username/:password/:name/:email', (req, res) => {
+    const username = req.params.username;
+    const pass = req.params.password;
+    const name = req.params.name;
+    const email = req.params.email;
+
+    if (registerUser(username, pass, name, email)) {
+        res.json({
+            success: true,
+        });
+    } else {
+        res.json({
+            success: false,
+        });
+    }
 });
 
 
