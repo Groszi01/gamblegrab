@@ -527,4 +527,149 @@ img {
         font-size: 15px
     }
 }
+@media only screen and (max-width:770px)
+{
+    #fszov{
+        font-size: 17px;
+    }
+    #ficon{
+        font-size: 17px;
+    }
+    #fl{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:700px)
+{
+    #kepek{
+        margin-left: 30%;
+    }
+    #flogo{
+        width: 200px;
+    }
+    #fszov{
+        font-size: 15px;
+    }
+    #ficon{
+        font-size: 15px;
+
+    }
+    .roulette{
+        height: 125px;
+    }
+    .blackJack{
+        height:125px;
+    }
+    .mines{
+        height:125px;
+    }
+    .lada{
+        height:125px;
+        width: 125px;
+    }
+    .menu{
+        height: 630px;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    #bonusz{
+        visibility: hidden;
+    }
+    #bonusz2{
+        display: block;
+        background-color: #003652;
+        border-radius: 25px;
+        color: white;
+        height: 200px;
+        padding-left: 10px;
+        margin-left: 0;
+       
+    }
+    #Bonusz2{
+        width: 50%;
+    }
+    #kod2{
+        width: 30%;
+    }
+    .menu{
+        height: 550px;
+    }
+    #kapcsolat{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 483px)
+{
+    #kepek{
+        margin-left: 40px;
+    }
+    #Originals{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:430px)
+{
+    .roulette{
+        height: 100px;
+    }
+    .blackJack{
+        height:100px;
+    }
+    .mines{
+        height:100px;
+    }
+    .lada{
+        height:100px;
+        width: 100px;
+    } 
+    #lany{
+        width: 150px;
+    }
+    #flogo{
+        
+        width: 150px;
+    }
+    #fszov{
+        font-size: 10px;
+    }
+    #fl{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:392px)
+{
+    #Originals{
+        font-size: 20px;
+    }
+    #kepek{
+        margin-left: 0;
+    }
+    .roulette{
+        height: 90px;
+    }
+    .blackJack{
+        height:90px;
+    }
+    .mines{
+        height:90px;
+    }
+    .lada{
+        height:90px;
+        width: 90px;
+    } 
+}
+@media only screen and (max-width:365px)
+{
+    #flogo{
+        
+        width: 150px;
+    }
+    #fszov{
+        font-size: 10px;
+        text-decoration: underline;
+        text-underline-offset: none;
+        text-decoration-thickness: none;
+    }
+}
 
