@@ -4,6 +4,8 @@ let numMines;
 let gameStarted = false;
 let currentBet = 0;
 let currentMultiplier = 1.00;
+let currentBalance;
+const expressApi = 'http://localhost:3000/';
 
 const gameBoard =
     document.getElementById(
@@ -213,9 +215,35 @@ function renderBoard() {
 }
 
 
+/*ONLOAD*/
+function RefreshUserBalance() {
+    fetch( expressApi + 'api/getloggedbalance/').then((response) => response.json())
+    .then((json) => {
+        if (json.success) {
+            currentBalance = json.balance;
+            $('#currentBalance').text(json.balance);
+        } else {
+
+            Toastify({
+                text: "Hiba a betöltés során!",
+                gravity: "top",
+                position: "center",
+                style: {
+                    background: "#ff0000",
+                },
+            }).showToast();
+        }
+    });
+
+}
+
+RefreshUserBalance();
 initializeBoard();
 renderBoard();
 document.getElementById("kiszallas-button").disabled = true;
+
+
+
 
 
 $("#startGameButton").on("click", function () {
@@ -233,6 +261,7 @@ $("#startGameButton").on("click", function () {
     );
     let betInput = document.getElementById("betAmount");
     currentBet = betInput.value;
+
     if (currentBet <= 0) {
         Toastify({
             text: "Adj meg egy érvényes tétet!",
@@ -243,6 +272,23 @@ $("#startGameButton").on("click", function () {
             },
         }).showToast();
         return;
+    } else {
+        if (currentBet > currentBalance) {
+            Toastify({
+                text: "Nincs elég egyenleged!",
+                gravity: "top",
+                position: "center",
+                style: {
+                    background: "#ff0000",
+                },
+            }).showToast();
+            return;
+        } else {
+        /*API REQUEST*/
+            console.log('helo');
+        }
+
+
     }
     $('#betValue').text('$' + currentBet);
     $('#multiplierValue').text('x' + currentMultiplier.toFixed(2));

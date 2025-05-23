@@ -5,7 +5,7 @@ const usersJSON = require('./users.json');
 const fs = require('fs');
 
 const users = JSON.parse(fs.readFileSync('./users.json', 'utf8'));
-
+let userRightNow;
 /*FUNCTIONS*/
 
 
@@ -16,6 +16,7 @@ function logInUser(username, pass) {
     } else {
       let passw = currentUser.password;
       if (pass == passw) {
+        userRightNow = username;
         return true;
       } else {
         return false;
@@ -163,6 +164,28 @@ app.get('/api/getbalance/:username', (req, res) => {
 });
 
 
+app.get('/api/getloggedbalance', (req, res) => {
+
+  const username = userRightNow;
+  const user = users[username];
+  if (!userRightNow) {
+    res.status(401).json({
+      error: 'User not logged in',
+    });
+    return;
+  }
+  
+  if (user) {
+      res.json({
+      success: true,
+      balance: user.balance,
+      });
+  } else {
+      res.status(404).json({
+      error: 'User not found',
+      });
+  }
+});
 
 
 
