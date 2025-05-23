@@ -78,17 +78,33 @@ function addBalance(username, amount) {
 
 
 
-/*API ÉS EXPRESS*/
-
+/*SERVER*/
 const app = express();
 const port = process.env.PORT || 3000;
 app.use(express.static('public'));
-app.use(express.static('kepek'));
+app.use(express.static(__dirname + '/mines'));
+app.use(express.static(__dirname + '/ladak'));
+
+
 
 app.get('/' , (req, res) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.sendFile(path.join(__dirname, 'index.html'));
 });
+
+app.get('/mines', (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.sendFile(path.join(__dirname, '/mines/index.html'));
+  
+
+});
+
+app.get('/ladak', (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.sendFile(path.join(__dirname, '/lada/index.html'));
+});
+
+/*API*/
 
 app.get('/api/login/:username/:password', (req, res) => {
   const username = req.params.username;
@@ -107,6 +123,8 @@ app.get('/api/login/:username/:password', (req, res) => {
     }
 
 });
+
+
 
 
 app.get('/api/register/:username/:password/:name/:email', (req, res) => {
