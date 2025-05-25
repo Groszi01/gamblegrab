@@ -41,7 +41,7 @@ body{
 }
 #kapcsolat{
     background-color: #003D5C;
-    margin-top: 200px;
+    margin-top: 130px;
     height: 40px;
     border-radius: 25px;
 }
@@ -79,7 +79,7 @@ body{
     background-color: #00293D;
     color: white;
     border-radius: 25px;
-    height: 690px;
+    height: 600px;
     width: 20%;
     float: left;
     margin-top: 0;
@@ -323,7 +323,7 @@ body{
     }
     
 }
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1300px){
     .eltunik{
         display: none;
     }
@@ -360,7 +360,7 @@ body{
         font-size: 33px;
     }
     .menu{
-        width: 10%;
+        width: 7%;
     }
 }
 @media only screen and (max-width: 1171px){
