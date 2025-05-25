@@ -198,8 +198,8 @@ body{
     background-color: #003047;
     border-radius: 5%;
     margin-left: 20px;
-    height: 700px;
-    width: 890px;
+    height: 100%;
+    width: 90%;
 
 }
 
@@ -297,7 +297,7 @@ body{
     position: relative;
     float: right;
     margin-right: -250px;
-    margin-top: 200px;
+    margin-top: 170px;
     color: white;
 }
 
@@ -308,7 +308,7 @@ body{
     float: right;
     background-color: #00141f ;
     margin-right: -235px;
-    margin-top: 250px;
+    margin-top: 220px;
     color: white;
     padding: 10px;
 }
@@ -323,82 +323,7 @@ body{
     }
     
 }
-@media only screen and (max-width: 1171px){
-    .kepek{
-        width: 800px;
-    }
-    .ladakkk{
-        height: 140px;
-        width: 130px;
-    }
-}
-@media only screen and (max-width: 1063px){
-    #fszov{
-        font-size: 23px;
-    }
-    #ficon{
-        font-size: 23px;
-    }
-     
-}
-@media only screen and (max-width: 1058px){
-    .kepek{
-        width: 750px;
-    }
-    .ladakkk{
-        height: 120px;
-        width: 110px;
-    }
-    #fname{
-        width: 500px;
-    }
-    .qrkod{
-        height: 230px;
-        width: 230px;
-    }
-}
-@media only screen and (max-width: 1014px){
-    #fszov{
-        font-size: 21px;
-    }
-    #ficon{
-        font-size: 21px;
-    }
-     
-}
-@media only screen and (max-width: 996px){
-    .kepek{
-        width: 700px;
-    }
-    .ladakkk{
-        height: 110px;
-        width: 100px;
-    }
-}
-@media only screen and (max-width: 966px){
-    #fszov{
-        font-size: 19px;
-    }
-    #ficon{
-        font-size: 19px;
-    }
-    #fl{
-        font-size: 23px;
-    }
-}
-@media only screen and (max-width: 933px){
-    .kepek{
-        width: 650px;
-    }
-    .ladakkk{
-        height: 100px;
-        width: 90px;
-    }
-    #fname{
-        width: 450px;
-    }
-}
-@media only screen and (max-width: 874px){
+@media only screen and (max-width:1200px){
     .eltunik{
         display: none;
     }
@@ -433,6 +358,145 @@ body{
         text-align: center;
         margin-left: 0;
         font-size: 33px;
+    }
+    .menu{
+        width: 10%;
+    }
+}
+@media only screen and (max-width: 1171px){
+    .kepek{
+        width: 800px;
+    }
+    .ladakkk{
+        height: 140px;
+        width: 130px;
+    }
+
+}
+@media only screen and (max-width: 1063px){
+    #fszov{
+        font-size: 23px;
+    }
+    #ficon{
+        font-size: 23px;
+    }
+     
+}
+@media only screen and (max-width: 1058px){
+    .kepek{
+        width: 750px;
+    }
+    .ladakkk{
+        height: 120px;
+        width: 110px;
+    }
+    #fname{
+        width: 500px;
+    }
+    .qrkod{
+        height: 230px;
+        width: 230px;
+    }
+}
+@media only screen and (max-width: 1014px){
+    #fszov{
+        font-size: 21px;
+    }
+    #ficon{
+        font-size: 21px;
+    }
+    .menu{
+        width: 5%;
+    }
+     
+}
+@media only screen and (max-width: 996px){
+    .kepek{
+        width: 700px;
+    }
+    .ladakkk{
+        height: 110px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 980px){
+    #gameContainer{
+        width: 80%;
+    }
+    #ala{
+        text-align: center;
+        display: inline-block;
+        margin-left: 20%;
+    }
+    #jat{
+        margin-left: 10%;
+    }
+    .cell{
+        width: 60px;
+        height: 60px;
+    }
+    #startGameButton{
+        display: block;
+    }
+}
+@media only screen and (max-width: 966px){
+    #fszov{
+        font-size: 19px;
+    }
+    #ficon{
+        font-size: 19px;
+    }
+    #fl{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 933px){
+    .kepek{
+        width: 650px;
+    }
+    .ladakkk{
+        height: 100px;
+        width: 90px;
+    }
+    #fname{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 874px){
+    .eltunik{
+        display: none;
+    }
+    #kezdolaps
+    {
+        text-align: center;
+        margin-left: 0;
+        font-size: 25px;
+    }
+    #roulet{
+        text-align: center;
+        margin-left: 0;
+        font-size: 25px;
+    }
+    #min{
+        text-align: center;
+        margin-left: 0;
+        font-size: 25px;
+        padding-top: 0;
+    }
+    #black{
+        text-align: center;
+        margin-left: 0;
+        font-size: 25px;
+    }
+    #lada{
+        text-align: center;
+        margin-left: 0;
+        font-size: 25px;
+    }
+    #kapcs{
+        text-align: center;
+        margin-left: 0;
+        font-size: 25px;
     }
 }
 @media only screen and (max-width: 871px){
@@ -481,6 +545,45 @@ body{
         margin-right: 40px;
     }
 }
+@media only screen and (max-width:762px){
+    .cell{
+        width:55px;
+        height:55px;
+    }
+
+#kezdolaps
+    {
+        text-align: center;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    #roulet{
+        text-align: center;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    #min{
+        text-align: center;
+        margin-left: 0;
+        font-size: 20px;
+        padding-top: 0;
+    }
+    #black{
+        text-align: center;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    #lada{
+        text-align: center;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    #kapcs{
+        text-align: center;
+        margin-left: 0;
+        font-size: 20px;
+    }
+}
 @media only screen and (max-width: 746px){
     .ladakkk{
         height: 150px;
@@ -508,6 +611,12 @@ body{
     }
     #fizetes{
         margin-right: 40px;
+    }
+}
+@media only screen and (max-width:690px){
+    .cell{
+        width:50px;
+        height:50px;
     }
 }
 @media only screen and (max-width: 683px){
@@ -544,6 +653,12 @@ body{
         width: 280px;
     }
 }
+@media only screen and (max-width:658px){
+    .cell{
+        width: 45px;
+        height:45px;
+    }
+}
 @media only screen and (max-width: 621px){
     .ladakkk{
         height: 140px;
@@ -571,6 +686,13 @@ body{
     }
     #fizetes{
         margin-right: 40px;
+    }
+}
+@media only screen and (max-width:596px)
+{
+    .cell{
+        width:40px;
+        height:40px;
     }
 }
 @media only screen and (max-width: 565px){
@@ -637,6 +759,12 @@ body{
         width: 129.5px;
     }
 }
+@media only screen and (max-width:540px){
+    .cell{
+        width:35px;
+        height:35px;
+    }
+}
 @media only screen and (max-width: 519px){
     #flogo{
         width: 250px;
@@ -651,6 +779,38 @@ body{
     }
     #ficon{
         font-size: 16px;
+    }
+    #kezdolaps
+    {
+        text-align: center;
+        margin-left: 0;
+        font-size: 15px;
+    }
+    #roulet{
+        text-align: center;
+        margin-left: 0;
+        font-size: 15px;
+    }
+    #min{
+        text-align: center;
+        margin-left: 0;
+        font-size: 15px;
+        padding-top: 0;
+    }
+    #black{
+        text-align: center;
+        margin-left: 0;
+        font-size: 15px;
+    }
+    #lada{
+        text-align: center;
+        margin-left: 0;
+        font-size: 15px;
+    }
+    #kapcs{
+        text-align: center;
+        margin-left: 0;
+        font-size: 15px;
     }
 }
 @media only screen and (max-width: 519px){
@@ -696,6 +856,15 @@ body{
     }
     #fizetes{
         margin-right: 40px;
+    }
+}
+@media only screen and (max-width:485px){
+    #ala{
+        margin-left: 5%;
+    }
+    .cell{
+        width:30px;
+        height:30px;
     }
 }
 @media only screen and (max-width: 481px){
@@ -795,6 +964,13 @@ body{
         margin-top: 60px;
        
     }
+    #ala{
+        margin-left: none;
+    }
+    .cell{
+        width:25px;
+        height:25px;
+    }
 }
 @media only screen and (max-width: 410px){
     #flogo{
@@ -846,6 +1022,14 @@ body{
         margin-right: 40px;
     }
 
+}
+@media only screen and (max-width:400px){
+    #mineCount{
+        width: 100px;
+    }
+    #akna{
+        font-size: 12px;
+    }
 }
 @media only screen and (max-width: 383px){
     #flogo{
@@ -953,5 +1137,9 @@ body{
     .qrkod{
         height: 200px;
         width: 200px;
+    }
+    .cell{
+        width: 20px;
+        height: 20px;
     }
 }
