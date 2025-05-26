@@ -6,13 +6,25 @@ var items;
 var currentCase;
 
 $(document).ready(function() {
+	fetch( expressServer + '/api/sendCaseName/')
+	.then((response) => response.json())
+	.then((data) => {
+		currentCase = data.caseName;
+	});
 	fetch('./cases.json')
 		.then((response) => response.json())
 		.then((json) => {
 
 
+
+
+
+
+
+
 				items = json;
-				currentCase = items.louisvuitton;
+				currentCase = items[currentCase];
+				
 
 
 				for (let i = 0; i < 101; i++) {

@@ -83,19 +83,20 @@ function addBalance(username, amount) {
 const app = express();
 const port = process.env.PORT || 3000;
 app.use(express.static('public'));
-app.use(express.static(__dirname + '/mines'));
-app.use(express.static(__dirname + '/ladak'));
-
+app.use(express.static('mines'))
+app.use(express.static('lada'));
+app.use(express.static('porgetes'))
 
 
 app.get('/' , (req, res) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, '/public/index.html'));
+    
 });
 
 app.get('/mines', (req, res) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
-    res.sendFile(path.join(__dirname, '/mines/index.html'));
+    res.sendFile(path.join(__dirname, '/mines/index.html')); 
   
 
 });
@@ -105,7 +106,39 @@ app.get('/ladak', (req, res) => {
     res.sendFile(path.join(__dirname, '/lada/index.html'));
 });
 
+app.get('/porgetes', (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.sendFile(path.join(__dirname, '/porgetes/index.html'));
+});
+
+
+
 /*API*/
+let currentCase;
+app.get('/api/caseSelect/:caseName', (req, res) => {
+
+  currentCase = req.params.caseName;
+  res.setHeader("Access-Control-Allow-Origin", "*");
+
+  console.log(`Case selected: ${currentCase}`);
+});
+
+
+app.get('/api/sendCaseName/', (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+
+  if (currentCase) {
+    res.json({
+      caseName: currentCase,
+    });
+  } else {
+    res.json({
+      caseName: null,
+    });
+  }
+
+
+});
 
 app.get('/api/login/:username/:password', (req, res) => {
   const username = req.params.username;

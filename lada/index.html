@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="./ladastyle.css"> 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>Láda oldal</title>
 </head>
@@ -19,32 +21,32 @@
     </div>
 
     <div class="menu" >
-        <a href="../public/index.html"><div id="kezd"><p id="kezdolaps"><i class="fa fa-home"></i> <span class="eltunik">Kezdőlap</span></p></div></a>
-        <a href="../roulette/index.html"><div id="roulette" ><p id="roulet"><i class="fa fa-diamond"> <span class="eltunik">Roulette</span></i></p></div></a> 
-        <a href="../mines/index.html"><div id="mines" ><p id="min"><i class="fa fa-bomb"> <span class="eltunik">Mines</span></i></p></div></a> 
-        <a href="../blackjack/index.html"><div id="blackjack" ><p id="black"><i class="fa fa-heart"> <span class="eltunik">BlackJack</span></i></p></div></a> 
-        <a href="../lada/index.html"><div id="ladak" style="background-color: #003D5C;margin-bottom: 51px; height: 40px; border-radius: 25px;"><p id="lada"><i class="fa fa-dropbox"> <span class="eltunik">Ládák</span></i></p></div></a>
-        <a href="../kapcsolat_oldal/index.html"><div id="kapcsolat"><p id="kapcs"><i class="fa fa-link"> <span class="eltunik">Kapcsolat</span></i></p></div></a>
+        <a href="http://localhost:3000"><div id="kezd"><p id="kezdolaps"><i class="fa fa-home"></i> <span class="eltunik">Kezdőlap</span></p></div></a>
+        <a href="http://localhost:3000/roulette"><div id="roulette" ><p id="roulet"><i class="fa fa-diamond"> <span class="eltunik">Roulette</span></i></p></div></a> 
+        <a href="http://localhost:3000/mines"><div id="mines" ><p id="min"><i class="fa fa-bomb"> <span class="eltunik">Mines</span></i></p></div></a> 
+        <a href="http://localhost:3000/blackjack"><div id="blackjack" ><p id="black"><i class="fa fa-heart"> <span class="eltunik">BlackJack</span></i></p></div></a> 
+        <a href=""><div id="ladak" style="background-color: #003D5C;margin-bottom: 51px; height: 40px; border-radius: 25px;"><p id="lada"><i class="fa fa-dropbox"> <span class="eltunik">Ládák</span></i></p></div></a>
+        <a href="http://localhost:3000/kapcsolat"><div id="kapcsolat"><p id="kapcs"><i class="fa fa-link"> <span class="eltunik">Kapcsolat</span></i></p></div></a>
     </div>
     <div id="originals">
         <h1 id="ladakk" style="text-indent: 30px;">Gamble Grab Ládák</h1>
     </div>
     <div class="kepek">
         <div>
-            <img src="../kepek/lv.png" class="ladakkk" alt="">
-        <img src="../kepek/dior.png" class="ladakkk" alt="">
-        <img src="../kepek/merci.jpg" class="ladakkk" alt="">
-        <img src="../kepek/sneaker.jpg" class="ladakkk" alt="">
+        <img src="../kepek/lv.png" class="ladakkk" alt="" id="lvlada">
+        <img src="../kepek/dior.png" class="ladakkk" alt=""  id="diorlada">
+        <img src="../kepek/merci.jpg" class="ladakkk" alt=""  id="mercilada">
+        <img src="../kepek/sneaker.jpg" class="ladakkk" alt=""  id="snkrlada">
         </div>
         <div>
-            <img src="../kepek/oralada.jpg" class="masodiksor" alt="">
-        <img src="../kepek/ruha.jpg" class="masodiksor" alt="">
-        <img src="../kepek/MIX.jpg" class="masodiksor" alt="">
-        <img src="../kepek/apple.jpg" class="masodiksor" alt="">
+            <img src="../kepek/oralada.jpg" class="masodiksor" alt=""  id="oralada">
+        <img src="../kepek/ruha.jpg" class="masodiksor" alt=""  id="ruhalada">
+        <img src="../kepek/MIX.jpg" class="masodiksor" alt=""  id="mixlada">
+        <img src="../kepek/apple.jpg" class="masodiksor" alt=""  id="applelada">
         </div>
         <div>
-            <img src="../kepek/1lada.jpg" class="harmadiksor" alt="">
-        <img src="../kepek/DALL·E 2024-11-29 09.56.37 - A logo for an online roulette gambling website. The design should focus on a roulette wheel as the central element, surrounded by chips, cards, or gol (2).jpg" class="negyedik"  alt="">
+            <img src="../kepek/1lada.jpg" class="harmadiksor" alt="" id="1lada">
+        <img src="../kepek/DALL·E 2024-11-29 09.56.37 - A logo for an online roulette gambling website. The design should focus on a roulette wheel as the central element, surrounded by chips, cards, or gol (2).jpg" class="negyedik" id="gamerlada"  alt="">
         </div>
     </div>
     <footer>
@@ -61,5 +63,7 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="ladascript.js"></script>
 </body>
 </html>

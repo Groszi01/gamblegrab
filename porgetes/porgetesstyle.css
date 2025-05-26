@@ -35,7 +35,12 @@ body {
 }
 a{
     text-decoration: none;
+    color: white;
 }
+a:hover {
+    color: white;
+}
+
 a:visited{
     color: white;
     text-decoration: none;

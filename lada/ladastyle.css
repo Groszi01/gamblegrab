@@ -138,6 +138,7 @@ body{
     width: 170px;
     padding: 30px;
     margin: 0;
+    cursor: pointer;
     
 }
 .masodiksor{
@@ -146,6 +147,7 @@ body{
     border-radius: 25%;
     padding: 30px;
     margin: 0;
+    cursor: pointer;
     
 }
 .harmadiksor{
@@ -154,6 +156,7 @@ body{
     border-radius: 25%;
     padding: 30px;
     margin: 0;
+    cursor: pointer;
     
 }
 .negyedik{
