@@ -26,26 +26,20 @@ body{
     margin-top: 0;
     font-size: 20px;
 }
+
+#kezdolap, #roulette, #mine, #blackjack, #ladak, #kapcsolat{
+    border-radius: 10px;
+
+}
+
 #kezdolap{
-    border-radius: 25px;
     margin-top: 0;
-    
 }
-#roulette{
-    border-radius: 25px;
-}
-#mine{
-    border-radius: 25px;
-}
-#blackjack{
-    border-radius: 25px;
-}
-#ladak{
-    border-radius: 25px;
-}
-#kapcsolat{
-    border-radius: 25px;
-}
+
+
+
+
+
 #Kezdolap{
     margin-left: 20px;
     padding-top: 2px;

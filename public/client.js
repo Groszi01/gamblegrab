@@ -2,13 +2,16 @@ let isUserLoggedIn = false;
 const expressApi = 'http://localhost:3000/';
 const req = new XMLHttpRequest();
 
-console.log('asd')
 
 if (!isUserLoggedIn) {
     $('.loginmodal').show();
     $('#reg2').click(function() {
         $('.loginmodal').hide();
         $('.registermodal').show();
+    });
+    $('#log2').click(function() {
+        $('.registermodal').hide();
+        $('.loginmodal').show();
     });
 
     $('.regbutton').click(function() {
@@ -71,7 +74,7 @@ if (!isUserLoggedIn) {
                     fetch( expressApi + 'api/getbalance/' + username).then((response) => response.json())
                     .then((json) => {
                         if (json.success) {
-                            $('#egyenleg').text(json.balance);
+                            $('#egyenleg').text('$' + json.balance);
                         } else {
                             console.error('Hiba a pénz egyenleg lekérdezésekor');
                         }

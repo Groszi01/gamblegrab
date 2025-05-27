@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+* {
+    font-family: 'Geologica', 'sans-serif';
+}
+
+
 .header{
     height: 20%;
     width: 100%;
@@ -38,21 +44,13 @@ body{
     margin-top: 0;
     
 }
-#roulette{
-    border-radius: 25px;
+
+
+#kezdolap, #roulette, #mine, #blackjack, #ladak, #kapcsolat{
+    border-radius: 10px;
+
 }
-#mine{
-    border-radius: 25px;
-}
-#blackjack{
-    border-radius: 25px;
-}
-#ladak{
-    border-radius: 25px;
-}
-#kapcsolat{
-    border-radius: 25px;
-}
+
 #Kezdolap{
     margin-left: 20px;
     padding-top: 2px;
@@ -120,6 +118,12 @@ body{
     margin-top: 40px;
     margin: 20px;
 }
+
+
+.lada:hover, .roulette:hover, .blackJack:hover, .mines:hover{
+    animation: goUp 0.2s ease-in-out forwards
+}
+
 #bonusz{
     background-color: #003652;
     border-radius: 25px;
@@ -208,7 +212,8 @@ a:visited{
     border-radius: 25px;
     margin-top: 18px;
     font-size: 20px;
-    width: 129.5px;
+    max-width: 50%;
+    min-width: 5%;
 }
 #penz{
     display: inline-block;
@@ -217,9 +222,10 @@ a:visited{
 #wallet{
     display: inline-block;
     background-color: #003652;
-    border-radius: 25px;
+    border-radius: 10px;
     width: 60px;
     font-size: 25px;
+    padding-right: 10px;
 }
 
 
@@ -231,11 +237,12 @@ a:visited{
 	padding-top: 100px;
 	left: 0;
 	top: 0;
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	overflow: auto;
 	background-color: rgb(0,0,0);
 	background-color: rgba(0,0,0,0.4);
+
 }
 
 .modal-content {
@@ -243,7 +250,7 @@ a:visited{
 	margin: auto;
 	padding: 20px;
 	border: 1px solid #888;
-	width: 80%;
+	width: 40%;
 }
 
 .close {
@@ -286,7 +293,7 @@ a:visited{
 	background-color: #41c526;
 	border: none;
 	color: white;
-	padding: 15px 32px;
+	padding: 20px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -296,16 +303,32 @@ a:visited{
 	border-radius: 4px;
 }
 
+.submitbutton:hover {
+    background-color: #23860c;
+}
+
+
+#log2 {
+    color: #6daddd;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#log2:hover {
+    color: #2c98ca;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 #reg2 {
     color: #6daddd;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
 }
 
 #reg2:hover {
     color: #2c98ca;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -363,6 +386,9 @@ a:visited{
     border-radius: 4px;
 
 }
+.regbutton:hover {
+    background-color: #23860c;
+}
 
 
 .registermodal {
@@ -373,7 +399,7 @@ a:visited{
 	padding-top: 100px;
 	left: 0;
 	top: 0;
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	overflow: auto;
 	background-color: rgb(0,0,0);
@@ -385,7 +411,16 @@ a:visited{
 	margin: auto;
 	padding: 20px;
 	border: 1px solid #888;
-	width: 80%;
+	width: 40%;
+}
+
+@keyframes goUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-2px);
+    }
 }
 
 
