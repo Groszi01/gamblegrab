@@ -1,7 +1,7 @@
 {
 
     "louisvuitton" : {
-        "price": 1000,
+        "price": 1500,
         "name": "Louis Vuitton",
         "targyakszama": 14,
 
@@ -104,7 +104,7 @@
     },
 
     "dior" : {
-        "price" : 1000,
+        "price" : 1500,
         "name" : "Dior",
         "targyakszama" : 16,
 
@@ -198,7 +198,7 @@
     },
 
     "mercedes" : {
-        "price" : 1000,
+        "price" : 4500,
         "name" : "Mercedes",
         "targyakszama" : 10,
 
@@ -257,7 +257,7 @@
 
     },
     "sneaker" : {
-        "price" : 1000,
+        "price" : 1500,
         "name" : "Sneaker",
         "targyakszama" : 10,
 
@@ -317,7 +317,7 @@
 
     },
     "ora" : {
-        "price" : 1000,
+        "price" : 3000,
         "name" : "Ora",
         "targyakszama" : 10,
 
@@ -377,7 +377,7 @@
 
     },
     "ruha" : {
-        "price" : 1000,
+        "price" : 2500,
         "name" : "Ruha",
         "targyakszama" : 10,
 
@@ -437,7 +437,7 @@
 
     },
     "mix" : {
-        "price" : 1000,
+        "price" : 3500,
         "name" : "Mix",
         "targyakszama" : 10,
 
@@ -497,7 +497,7 @@
 
     },
     "egyszazalek" : {
-        "price" : 1000,
+        "price" : 5000,
         "name" : "Egyszazalek",
         "targyakszama" : 10,
 
@@ -557,7 +557,7 @@
 
     },
     "gamer" : {
-        "price" : 1000,
+        "price" : 2000,
         "name" : "Gamer",
         "targyakszama" : 10,
 
