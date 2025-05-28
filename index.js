@@ -86,6 +86,11 @@ app.use(express.static('public'));
 app.use(express.static('mines'))
 app.use(express.static('lada'));
 app.use(express.static('porgetes'))
+app.use(express.static('szamlazasiadatok'));
+app.use(express.static('penztarca'))
+app.use(express.static('kapcsolat_oldal'));
+app.use(express.static('roulette'));
+app.use(express.static('blackjack'))
 
 
 app.get('/' , (req, res) => {
@@ -110,6 +115,33 @@ app.get('/porgetes', (req, res) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.sendFile(path.join(__dirname, '/porgetes/index.html'));
 });
+
+app.get('/szamlazasiadatok', (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.sendFile(path.join(__dirname, '/szamlazasiadatok/index.html'));
+
+});
+
+app.get('/penztarca', (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.sendFile(path.join(__dirname, '/penztarca/index.html'));
+})
+
+app.get('/kapcsolat', (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.sendFile(path.join(__dirname, '/kapcsolat_oldal/index.html'));
+})
+
+app.get('/roulette', (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.sendFile(path.join(__dirname, '/roulette/index.html'));
+});
+
+app.get('/blackjack', (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.sendFile(path.join(__dirname, '/blackjack/index.html'));
+});
+
 
 
 
@@ -219,6 +251,57 @@ app.get('/api/getloggedbalance', (req, res) => {
       });
   }
 });
+
+
+app.get('/api/addtologgedbalance/:amount', (req, res) => {
+    let username = userRightNow;
+    const amount = parseInt(req.params.amount, 10);
+    const user = users[username];
+    if (!userRightNow) {
+        res.status(401).json({
+            error: 'User not logged in',
+        });
+        return;
+    }
+
+    if (addBalance(username, amount)) {
+        res.json({
+            success: true,
+            balance: user.balance,
+        });
+    }
+    else {
+        res.status(400).json({
+            error: 'Failed to add balance',
+        });
+    }
+
+
+});
+
+
+app.get('/api/removeloggedbalance/:amount', (req, res) => {
+    let username = userRightNow;
+    const amount = parseInt(req.params.amount, 10);
+    const user = users[username];
+    if (!userRightNow) {
+        res.status(401).json({
+            error: 'User not logged in',
+        });
+        return;
+    }
+
+    if (removeBalance(username, amount)) {
+        res.json({
+            success: true,
+            balance: user.balance,
+        });
+    } else {
+        res.status(400).json({
+            error: 'Failed to remove balance',
+        });
+    }
+})
 
 
 

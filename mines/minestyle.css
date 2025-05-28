@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+* {
+    font-family: 'Geologica', 'sans-serif';
+}
+
+
 .header{
     height: 20%;
     width: 100%;
@@ -10,22 +15,24 @@
 #fizetes{
     background-color: black;
     float: right;
-    margin-right: 60px;
+    margin-right: 20px;
     border-radius: 25px;
     margin-top: 18px;
     font-size: 20px;
-    width: 129.5px;
+    max-width: 50%;
+    min-width: 5%;
 }
 #penz{
     display: inline-block;
-    
+
 }
 #wallet{
     display: inline-block;
     background-color: #003652;
-    border-radius: 25px;
+    border-radius: 10px;
     width: 60px;
     font-size: 25px;
+    padding-right: 10px;
 }
 a{
     color: white;

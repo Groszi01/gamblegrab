@@ -15,22 +15,24 @@
 #fizetes{
     background-color: black;
     float: right;
-    margin-right: 60px;
+    margin-right: 20px;
     border-radius: 25px;
     margin-top: 18px;
     font-size: 20px;
-    width: 129.5px;
+    max-width: 50%;
+    min-width: 5%;
 }
 #penz{
     display: inline-block;
-    
+
 }
 #wallet{
     display: inline-block;
     background-color: #003652;
-    border-radius: 25px;
+    border-radius: 10px;
     width: 60px;
     font-size: 25px;
+    padding-right: 10px;
 }
 a{
     color: white;
@@ -42,7 +44,6 @@ a:hover{
 }
 body{
     background-color: #001B29;
-    font-family: 'Geologica', 'sans-serif';
 }
 #kapcsolat{
     background-color: #003D5C;
@@ -171,6 +172,23 @@ body{
     padding: 30px;
     margin: 0;
 }
+
+.ladakkk:hover, .masodiksor:hover, .harmadiksor:hover, .negyedik:hover, #gamerlada:hover {
+    animation: goUp 0.2s ease-in-out forwards;
+}
+
+#gamerlada {
+    cursor: pointer;
+}
+@keyframes goUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-2px);
+    }
+}
+
 #foot{
     background-color: #003047;
     width: 100%;

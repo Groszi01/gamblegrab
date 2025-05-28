@@ -117,6 +117,13 @@ function revealCell(row, col) {
                     currentMultiplier = 1.00;
                     currentBet = 0;
                     $('#mineCount').prop('disabled', false);
+                    document.getElementById("startGameButton").disabled = false;
+                    $('#kiszallas-button').css
+                    ({
+                        'cursor': 'not-allowed',
+                        'background-color': '#505050',
+                    });
+                    document.getElementById("kiszallas-button").disabled = true;
                 }
             }
         }
@@ -221,7 +228,7 @@ function RefreshUserBalance() {
     .then((json) => {
         if (json.success) {
             currentBalance = json.balance;
-            $('#currentBalance').text(json.balance);
+            $('#currentBalance').text('$' + json.balance);
         } else {
 
             Toastify({
@@ -237,6 +244,38 @@ function RefreshUserBalance() {
 
 }
 
+
+function addBalance(amount) {
+    fetch( expressApi + 'api/addtologgedbalance/' + amount)
+        .then((response) => response.json())
+        .then((json) => {
+            if (json.success) {
+                Toastify({
+                    text: "Kiszálltál",
+                    gravity: "top",
+                    position: "center",
+                    style: {
+                        background: "#42c966",
+                    },
+                }).showToast();
+                RefreshUserBalance();
+            } else {
+                Toastify({
+                    text: "Hiba!",
+                    gravity: "top",
+                    position: "center",
+                    style: {
+                        background: "#ff0000",
+                    },
+                }).showToast();
+            }
+        });
+}
+
+
+
+
+
 RefreshUserBalance();
 initializeBoard();
 renderBoard();
@@ -247,24 +286,12 @@ document.getElementById("kiszallas-button").disabled = true;
 
 
 $("#startGameButton").on("click", function () {
-    currentMultiplier = 1.00;
-    document.getElementById("kiszallas-button").disabled = false;
-    $('#kiszallas-button').css
-        ({
-            'cursor': 'pointer',
-            'background-color': '#ff0000',
-        });
-    
-    let minesInput = document.getElementById("mineCount");
-    numMines = parseInt(
-        minesInput.options[minesInput.selectedIndex].text
-    );
-    let betInput = document.getElementById("betAmount");
-    currentBet = betInput.value;
+    currentBet = document.getElementById("betAmount").value;
 
-    if (currentBet <= 0) {
+
+    if (currentBet > currentBalance) {
         Toastify({
-            text: "Adj meg egy érvényes tétet!",
+            text: "Nincs elég egyenleged!",
             gravity: "top",
             position: "center",
             style: {
@@ -273,36 +300,93 @@ $("#startGameButton").on("click", function () {
         }).showToast();
         return;
     } else {
-        if (currentBet > currentBalance) {
-            Toastify({
-                text: "Nincs elég egyenleged!",
-                gravity: "top",
-                position: "center",
-                style: {
-                    background: "#ff0000",
-                },
-            }).showToast();
-            return;
-        } else {
-        /*API REQUEST*/
-            console.log('helo');
-        }
 
+        fetch(expressApi + 'api/removeloggedbalance/' + currentBet)
+            .then((response) => response.json())
+            .then((json) => {
+                if (json.success) {
+                    Toastify({
+                        text: "Jó játékot!",
+                        gravity: "top",
+                        position: "center",
+                        style: {
+                            background: "#42c966",
+                        },
+                    }).showToast();
+
+                    document.getElementById("startGameButton").disabled = true;
+
+
+                    RefreshUserBalance();
+                    currentMultiplier = 1.00;
+                    document.getElementById("kiszallas-button").disabled = false;
+                    $('#kiszallas-button').css
+                    ({
+                        'cursor': 'pointer',
+                        'background-color': '#ff0000',
+                    });
+
+                    let minesInput = document.getElementById("mineCount");
+                    numMines = parseInt(
+                        minesInput.options[minesInput.selectedIndex].text
+                    );
+                    let betInput = document.getElementById("betAmount");
+                    currentBet = betInput.value;
+
+                    if (currentBet <= 0) {
+                        Toastify({
+                            text: "Adj meg egy érvényes tétet!",
+                            gravity: "top",
+                            position: "center",
+                            style: {
+                                background: "#ff0000",
+                            },
+                        }).showToast();
+                        return;
+                    } else {
+                        if (currentBet > currentBalance) {
+                            Toastify({
+                                text: "Nincs elég egyenleged!",
+                                gravity: "top",
+                                position: "center",
+                                style: {
+                                    background: "#ff0000",
+                                },
+                            }).showToast();
+                            return;
+                        } else {
+                            /*API REQUEST*/
+                            console.log('helo');
+                        }
+
+
+                    }
+                    $('#betValue').text('$' + currentBet);
+                    $('#multiplierValue').text('x' + currentMultiplier.toFixed(2));
+                    $('#winningsValue').text('$' + (parseInt(currentBet) * currentMultiplier).toFixed(2));
+
+
+                    gameStarted = true;
+                    initializeBoard();
+                    renderBoard();
+                } else {
+                    Toastify({
+                        text: "Hiba!",
+                        gravity: "top",
+                        position: "center",
+                        style: {
+                            background: "#ff0000",
+                        },
+                    }).showToast();
+                }
+            });
 
     }
-    $('#betValue').text('$' + currentBet);
-    $('#multiplierValue').text('x' + currentMultiplier.toFixed(2));
-    $('#winningsValue').text('$' + (parseInt(currentBet) * currentMultiplier).toFixed(2));
-
-
-
-    gameStarted = true;
-    initializeBoard();
-    renderBoard();
 });
 
 
 $("#kiszallas-button").on("click", function () {
+    addBalance(parseFloat(currentBet) * currentMultiplier);
     if (gameStarted) {
         gameStarted = false;
         currentMultiplier = 1.00;
@@ -314,15 +398,15 @@ $("#kiszallas-button").on("click", function () {
 
 
 
+        document.getElementById("startGameButton").disabled = false;
+        $('#kiszallas-button').css
+        ({
+            'cursor': 'not-allowed',
+            'background-color': '#505050',
+        });
 
-        Toastify({
-            text: "Kiszálltál!",
-            gravity: "top",
-            position: "center",
-            style: {
-                background: "#00ff00",
-            },
-        }).showToast();
+        document.getElementById("kiszallas-button").disabled = true;
+
         renderBoard()
         initializeBoard()
 

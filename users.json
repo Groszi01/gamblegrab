@@ -9,7 +9,7 @@
     "password": "admin123",
     "name": "Admin",
     "email": "adminvagyok@gmail.com",
-    "balance": 100000000
+    "balance": 99992739
   },
   "jacsoaron": {
     "password": "KicsiKuki",
@@ -23,5 +23,4 @@
     "email": "asdasdasd",
     "balance": 1000
   }
-
 }
